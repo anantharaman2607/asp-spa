@@ -1,0 +1,278 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-display: "Cormorant Garamond", serif;
+    --font-body: "Inter", sans-serif;
+    --font-mono: "GeistMono", monospace;
+    --radius: 0.375rem;
+
+    /* Ivory background */
+    --background: 0.973 0.012 80;
+    --foreground: 0.18 0.03 150;
+    --card: 0.99 0.006 80;
+    --card-foreground: 0.18 0.03 150;
+    --popover: 0.99 0.006 80;
+    --popover-foreground: 0.18 0.03 150;
+
+    /* Gold primary */
+    --primary: 0.65 0.1 70;
+    --primary-foreground: 0.12 0.01 150;
+
+    /* Muted forest green secondary */
+    --secondary: 0.48 0.08 155;
+    --secondary-foreground: 0.97 0.008 80;
+    --muted: 0.93 0.018 100;
+    --muted-foreground: 0.45 0.025 150;
+
+    /* Gold accent */
+    --accent: 0.65 0.1 70;
+    --accent-foreground: 0.12 0.01 150;
+
+    --destructive: 0.55 0.22 25;
+    --destructive-foreground: 0.98 0.01 80;
+
+    --border: 0.86 0.022 100;
+    --input: 0.86 0.022 100;
+    --ring: 0.65 0.1 70;
+
+    --chart-1: 0.65 0.1 70;
+    --chart-2: 0.48 0.08 155;
+    --chart-3: 0.55 0.1 140;
+    --chart-4: 0.4 0.09 155;
+    --chart-5: 0.75 0.06 80;
+
+    --sidebar: 0.22 0.06 155;
+    --sidebar-foreground: 0.97 0.008 80;
+    --sidebar-primary: 0.65 0.1 70;
+    --sidebar-primary-foreground: 0.98 0.008 80;
+    --sidebar-accent: 0.48 0.08 155;
+    --sidebar-accent-foreground: 0.18 0.03 150;
+    --sidebar-border: 0.3 0.05 155;
+    --sidebar-ring: 0.65 0.1 70;
+
+    /* Dark forest green for nav/footer */
+    --dark-bg: #1a3a2a;
+    --dark-card: #1f4530;
+  }
+
+  .dark {
+    --background: 0.16 0.04 155;
+    --foreground: 0.97 0.008 80;
+    --card: 0.2 0.045 155;
+    --card-foreground: 0.97 0.008 80;
+    --popover: 0.22 0.04 155;
+    --popover-foreground: 0.97 0.008 80;
+    --primary: 0.72 0.12 70;
+    --primary-foreground: 0.14 0.04 155;
+    --secondary: 0.38 0.07 155;
+    --secondary-foreground: 0.95 0.01 80;
+    --muted: 0.26 0.04 155;
+    --muted-foreground: 0.65 0.025 100;
+    --accent: 0.72 0.12 70;
+    --accent-foreground: 0.14 0.04 155;
+    --destructive: 0.65 0.19 22;
+    --destructive-foreground: 0.14 0.04 155;
+    --border: 0.28 0.04 155;
+    --input: 0.28 0.04 155;
+    --ring: 0.72 0.12 70;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+  }
+}
+
+@layer utilities {
+  @font-face {
+    font-family: "GeistMono";
+    src: url("/assets/fonts/GeistMono.woff2") format("woff2");
+    font-display: swap;
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-body {
+    font-family: var(--font-body);
+  }
+
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .shadow-luxury {
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.12), 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .shadow-subtle {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  .shadow-gold {
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+  }
+
+  .gradient-gold-subtle {
+    background: linear-gradient(
+      135deg,
+      oklch(var(--primary)) 0%,
+      oklch(var(--secondary)) 100%
+    );
+  }
+
+  .gradient-gold-text {
+    background: linear-gradient(135deg, #d4af37 0%, #b8962e 50%, #d4af37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gold-divider {
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+  }
+
+  /* Alt section — soft ivory-green tint */
+  .section-alt {
+    background-color: #f0f4ef;
+  }
+
+  /* Luxury gradient — dark forest green tones */
+  .luxury-gradient {
+    background: linear-gradient(135deg, #1a3a2a 0%, #2d5a3d 60%, #1f4530 100%);
+  }
+
+  /* Hero overlay — dark forest green instead of charcoal */
+  .hero-overlay {
+    background: linear-gradient(
+      to bottom,
+      rgba(26, 58, 42, 0.65) 0%,
+      rgba(22, 45, 31, 0.82) 100%
+    );
+  }
+
+  /* Navbar dark forest green background */
+  .navbar-dark {
+    background-color: #1a3a2a;
+  }
+
+  /* Footer dark forest green background */
+  .footer-dark {
+    background-color: #122b1e;
+  }
+
+  /* Gold text color */
+  .text-gold {
+    color: #d4af37;
+  }
+
+  /* Dark green text color */
+  .text-darkgreen {
+    color: #1a3a2a;
+  }
+
+  /* Gold border */
+  .border-gold {
+    border-color: #d4af37;
+  }
+
+  /* Gold bg */
+  .bg-gold {
+    background-color: #d4af37;
+  }
+
+  /* Dark green bg */
+  .bg-darkgreen {
+    background-color: #1a3a2a;
+  }
+
+  /* Hover gold bg */
+  .hover\:bg-gold-dark:hover {
+    background-color: #b8962e;
+  }
+
+  .floating-btn {
+    @apply fixed z-50 flex items-center justify-center rounded-full shadow-luxury transition-smooth;
+    width: 52px;
+    height: 52px;
+    bottom: 5rem;
+  }
+
+  .floating-btn:hover {
+    transform: scale(1.1);
+  }
+
+  .service-card {
+    @apply bg-card border border-border rounded-lg p-6 text-center transition-smooth hover:shadow-luxury hover:-translate-y-1;
+  }
+
+  .gallery-item {
+    @apply overflow-hidden rounded-lg shadow-subtle transition-smooth hover:shadow-luxury;
+  }
+
+  .gallery-item img {
+    @apply w-full h-full object-cover transition-smooth hover:scale-105;
+  }
+
+  /* Section heading decoration */
+  .section-title {
+    font-family: var(--font-display);
+    @apply text-4xl font-light tracking-wide text-center mb-3;
+  }
+
+  .section-subtitle {
+    @apply text-center text-muted-foreground max-w-xl mx-auto mb-12;
+  }
+
+  /* Animate fade-up */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-up {
+    animation: fadeInUp 0.6s ease forwards;
+  }
+
+  /* Stagger children */
+  .stagger-1 {
+    animation-delay: 0.1s;
+  }
+  .stagger-2 {
+    animation-delay: 0.2s;
+  }
+  .stagger-3 {
+    animation-delay: 0.3s;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-fade-up,
+    .transition-smooth,
+    .gallery-item img {
+      animation: none;
+      transition: none;
+    }
+  }
+}
