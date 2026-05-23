@@ -1,6 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Menu, MessageCircle, Phone, X } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navLinks = [
   { to: "/", label: "Home" },
@@ -12,160 +12,242 @@ const navLinks = [
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const routerState = useRouterState();
   const pathname = routerState.location.pathname;
 
+  useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header className="navbar-dark sticky top-0 z-40 shadow-luxury">
-      {/* Row 1: Logo + Contact Info */}
-      <div className="border-b border-[#2d5c3f]">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          {/* Logo */}
-          <Link to="/" data-ocid="nav.logo_link">
-            <img
-              src="/assets/images/logo.png"
-              alt="ASP Spa Logo"
-              className="h-14 w-auto object-contain"
-              onError={(e) => {
-                (e.target as HTMLImageElement).style.display = "none";
-              }}
-            />
-          </Link>
+    <header className="sticky top-0 z-40">
+      {/* Top Accent Bar */}
+      <div
+        className="accent-bar overflow-hidden transition-all duration-500 ease-in-out"
+        style={{
+          maxHeight: scrolled ? "0" : "40px",
+          opacity: scrolled ? 0 : 1,
+        }}
+      >
+        <div
+          className="h-10 flex items-center justify-between px-6"
+          style={{
+            background:
+              "linear-gradient(90deg, #b76e79 0%, #c4826a 40%, #d6b36a 100%)",
+          }}
+        >
+          <a
+            href="tel:07081078910"
+            data-ocid="nav.accentbar_phone"
+            className="flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200"
+          >
+            <Phone className="w-3 h-3" />
+            <span className="text-xs tracking-widest uppercase font-medium">
+              070810 78910
+            </span>
+          </a>
+          <span
+            className="hidden sm:block text-white/60 text-xs tracking-[0.3em] uppercase"
+            style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              fontStyle: "italic",
+            }}
+          >
+            Luxury Beauty &amp; Spa • Pondicherry
+          </span>
+          <a
+            href="https://wa.me/917081078910"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-ocid="nav.accentbar_whatsapp"
+            className="flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200"
+          >
+            <MessageCircle className="w-3 h-3" />
+            <span className="text-xs tracking-widest uppercase font-medium">
+              WhatsApp
+            </span>
+          </a>
+        </div>
+      </div>
 
-          {/* Contact Info - Desktop */}
-          <div className="hidden md:flex items-center gap-6">
-            <a
-              href="tel:7200245009"
-              data-ocid="nav.phone_link"
-              className="flex items-center gap-2 text-sm text-[#c8d8cc] hover:text-gold transition-smooth"
-            >
-              <Phone className="w-4 h-4 text-gold" />
-              <span>72002 45009</span>
-            </a>
-            <a
-              href="https://wa.me/917200245009"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-ocid="nav.whatsapp_link"
-              className="flex items-center gap-2 text-sm text-[#c8d8cc] hover:text-gold transition-smooth"
-            >
-              <MessageCircle className="w-4 h-4 text-[#25D366]" />
-              <span>WhatsApp Us</span>
-            </a>
+      {/* Main Navbar Row */}
+      <nav
+        className={`transition-all duration-400 ${
+          scrolled ? "navbar-scrolled shadow-luxury" : "navbar-dark"
+        }`}
+      >
+        <div className="container mx-auto px-4 md:px-6">
+          <div className="flex items-center justify-between h-16 md:h-18">
+            {/* Logo */}
             <Link
-              to="/contact"
-              data-ocid="nav.book_button"
-              className="bg-gold hover:bg-gold-dark text-[#111] text-sm font-semibold px-5 py-2 rounded transition-smooth shadow-gold"
+              to="/"
+              data-ocid="nav.logo_link"
+              className="flex-shrink-0 group"
             >
-              BOOK NOW
+              <div className="leading-none">
+                <span
+                  className="navbar-logo-text block text-2xl md:text-[1.75rem] italic font-semibold tracking-wide"
+                  style={{ fontFamily: "'Cormorant Garamond', serif" }}
+                >
+                  Magic Moon
+                </span>
+                <span
+                  className="block text-[0.6rem] tracking-[0.32em] uppercase mt-0.5"
+                  style={{ color: "#d6b36a", opacity: 0.9 }}
+                >
+                  Beauty care &amp; Spa
+                </span>
+              </div>
             </Link>
-          </div>
 
-          {/* Mobile: Book + Hamburger */}
-          <div className="flex md:hidden items-center gap-3">
-            <Link
-              to="/contact"
-              className="bg-gold text-[#111] text-xs font-semibold px-3 py-1.5 rounded transition-smooth"
+            {/* Desktop Nav Links — Center */}
+            <nav
+              className="hidden md:flex items-center gap-0"
+              aria-label="Main navigation"
             >
-              BOOK
-            </Link>
+              {navLinks.map((link, index) => {
+                const isActive =
+                  pathname === link.to ||
+                  (link.to !== "/" && pathname.startsWith(link.to));
+                return (
+                  <span key={link.to} className="flex items-center">
+                    <Link
+                      to={link.to}
+                      data-ocid={`nav.${link.label.toLowerCase().replace(" ", "_")}_link`}
+                      className={`nav-link relative px-4 py-2 text-sm font-medium tracking-wider uppercase transition-all duration-300 ${
+                        isActive ? "nav-link-active" : "nav-link-idle"
+                      }`}
+                    >
+                      {link.label}
+                      {isActive && <span className="nav-active-bar" />}
+                    </Link>
+                    {/* Diamond separator — decorative */}
+                    {index < navLinks.length - 1 && (
+                      <span className="nav-diamond" aria-hidden="true">
+                        ◆
+                      </span>
+                    )}
+                  </span>
+                );
+              })}
+            </nav>
+
+            {/* Desktop CTA */}
+            <div className="hidden md:flex items-center">
+              <Link
+                to="/contact"
+                data-ocid="nav.book_button"
+                className="book-now-btn"
+              >
+                Book Now
+              </Link>
+            </div>
+
+            {/* Mobile: hamburger */}
             <button
               type="button"
               onClick={() => setMenuOpen(!menuOpen)}
               data-ocid="nav.mobile_menu_toggle"
-              className="text-[#c8d8cc] hover:text-gold transition-smooth p-1"
+              className="md:hidden flex items-center justify-center w-10 h-10 transition-smooth rounded-full"
+              style={{ color: "#d6b36a" }}
               aria-label="Toggle menu"
+              aria-expanded={menuOpen}
             >
-              {menuOpen ? (
-                <X className="w-6 h-6" />
-              ) : (
-                <Menu className="w-6 h-6" />
-              )}
+              <span
+                className="transition-all duration-300"
+                style={{
+                  transform: menuOpen ? "rotate(90deg)" : "rotate(0deg)",
+                }}
+              >
+                {menuOpen ? (
+                  <X className="w-5 h-5" />
+                ) : (
+                  <Menu className="w-5 h-5" />
+                )}
+              </span>
             </button>
           </div>
         </div>
-      </div>
 
-      {/* Row 2: Nav Links */}
-      <div className="hidden md:block">
-        <div className="container mx-auto px-4">
-          <nav className="flex items-center justify-center gap-1">
-            {navLinks.map((link) => {
-              const isActive =
-                pathname === link.to ||
-                (link.to !== "/" && pathname.startsWith(link.to));
-              return (
-                <Link
-                  key={link.to}
-                  to={link.to}
-                  data-ocid={`nav.${link.label.toLowerCase().replace(" ", "_")}_link`}
-                  className={`relative px-5 py-3.5 text-sm font-medium tracking-wide transition-smooth ${
-                    isActive ? "text-gold" : "text-[#adc5b4] hover:text-gold"
-                  }`}
-                >
-                  {link.label}
-                  {isActive && (
-                    <span className="absolute bottom-0 left-1/2 -translate-x-1/2 w-10 h-0.5 bg-gold rounded-full" />
-                  )}
-                </Link>
-              );
-            })}
-          </nav>
-        </div>
-      </div>
-
-      {/* Mobile Menu Dropdown */}
-      {menuOpen && (
+        {/* Mobile Menu */}
         <div
-          className="md:hidden border-t border-[#2d5c3f]"
-          style={{ backgroundColor: "#1f4530" }}
+          className="md:hidden overflow-hidden transition-all duration-400 ease-in-out"
+          style={{ maxHeight: menuOpen ? "420px" : "0" }}
         >
-          <nav className="container mx-auto px-4 py-3 flex flex-col gap-1">
-            {navLinks.map((link) => {
-              const isActive =
-                pathname === link.to ||
-                (link.to !== "/" && pathname.startsWith(link.to));
-              return (
-                <Link
-                  key={link.to}
-                  to={link.to}
-                  onClick={() => setMenuOpen(false)}
-                  data-ocid={`nav.mobile_${link.label.toLowerCase().replace(" ", "_")}_link`}
-                  className={`block px-4 py-3 text-sm font-medium rounded transition-smooth ${
-                    isActive
-                      ? "text-gold border-l-2 border-gold pl-5"
-                      : "text-[#adc5b4] hover:text-gold"
-                  }`}
-                  style={isActive ? { backgroundColor: "#255038" } : undefined}
-                  onMouseEnter={(e) => {
-                    if (!isActive)
-                      (
-                        e.currentTarget as HTMLAnchorElement
-                      ).style.backgroundColor = "#255038";
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!isActive)
-                      (
-                        e.currentTarget as HTMLAnchorElement
-                      ).style.backgroundColor = "";
-                  }}
-                >
-                  {link.label}
-                </Link>
-              );
-            })}
-            <div className="pt-3 pb-2 border-t border-[#2d5c3f] mt-2 flex gap-4 px-4">
-              <a
-                href="tel:7200245009"
-                className="flex items-center gap-2 text-sm text-[#c8d8cc]"
+          <div
+            className="border-t"
+            style={{
+              backgroundColor: "rgba(17,17,17,0.97)",
+              backdropFilter: "blur(20px)",
+              borderColor: "rgba(183,110,121,0.2)",
+            }}
+          >
+            <nav className="container mx-auto px-6 py-4 flex flex-col gap-1">
+              {navLinks.map((link) => {
+                const isActive =
+                  pathname === link.to ||
+                  (link.to !== "/" && pathname.startsWith(link.to));
+                return (
+                  <Link
+                    key={link.to}
+                    to={link.to}
+                    onClick={() => setMenuOpen(false)}
+                    data-ocid={`nav.mobile_${link.label.toLowerCase().replace(" ", "_")}_link`}
+                    className="mobile-nav-link"
+                    style={{
+                      color: isActive ? "#b76e79" : "#c0b090",
+                      borderLeft: isActive
+                        ? "3px solid #b76e79"
+                        : "3px solid transparent",
+                      background: isActive
+                        ? "rgba(183,110,121,0.08)"
+                        : "transparent",
+                    }}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
+              {/* Mobile contact row */}
+              <div
+                className="flex items-center gap-5 pt-4 mt-2 border-t"
+                style={{ borderColor: "rgba(183,110,121,0.2)" }}
               >
-                <Phone className="w-4 h-4 text-gold" />
-                72002 45009
-              </a>
-            </div>
-          </nav>
+                <a
+                  href="tel:07081078910"
+                  className="flex items-center gap-2 text-sm"
+                  style={{ color: "#d6b36a" }}
+                >
+                  <Phone className="w-4 h-4" style={{ color: "#b76e79" }} />
+                  <span>070810 78910</span>
+                </a>
+                <a
+                  href="https://wa.me/917081078910"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm"
+                  style={{ color: "#25D366" }}
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  <span>WhatsApp</span>
+                </a>
+              </div>
+              {/* Mobile Book CTA */}
+              <Link
+                to="/contact"
+                onClick={() => setMenuOpen(false)}
+                data-ocid="nav.mobile_book_button"
+                className="book-now-btn mt-3 text-center block"
+              >
+                Book Appointment
+              </Link>
+            </nav>
+          </div>
         </div>
-      )}
+      </nav>
     </header>
   );
 }

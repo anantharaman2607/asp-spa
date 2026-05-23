@@ -21,22 +21,25 @@ export default {
         ring: "oklch(var(--ring) / <alpha-value>)",
         background: "oklch(var(--background))",
         foreground: "oklch(var(--foreground))",
-        /* Dark forest green palette tokens */
-        darkgreen: {
-          DEFAULT: "#1a3a2a",
-          light: "#2d5a3d",
-          dark: "#122b1e",
-          mid: "#1f4530",
+        /* Magic Moon luxury color palette */
+        rosegold: {
+          DEFAULT: "#b76e79",
+          light: "#c8858e",
+          dark: "#9e5a64",
         },
-        gold: {
-          DEFAULT: "#d4af37",
-          dark: "#b8962e",
-          light: "#e8c84a",
+        champagne: {
+          DEFAULT: "#d6b36a",
+          light: "#e0c588",
+          dark: "#b89040",
         },
-        ivory: {
-          DEFAULT: "#faf7f0",
-          warm: "#f8f4e8",
-          alt: "#f0f4ef",
+        nude: {
+          DEFAULT: "#f7e7e3",
+          light: "#fdf4f1",
+        },
+        deepblack: {
+          DEFAULT: "#111111",
+          card: "#1a1a1a",
+          surface: "#222222",
         },
         primary: {
           DEFAULT: "oklch(var(--primary) / <alpha-value>)",
@@ -96,6 +99,9 @@ export default {
       },
       boxShadow: {
         xs: "0 1px 2px 0 rgba(0,0,0,0.05)",
+        luxury: "0 10px 40px rgba(183,110,121,0.18), 0 2px 8px rgba(0,0,0,0.18)",
+        roseglow: "0 4px 24px rgba(183,110,121,0.32)",
+        champagneglow: "0 4px 24px rgba(214,179,106,0.32)",
       },
       keyframes: {
         "accordion-down": {

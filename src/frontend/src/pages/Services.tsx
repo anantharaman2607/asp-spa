@@ -1,256 +1,403 @@
 import { Link } from "@tanstack/react-router";
-import {
-  Brush,
-  ChevronRight,
-  Clock,
-  Flower2,
-  Hand,
-  Heart,
-  Leaf,
-  Scissors,
-  Sparkles,
-  Star,
-} from "lucide-react";
+import { ChevronRight } from "lucide-react";
 
-const services = [
+interface ServiceCard {
+  title: string;
+  description: string;
+  image: string;
+}
+
+const salonServices: ServiceCard[] = [
   {
-    icon: <Flower2 className="w-10 h-10 text-gold" />,
-    title: "Swedish Massage",
-    duration: "60 / 90 min",
-    desc: "Our signature full-body Swedish massage uses long, flowing strokes and warm aromatic oils to melt tension, improve circulation, and induce deep relaxation.",
-    benefits: ["Stress Relief", "Improved Circulation", "Muscle Relaxation"],
-    image: "/assets/generated/gallery-4.dim_600x400.jpg",
+    title: "Hair Cut",
+    description:
+      "Precision cuts tailored to your face shape and style preferences",
+    image:
+      "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=600&h=450",
   },
   {
-    icon: <Leaf className="w-10 h-10 text-gold" />,
-    title: "Deep Tissue Massage",
-    duration: "60 / 90 min",
-    desc: "Targeting deeper muscle layers, this therapeutic massage releases chronic tension, knots, and postural strain. Ideal for athletes and desk workers.",
-    benefits: ["Pain Relief", "Posture Correction", "Injury Recovery"],
-    image: "/assets/generated/gallery-1.dim_600x400.jpg",
+    title: "Hair Styling",
+    description:
+      "Professional styling for any occasion from everyday to bridal",
+    image:
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&h=450",
   },
   {
-    icon: <Sparkles className="w-10 h-10 text-gold" />,
-    title: "Aromatherapy",
-    duration: "75 min",
-    desc: "A deeply sensory experience combining therapeutic touch with pure essential oil blends. Each session is customized to your mood, needs, and skin type.",
-    benefits: ["Mood Enhancement", "Emotional Balance", "Skin Nourishment"],
-    image: "/assets/generated/gallery-9.dim_600x400.jpg",
+    title: "Hair Spa",
+    description: "Deep conditioning spa treatments to restore shine and health",
+    image:
+      "https://images.unsplash.com/photo-1519735777090-ec97162dc266?auto=format&fit=crop&w=600&h=450",
   },
   {
-    icon: <Heart className="w-10 h-10 text-gold" />,
-    title: "Luxury Facial",
-    duration: "60 min",
-    desc: "Advanced facial treatments using premium skincare formulations. From deep cleansing to gold-infused brightening facials, we target your skin's unique concerns.",
-    benefits: ["Glowing Skin", "Anti-Aging", "Deep Hydration"],
-    image: "/assets/generated/gallery-3.dim_600x400.jpg",
+    title: "Hair Coloring",
+    description: "Premium highlights, balayage, and full color services",
+    image:
+      "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&h=450",
   },
   {
-    icon: <Leaf className="w-10 h-10 text-gold" />,
-    title: "Body Scrub & Wrap",
-    duration: "90 min",
-    desc: "Exfoliate and renew with our luxurious body treatments. Natural scrubs remove dead skin, while nourishing wraps lock in deep moisture for silky smooth results.",
-    benefits: ["Exfoliation", "Deep Moisturizing", "Skin Renewal"],
-    image: "/assets/generated/gallery-5.dim_600x400.jpg",
-  },
-  {
-    icon: <Star className="w-10 h-10 text-gold" />,
-    title: "Bridal Packages",
-    duration: "Custom",
-    desc: "Comprehensive bridal beauty journeys beginning weeks before the wedding. Hair, makeup, skincare, mehndi, and more — curated for your most radiant day.",
-    benefits: ["Complete Bridal Prep", "Custom Packages", "Pre-Bridal Care"],
-    image: "/assets/generated/gallery-2.dim_600x400.jpg",
-  },
-  {
-    icon: <Scissors className="w-10 h-10 text-gold" />,
-    title: "Hair Care",
-    duration: "45–120 min",
-    desc: "From rejuvenating hair spa treatments to expert styling, coloring, and cutting — our hair specialists create tailored solutions for every hair type and concern.",
-    benefits: ["Hair Repair", "Styling & Color", "Scalp Treatment"],
-    image: "/assets/generated/gallery-6.dim_600x400.jpg",
-  },
-  {
-    icon: <Hand className="w-10 h-10 text-gold" />,
-    title: "Nail Art & Manicure",
-    duration: "45–90 min",
-    desc: "Precision nail care and creative nail art by our specialist technicians. Classic manicures, gel polish, intricate designs — your nails deserve the royal treatment.",
-    benefits: ["Nail Shaping", "Gel Polish", "Custom Nail Art"],
-    image: "/assets/generated/gallery-7.dim_600x400.jpg",
-  },
-  {
-    icon: <Brush className="w-10 h-10 text-gold" />,
-    title: "Waxing & Threading",
-    duration: "20–60 min",
-    desc: "Smooth, clean, and precise hair removal services using the finest waxes and expert threading techniques for flawless results with minimal discomfort.",
-    benefits: ["Smooth Skin", "Precise Shaping", "Long-Lasting"],
-    image: "/assets/generated/gallery-8.dim_600x400.jpg",
+    title: "Bridal Hair Design",
+    description: "Stunning bridal hairstyles for your most special day",
+    image:
+      "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=600&h=450",
   },
 ];
 
-export default function Services() {
+const beautyServices: ServiceCard[] = [
+  {
+    title: "Facial Treatment",
+    description: "Advanced skin treatments for glowing, youthful skin",
+    image:
+      "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Bridal Makeup",
+    description: "Complete bridal packages with flawless, long-lasting makeup",
+    image:
+      "https://images.unsplash.com/photo-1457972729786-0411a3b2b626?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Skin Care Therapy",
+    description: "Personalized skincare routines using premium products",
+    image:
+      "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Manicure",
+    description: "Luxury nail care with premium polishes and treatments",
+    image:
+      "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Pedicure",
+    description: "Relaxing foot care with exfoliation and moisturizing",
+    image:
+      "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=600&h=450",
+  },
+];
+
+const spaServices: ServiceCard[] = [
+  {
+    title: "Swedish Massage",
+    description: "Gentle, relaxing full-body massage to ease tension",
+    image:
+      "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Deep Tissue Massage",
+    description: "Targeted deep pressure for chronic muscle relief",
+    image:
+      "https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Thai Massage",
+    description: "Traditional stretching and pressure point techniques",
+    image:
+      "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Aromatherapy",
+    description: "Healing essential oil massage for mind and body",
+    image:
+      "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Hot Stone Therapy",
+    description: "Volcanic stones to melt away deep muscle tension",
+    image:
+      "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Foot Reflexology",
+    description: "Pressure point therapy for full-body relaxation",
+    image:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Couples Massage",
+    description: "Shared luxury massage experience for two",
+    image:
+      "https://images.unsplash.com/photo-1631124816032-7b8e5d5b0e75?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Body Spa Treatment",
+    description: "Full body scrub, wrap, and hydration therapy",
+    image:
+      "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&h=450",
+  },
+  {
+    title: "Head Massage",
+    description: "Scalp and neck massage to relieve stress headaches",
+    image:
+      "https://images.unsplash.com/photo-1535572290543-960a8046f5af?auto=format&fit=crop&w=600&h=450",
+  },
+];
+
+function ServiceGrid({
+  services,
+  ocidPrefix,
+}: {
+  services: ServiceCard[];
+  ocidPrefix: string;
+}) {
   return (
-    <>
-      {/* Page Header */}
-      <section
-        data-ocid="services.header_section"
-        className="relative py-24 flex items-center justify-center overflow-hidden"
-        style={{
-          backgroundImage: "url('/assets/generated/gallery-4.dim_600x400.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-[#1a3a2a]/75" />
-        <div className="relative z-10 text-center px-4">
-          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">
-            Our Offerings
-          </p>
-          <h1 className="font-display text-5xl md:text-6xl font-light text-[#faf7f0]">
-            Our Services
-          </h1>
-          <div className="gold-divider w-24 mx-auto mt-5" />
-          <div className="flex items-center justify-center gap-2 mt-5 text-sm text-[#c8d8cc]">
-            <Link to="/" className="hover:text-gold transition-smooth">
-              Home
-            </Link>
-            <ChevronRight className="w-4 h-4 text-[#6a9a7a]" />
-            <span className="text-gold">Services</span>
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      {services.map((service, idx) => (
+        <div
+          key={service.title}
+          data-ocid={`${ocidPrefix}.card.${idx + 1}`}
+          className="group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-2"
+          style={{
+            background: "rgba(255,255,255,0.05)",
+            backdropFilter: "blur(12px)",
+            WebkitBackdropFilter: "blur(12px)",
+            border: "1px solid rgba(183,110,121,0.25)",
+            boxShadow: "0 4px 24px rgba(0,0,0,0.3)",
+          }}
+        >
+          <div className="aspect-[4/3] overflow-hidden">
+            <img
+              src={service.image}
+              alt={service.title}
+              className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+            />
           </div>
-        </div>
-      </section>
-
-      {/* Services Grid */}
-      <section
-        data-ocid="services.grid_section"
-        className="py-20 bg-background"
-      >
-        <div className="container mx-auto px-4">
-          <p className="text-center text-xs uppercase tracking-[0.25em] text-gold mb-3">
-            Premium Offerings
-          </p>
-          <h2 className="section-title">Our 9 Expert Services</h2>
-          <div className="gold-divider w-24 mx-auto mb-4" />
-          <p className="section-subtitle text-sm">
-            Every service is delivered by certified professionals using premium
-            products in our serene, luxury spa environment.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {services.map((service, idx) => (
-              <div
-                key={service.title}
-                data-ocid={`services.card.${idx + 1}`}
-                className="bg-card border border-border rounded-xl overflow-hidden transition-smooth hover:-translate-y-1 group"
-                style={{ boxShadow: "0 2px 8px rgba(26,58,42,0.06)" }}
-                onMouseEnter={(e) => {
-                  (e.currentTarget as HTMLDivElement).style.boxShadow =
-                    "0 10px 40px rgba(26,58,42,0.18), 0 2px 8px rgba(212,175,55,0.12)";
-                }}
-                onMouseLeave={(e) => {
-                  (e.currentTarget as HTMLDivElement).style.boxShadow =
-                    "0 2px 8px rgba(26,58,42,0.06)";
-                }}
-              >
-                {/* Image */}
-                <div className="aspect-[16/9] overflow-hidden">
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover transition-smooth group-hover:scale-105"
-                  />
-                </div>
-
-                {/* Dark green top accent bar */}
-                <div className="h-1 w-full bg-[#1a3a2a]" />
-
-                {/* Content */}
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-4">
-                    {/* Icon badge — light green tint */}
-                    <div className="w-14 h-14 rounded-full border border-[#1a3a2a]/20 flex items-center justify-center bg-[#e8f0eb]">
-                      {service.icon}
-                    </div>
-                    {/* Duration badge — dark green bg, ivory text */}
-                    <div
-                      className="flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full"
-                      style={{ backgroundColor: "#1a3a2a", color: "#faf7f0" }}
-                    >
-                      <Clock className="w-3.5 h-3.5 text-gold" />
-                      {service.duration}
-                    </div>
-                  </div>
-
-                  <h3 className="font-display text-2xl font-light mb-2">
-                    {service.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    {service.desc}
-                  </p>
-
-                  {/* Benefits tags — light green tint, dark green text */}
-                  <div className="flex flex-wrap gap-2 mb-5">
-                    {service.benefits.map((b) => (
-                      <span
-                        key={b}
-                        className="text-xs px-2.5 py-1 rounded-full border text-darkgreen"
-                        style={{
-                          backgroundColor: "#e8f0eb",
-                          borderColor: "rgba(26,58,42,0.2)",
-                        }}
-                      >
-                        {b}
-                      </span>
-                    ))}
-                  </div>
-
-                  <Link
-                    to="/contact"
-                    data-ocid={`services.book_button.${idx + 1}`}
-                    className="inline-flex items-center gap-2 text-gold border border-gold/50 hover:bg-gold hover:text-[#1a3a2a] px-4 py-2 rounded text-sm font-medium transition-smooth"
-                  >
-                    Book This Service <ChevronRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Banner */}
-      <section data-ocid="services.cta_section" className="py-20 section-alt">
-        <div className="container mx-auto px-4 text-center">
-          <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3">
-            Ready to Indulge?
-          </p>
-          <h2 className="font-display text-4xl font-light mb-5">
-            Book Your Perfect Treatment Today
-          </h2>
-          <div className="gold-divider w-24 mx-auto mb-6" />
-          <p className="text-sm text-muted-foreground max-w-lg mx-auto mb-8">
-            Contact us via phone or WhatsApp to book your preferred service.
-            Walk-ins welcome based on availability.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/contact"
-              data-ocid="services.cta_book_button"
-              className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] font-semibold px-8 py-3.5 rounded transition-smooth shadow-gold text-sm"
+          <div
+            className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
+            style={{
+              boxShadow:
+                "0 0 0 1.5px #b76e79, 0 8px 32px rgba(183,110,121,0.35)",
+            }}
+          />
+          <div className="p-5">
+            <h3
+              className="text-xl font-semibold mb-2 leading-tight"
+              style={{
+                fontFamily: "'Cormorant Garamond', serif",
+                color: "#d6b36a",
+                letterSpacing: "0.02em",
+              }}
             >
-              Book Now <ChevronRight className="w-4 h-4" />
-            </Link>
+              {service.title}
+            </h3>
+            <p
+              className="text-sm leading-relaxed mb-4"
+              style={{ color: "rgba(255,255,255,0.72)" }}
+            >
+              {service.description}
+            </p>
             <a
-              href="https://wa.me/917200245009"
+              href="https://wa.me/917081078910"
               target="_blank"
               rel="noopener noreferrer"
-              data-ocid="services.cta_whatsapp_button"
-              className="inline-flex items-center justify-center gap-2 border border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-[#fff] font-medium px-8 py-3.5 rounded transition-smooth text-sm"
+              data-ocid={`${ocidPrefix}.book_button.${idx + 1}`}
+              className="block w-full text-center text-sm font-bold py-2.5 px-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              style={{
+                background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                color: "#111111",
+                letterSpacing: "0.05em",
+                textDecoration: "none",
+              }}
             >
-              WhatsApp Us
+              Book Now
             </a>
           </div>
         </div>
+      ))}
+    </div>
+  );
+}
+
+function SectionTitle({
+  title,
+  underlineColor,
+  ocid,
+}: {
+  title: string;
+  underlineColor: string;
+  ocid: string;
+}) {
+  return (
+    <div data-ocid={ocid} className="text-center mb-12">
+      <h2
+        className="text-4xl md:text-5xl font-light mb-4"
+        style={{
+          fontFamily: "'Cormorant Garamond', serif",
+          background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          backgroundClip: "text",
+        }}
+      >
+        {title}
+      </h2>
+      <div
+        className="mx-auto h-0.5 w-24 rounded-full"
+        style={{ background: underlineColor }}
+      />
+    </div>
+  );
+}
+
+export default function Services() {
+  return (
+    <div style={{ background: "#111111", minHeight: "100vh" }}>
+      {/* Page Hero */}
+      <section
+        data-ocid="services.hero_section"
+        className="relative h-80 flex items-center justify-center overflow-hidden"
+      >
+        <img
+          src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1400&h=500"
+          alt="Magic Moon Beauty care & Spa Services"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(135deg, rgba(17,17,17,0.88) 0%, rgba(183,110,121,0.4) 100%)",
+          }}
+        />
+        <div className="relative z-10 text-center px-4">
+          <h1
+            className="text-5xl md:text-6xl lg:text-7xl font-light mb-5"
+            style={{
+              fontFamily: "'Cormorant Garamond', serif",
+              background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
+            Our Services
+          </h1>
+          <nav
+            className="flex items-center justify-center gap-2 text-sm"
+            aria-label="Breadcrumb"
+          >
+            <Link
+              to="/"
+              data-ocid="services.breadcrumb_home"
+              className="transition-colors duration-200"
+              style={{ color: "rgba(255,255,255,0.7)" }}
+            >
+              Home
+            </Link>
+            <ChevronRight
+              className="w-4 h-4"
+              style={{ color: "rgba(255,255,255,0.4)" }}
+            />
+            <span style={{ color: "#d6b36a" }}>Services</span>
+          </nav>
+        </div>
       </section>
-    </>
+
+      {/* Salon Services */}
+      <section
+        data-ocid="services.salon_section"
+        className="py-20 px-4"
+        style={{ background: "#111111" }}
+      >
+        <div className="max-w-7xl mx-auto">
+          <SectionTitle
+            title="Salon Services"
+            underlineColor="linear-gradient(90deg, #b76e79, #d6b36a)"
+            ocid="services.salon_title"
+          />
+          <ServiceGrid services={salonServices} ocidPrefix="salon" />
+        </div>
+      </section>
+
+      {/* Beauty Services */}
+      <section
+        data-ocid="services.beauty_section"
+        className="py-20 px-4"
+        style={{ background: "#161616" }}
+      >
+        <div className="max-w-7xl mx-auto">
+          <SectionTitle
+            title="Beauty Services"
+            underlineColor="linear-gradient(90deg, #d6b36a, #b76e79)"
+            ocid="services.beauty_title"
+          />
+          <ServiceGrid services={beautyServices} ocidPrefix="beauty" />
+        </div>
+      </section>
+
+      {/* Spa Services */}
+      <section
+        data-ocid="services.spa_section"
+        className="py-20 px-4"
+        style={{ background: "#111111" }}
+      >
+        <div className="max-w-7xl mx-auto">
+          <SectionTitle
+            title="Spa Services"
+            underlineColor="linear-gradient(90deg, #b76e79, #d6b36a)"
+            ocid="services.spa_title"
+          />
+          <ServiceGrid services={spaServices} ocidPrefix="spa" />
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section
+        data-ocid="services.cta_section"
+        className="py-24 px-4 text-center"
+        style={{
+          background:
+            "linear-gradient(135deg, #b76e79 0%, #c8858e 30%, #d6b36a 100%)",
+        }}
+      >
+        <h2
+          className="text-4xl md:text-5xl font-light mb-4"
+          style={{
+            fontFamily: "'Cormorant Garamond', serif",
+            color: "#111111",
+          }}
+        >
+          Ready for Your Beauty &amp; Spa Experience?
+        </h2>
+        <p
+          className="text-lg mb-10 max-w-xl mx-auto"
+          style={{ color: "rgba(17,17,17,0.75)" }}
+        >
+          Treat yourself to the luxury you deserve at Magic Moon Beauty care
+          &amp; Spa in Pondicherry.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="tel:07081078910"
+            data-ocid="services.cta_call_button"
+            className="inline-block px-10 py-4 rounded-full text-base font-bold transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            style={{
+              background: "#111111",
+              color: "#d6b36a",
+              letterSpacing: "0.06em",
+              textDecoration: "none",
+            }}
+          >
+            Book Appointment
+          </a>
+          <a
+            href="https://wa.me/917081078910"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-ocid="services.cta_whatsapp_button"
+            className="inline-block px-10 py-4 rounded-full text-base font-bold border-2 transition-all duration-300 hover:scale-105 hover:shadow-xl"
+            style={{
+              borderColor: "#111111",
+              color: "#111111",
+              background: "transparent",
+              letterSpacing: "0.06em",
+              textDecoration: "none",
+            }}
+          >
+            WhatsApp Us
+          </a>
+        </div>
+      </section>
+    </div>
   );
 }

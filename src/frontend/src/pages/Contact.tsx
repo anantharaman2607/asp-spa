@@ -1,304 +1,362 @@
 import { Link } from "@tanstack/react-router";
 import {
+  CheckCircle,
   ChevronRight,
   Clock,
+  ExternalLink,
   MapPin,
   MessageCircle,
   Phone,
   Send,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { SiWhatsapp } from "react-icons/si";
 
-const FIELD_STYLE = {
-  backgroundColor: "#fff",
-  border: "1px solid #c8d8c0",
-  color: "#1a3a2a",
-} as const;
-
-function setFocusBorder(el: HTMLElement) {
-  el.style.borderColor = "#d4af37";
+// ── helpers ──────────────────────────────────────────────────────────
+function focusRoseGold(el: HTMLElement) {
+  el.style.borderColor = "#b76e79";
+  el.style.boxShadow = "0 0 0 2px rgba(183,110,121,0.18)";
 }
-function setBlurBorder(el: HTMLElement) {
-  el.style.borderColor = "#c8d8c0";
+function blurReset(el: HTMLElement) {
+  el.style.borderColor = "rgba(183,110,121,0.25)";
+  el.style.boxShadow = "none";
+}
+
+const FIELD_STYLE: React.CSSProperties = {
+  backgroundColor: "#1a1a1a",
+  border: "1px solid rgba(183,110,121,0.25)",
+  color: "#ffffff",
+  borderRadius: "6px",
+  transition: "border-color 0.2s, box-shadow 0.2s",
+};
+
+// ── ContactCard ──────────────────────────────────────────────────────
+interface ContactCardProps {
+  icon: React.ReactNode;
+  iconBg: string;
+  title: string;
+  children: React.ReactNode;
+  href?: string;
+  ocid: string;
+}
+
+function ContactCard({
+  icon,
+  iconBg,
+  title,
+  children,
+  href,
+  ocid,
+}: ContactCardProps) {
+  const inner = (
+    <div
+      data-ocid={ocid}
+      className="flex items-start gap-4 p-5 rounded-xl transition-all duration-300"
+      style={{
+        backgroundColor: "#1a1a1a",
+        border: "1px solid rgba(183,110,121,0.2)",
+        backdropFilter: "blur(8px)",
+      }}
+    >
+      <div
+        className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
+        style={{ background: iconBg }}
+      >
+        {icon}
+      </div>
+      <div className="min-w-0">
+        <p
+          className="text-xs uppercase tracking-widest mb-1 font-medium"
+          style={{ color: "#d6b36a" }}
+        >
+          {title}
+        </p>
+        <div style={{ color: "#cccccc" }} className="text-sm leading-relaxed">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+  if (href) {
+    return (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block hover:scale-[1.01] transition-transform duration-200"
+      >
+        {inner}
+      </a>
+    );
+  }
+  return (
+    <div className="hover:scale-[1.01] transition-transform duration-200">
+      {inner}
+    </div>
+  );
+}
+
+// ── CTAButton ────────────────────────────────────────────────────────
+interface CTAButtonProps {
+  href: string;
+  ocid: string;
+  gradient: string;
+  children: React.ReactNode;
+}
+function CTAButton({ href, ocid, gradient, children }: CTAButtonProps) {
+  return (
+    <a
+      href={href}
+      data-ocid={ocid}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-lg text-sm font-medium text-white transition-all duration-300 hover:scale-105 hover:shadow-lg"
+      style={{ background: gradient }}
+    >
+      {children}
+    </a>
+  );
 }
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);
 
+  useEffect(() => {
+    document.title =
+      "Contact | Magic Moon Beauty care & Spa — Best Salon & Spa Pondicherry";
+  }, []);
+
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5000);
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 6000);
   }
 
   return (
     <>
-      {/* Page Header — dark forest green overlay */}
+      {/* ── Hero ───────────────────────────────────────────────────── */}
       <section
         data-ocid="contact.header_section"
-        className="relative py-24 flex items-center justify-center overflow-hidden"
+        className="relative h-80 flex items-center justify-center overflow-hidden"
         style={{
-          backgroundImage: "url('/assets/generated/gallery-5.dim_600x400.jpg')",
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&h=500&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
-        <div className="absolute inset-0 bg-[#1a3a2a]/75" />
+        <div
+          className="absolute inset-0"
+          style={{ background: "rgba(17,17,17,0.72)" }}
+        />
+        <div
+          className="absolute inset-x-0 bottom-0 h-1/2"
+          style={{
+            background:
+              "linear-gradient(to top, rgba(183,110,121,0.12), transparent)",
+          }}
+        />
         <div className="relative z-10 text-center px-4">
-          <p className="text-xs uppercase tracking-[0.3em] text-gold mb-3">
+          <p
+            className="text-xs uppercase tracking-[0.3em] mb-3 font-medium"
+            style={{ color: "#d6b36a" }}
+          >
             Get in Touch
           </p>
-          <h1 className="font-display text-5xl md:text-6xl font-light text-[#faf7f0]">
+          <h1
+            className="font-display text-5xl md:text-6xl font-light"
+            style={{
+              background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+              backgroundClip: "text",
+            }}
+          >
             Contact Us
           </h1>
-          <div className="gold-divider w-24 mx-auto mt-5" />
-          <div className="flex items-center justify-center gap-2 mt-5 text-sm text-[#c8d8c0]">
-            <Link to="/" className="hover:text-gold transition-smooth">
+          <div
+            className="w-24 h-px mx-auto mt-5 mb-5"
+            style={{
+              background:
+                "linear-gradient(90deg, transparent, #b76e79, #d6b36a, transparent)",
+            }}
+          />
+          <nav
+            className="flex items-center justify-center gap-2 text-sm"
+            aria-label="Breadcrumb"
+          >
+            <Link
+              to="/"
+              data-ocid="contact.home_link"
+              className="transition-colors duration-200 hover:text-white"
+              style={{ color: "#999999" }}
+            >
               Home
             </Link>
-            <ChevronRight className="w-4 h-4 text-[#6a9a7a]" />
-            <span className="text-gold">Contact</span>
-          </div>
+            <ChevronRight className="w-4 h-4" style={{ color: "#b76e79" }} />
+            <span style={{ color: "#d6b36a" }}>Contact</span>
+          </nav>
         </div>
       </section>
 
-      {/* Main Contact Section — ivory background */}
+      {/* ── Contact Info + Form ─────────────────────────────────────── */}
       <section
         data-ocid="contact.main_section"
         className="py-20"
-        style={{ backgroundColor: "#faf7f0" }}
+        style={{ backgroundColor: "#111111" }}
       >
         <div className="container mx-auto px-4">
           <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14">
-            {/* Left: Info + Map */}
+            {/* Left: Info Cards */}
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3">
+              <p
+                className="text-xs uppercase tracking-[0.25em] mb-3 font-medium"
+                style={{ color: "#d6b36a" }}
+              >
                 Find Us
               </p>
-              <h2
-                className="font-display text-4xl font-light mb-5 leading-snug"
-                style={{ color: "#1a3a2a" }}
-              >
-                Visit ASP Spa in Pondicherry
+              <h2 className="font-display text-4xl font-light mb-4 leading-snug text-white">
+                Magic Moon Beauty care & Spa
               </h2>
-              <div className="gold-divider w-20 mb-8" />
+              <div
+                className="w-20 h-px mb-8"
+                style={{
+                  background: "linear-gradient(90deg, #b76e79, #d6b36a)",
+                }}
+              />
 
-              {/* Contact Cards */}
-              <div className="space-y-5 mb-8">
-                {/* Address Card */}
-                <div
-                  data-ocid="contact.address_card"
-                  className="flex items-start gap-4 p-5 rounded-lg"
-                  style={{
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740",
-                  }}
+              <div className="space-y-4 mb-8">
+                <ContactCard
+                  ocid="contact.address_card"
+                  icon={<MapPin className="w-5 h-5 text-white" />}
+                  iconBg="linear-gradient(135deg, #b76e79, #9e5a64)"
+                  title="Our Address"
                 >
-                  <div
-                    className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                    style={{
-                      backgroundColor: "#1a3a2a",
-                      border: "1px solid #d4af3760",
-                    }}
-                  >
-                    <MapPin className="w-5 h-5 text-gold" />
-                  </div>
-                  <div>
-                    <p
-                      className="font-medium text-sm mb-1"
-                      style={{ color: "#1a3a2a" }}
-                    >
-                      Our Address
-                    </p>
-                    <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#4a6a58" }}
-                    >
-                      1st Floor, 155, Needarajapaiyer St,
-                      <br />
-                      MG Road Area, Puducherry 605001,
-                      <br />
-                      Tamil Nadu, India
-                    </p>
-                  </div>
-                </div>
+                  No 182, 1st Floor, Chetty St,
+                  <br />
+                  Puducherry – 605001,
+                  <br />
+                  Tamil Nadu, India
+                </ContactCard>
 
-                {/* Phone Card */}
-                <div
-                  data-ocid="contact.phone_card"
-                  className="flex items-center gap-4 p-5 rounded-lg"
-                  style={{
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740",
-                  }}
+                <ContactCard
+                  ocid="contact.phone_card"
+                  href="tel:07081078910"
+                  icon={<Phone className="w-5 h-5 text-white" />}
+                  iconBg="linear-gradient(135deg, #d6b36a, #b89040)"
+                  title="Phone / Call Us"
                 >
-                  <div
-                    className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                    style={{
-                      backgroundColor: "#1a3a2a",
-                      border: "1px solid #d4af3760",
-                    }}
-                  >
-                    <Phone className="w-5 h-5 text-gold" />
-                  </div>
-                  <div>
-                    <p
-                      className="font-medium text-sm mb-1"
-                      style={{ color: "#1a3a2a" }}
-                    >
-                      Phone / Call Us
-                    </p>
-                    <a
-                      href="tel:7200245009"
-                      className="text-sm transition-smooth hover:text-gold"
-                      style={{ color: "#4a6a58" }}
-                    >
-                      72002 45009
-                    </a>
-                  </div>
-                </div>
+                  <span className="font-semibold" style={{ color: "#d6b36a" }}>
+                    070810 78910
+                  </span>
+                  <br />
+                  <span className="text-xs" style={{ color: "#888888" }}>
+                    Tap to call us directly
+                  </span>
+                </ContactCard>
 
-                {/* WhatsApp Card */}
-                <a
-                  href="https://wa.me/917200245009"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-ocid="contact.whatsapp_card"
-                  className="flex items-center gap-4 p-5 rounded-lg transition-smooth"
-                  style={{
-                    backgroundColor: "#fff",
-                    border: "1px solid #25D36640",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = "#25D36680";
-                    e.currentTarget.style.backgroundColor = "#f0fdf4";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.borderColor = "#25D36640";
-                    e.currentTarget.style.backgroundColor = "#fff";
-                  }}
+                <ContactCard
+                  ocid="contact.whatsapp_card"
+                  href="https://wa.me/917081078910"
+                  icon={<SiWhatsapp className="w-5 h-5 text-white" />}
+                  iconBg="linear-gradient(135deg, #25D366, #1da050)"
+                  title="WhatsApp Chat"
                 >
-                  <div className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 bg-[#25D366]/15 border border-[#25D366]/30">
-                    <SiWhatsapp className="w-5 h-5 text-[#25D366]" />
-                  </div>
-                  <div>
-                    <p
-                      className="font-medium text-sm mb-1"
-                      style={{ color: "#1a3a2a" }}
-                    >
-                      WhatsApp Enquiry
-                    </p>
-                    <p className="text-sm" style={{ color: "#4a6a58" }}>
-                      Chat with us:{" "}
-                      <span className="text-[#25D366]">+91 72002 45009</span>
-                    </p>
-                  </div>
-                </a>
+                  <span style={{ color: "#25D366" }} className="font-medium">
+                    Chat on WhatsApp
+                  </span>
+                  <br />
+                  <span className="text-xs" style={{ color: "#888888" }}>
+                    +91 70810 78910
+                  </span>
+                </ContactCard>
 
-                {/* Hours Card */}
-                <div
-                  data-ocid="contact.hours_card"
-                  className="flex items-center gap-4 p-5 rounded-lg"
-                  style={{
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740",
-                  }}
+                <ContactCard
+                  ocid="contact.hours_card"
+                  icon={<Clock className="w-5 h-5 text-white" />}
+                  iconBg="linear-gradient(135deg, #b76e79, #d6b36a)"
+                  title="Business Hours"
                 >
-                  <div
-                    className="w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0"
-                    style={{
-                      backgroundColor: "#1a3a2a",
-                      border: "1px solid #d4af3760",
-                    }}
-                  >
-                    <Clock className="w-5 h-5 text-gold" />
-                  </div>
-                  <div>
-                    <p
-                      className="font-medium text-sm mb-1"
-                      style={{ color: "#1a3a2a" }}
-                    >
-                      Opening Hours
-                    </p>
-                    <p className="text-sm" style={{ color: "#4a6a58" }}>
-                      Mon – Sat: 9:00 AM – 9:00 PM
-                    </p>
-                    <p className="text-sm" style={{ color: "#4a6a58" }}>
-                      Sunday: 10:00 AM – 6:00 PM
-                    </p>
-                  </div>
-                </div>
+                  <span>Mon – Sat: 9:00 AM – 8:00 PM</span>
+                  <br />
+                  <span>Sunday: 10:00 AM – 6:00 PM</span>
+                </ContactCard>
               </div>
 
-              {/* Map with dark green header bar */}
-              <div
-                data-ocid="contact.map"
-                className="rounded-xl overflow-hidden shadow-luxury"
-                style={{ border: "1px solid #d4af3730" }}
-              >
-                <div
-                  className="px-5 py-3 flex items-center gap-2"
-                  style={{ backgroundColor: "#1a3a2a" }}
+              {/* CTA Buttons */}
+              <div className="flex flex-wrap gap-3">
+                <CTAButton
+                  href="tel:07081078910"
+                  ocid="contact.call_button"
+                  gradient="linear-gradient(135deg, #b76e79, #9e5a64)"
                 >
-                  <MapPin className="w-4 h-4 text-gold" />
-                  <span
-                    className="text-xs uppercase tracking-widest font-medium"
-                    style={{ color: "#d4af37" }}
-                  >
-                    Our Location
-                  </span>
-                </div>
-                <iframe
-                  title="ASP Spa Location Map"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.823!2d79.83198!3d11.93404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361e8e24e66bf%3A0x0!2zMTHCsDU2JzAyLjQiTiA3OcKwNDknNTUuMiJF!5e0!3m2!1sen!2sin!4v1700000000000"
-                  width="100%"
-                  height="260"
-                  style={{ border: 0, display: "block" }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+                  <Phone className="w-4 h-4" />
+                  Click to Call
+                </CTAButton>
+                <CTAButton
+                  href="https://wa.me/917081078910"
+                  ocid="contact.whatsapp_button"
+                  gradient="linear-gradient(135deg, #25D366, #1da050)"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                  WhatsApp Chat
+                </CTAButton>
+                <CTAButton
+                  href="https://maps.google.com/?q=No+182+Chetty+St+Puducherry+605001"
+                  ocid="contact.directions_button"
+                  gradient="linear-gradient(135deg, #d6b36a, #b89040)"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Get Directions
+                </CTAButton>
               </div>
             </div>
 
             {/* Right: Contact Form */}
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-gold mb-3">
+              <p
+                className="text-xs uppercase tracking-[0.25em] mb-3 font-medium"
+                style={{ color: "#d6b36a" }}
+              >
                 Send a Message
               </p>
-              <h2
-                className="font-display text-4xl font-light mb-5"
-                style={{ color: "#1a3a2a" }}
-              >
-                Book an Appointment
+              <h2 className="font-display text-4xl font-light mb-4 text-white">
+                Send Us a Message
               </h2>
-              <div className="gold-divider w-20 mb-8" />
+              <div
+                className="w-20 h-px mb-8"
+                style={{
+                  background: "linear-gradient(90deg, #b76e79, #d6b36a)",
+                }}
+              />
 
               {submitted ? (
                 <div
                   data-ocid="contact.success_state"
                   className="rounded-xl p-10 text-center"
                   style={{
-                    backgroundColor: "#e8f5ec",
-                    border: "1px solid #1a3a2a40",
+                    background:
+                      "linear-gradient(135deg, rgba(183,110,121,0.12), rgba(214,179,106,0.12))",
+                    border: "1px solid rgba(183,110,121,0.4)",
                   }}
                 >
                   <div
                     className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-5"
-                    style={{ backgroundColor: "#1a3a2a" }}
+                    style={{
+                      background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                    }}
                   >
-                    <Send className="w-7 h-7 text-gold" />
+                    <CheckCircle className="w-8 h-8 text-white" />
                   </div>
-                  <h3
-                    className="font-display text-2xl font-light mb-2"
-                    style={{ color: "#1a3a2a" }}
-                  >
+                  <h3 className="font-display text-2xl font-light mb-2 text-white">
                     Message Sent!
                   </h3>
-                  <p className="text-sm" style={{ color: "#2d5a3d" }}>
-                    Thank you for contacting ASP Spa. We'll get back to you
-                    within 1 hour to confirm your booking.
+                  <p className="text-sm" style={{ color: "#cccccc" }}>
+                    Thank you for contacting Magic Moon Beauty care & Spa.
+                    <br />
+                    We'll get back to you within 1 hour to confirm your booking.
                   </p>
                 </div>
               ) : (
@@ -312,7 +370,7 @@ export default function Contact() {
                       <label
                         htmlFor="contact-name"
                         className="block text-xs uppercase tracking-widest mb-2"
-                        style={{ color: "#4a6a58" }}
+                        style={{ color: "#d6b36a" }}
                       >
                         Full Name *
                       </label>
@@ -322,17 +380,21 @@ export default function Contact() {
                         required
                         data-ocid="contact.name_input"
                         placeholder="Your full name"
-                        className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
+                        className="w-full px-4 py-3 text-sm focus:outline-none"
                         style={FIELD_STYLE}
-                        onFocus={(e) => setFocusBorder(e.currentTarget)}
-                        onBlur={(e) => setBlurBorder(e.currentTarget)}
+                        onFocus={(e) => {
+                          focusRoseGold(e.currentTarget);
+                        }}
+                        onBlur={(e) => {
+                          blurReset(e.currentTarget);
+                        }}
                       />
                     </div>
                     <div>
                       <label
                         htmlFor="contact-phone"
                         className="block text-xs uppercase tracking-widest mb-2"
-                        style={{ color: "#4a6a58" }}
+                        style={{ color: "#d6b36a" }}
                       >
                         Phone Number *
                       </label>
@@ -342,39 +404,23 @@ export default function Contact() {
                         required
                         data-ocid="contact.phone_input"
                         placeholder="Your mobile number"
-                        className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
+                        className="w-full px-4 py-3 text-sm focus:outline-none"
                         style={FIELD_STYLE}
-                        onFocus={(e) => setFocusBorder(e.currentTarget)}
-                        onBlur={(e) => setBlurBorder(e.currentTarget)}
+                        onFocus={(e) => {
+                          focusRoseGold(e.currentTarget);
+                        }}
+                        onBlur={(e) => {
+                          blurReset(e.currentTarget);
+                        }}
                       />
                     </div>
                   </div>
 
                   <div>
                     <label
-                      htmlFor="contact-email"
-                      className="block text-xs uppercase tracking-widest mb-2"
-                      style={{ color: "#4a6a58" }}
-                    >
-                      Email Address
-                    </label>
-                    <input
-                      id="contact-email"
-                      type="email"
-                      data-ocid="contact.email_input"
-                      placeholder="your@email.com (optional)"
-                      className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
-                      style={FIELD_STYLE}
-                      onFocus={(e) => setFocusBorder(e.currentTarget)}
-                      onBlur={(e) => setBlurBorder(e.currentTarget)}
-                    />
-                  </div>
-
-                  <div>
-                    <label
                       htmlFor="contact-service"
                       className="block text-xs uppercase tracking-widest mb-2"
-                      style={{ color: "#4a6a58" }}
+                      style={{ color: "#d6b36a" }}
                     >
                       Select Service *
                     </label>
@@ -382,153 +428,148 @@ export default function Contact() {
                       id="contact-service"
                       required
                       data-ocid="contact.service_select"
-                      className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
+                      className="w-full px-4 py-3 text-sm focus:outline-none"
                       style={FIELD_STYLE}
-                      onFocus={(e) => setFocusBorder(e.currentTarget)}
-                      onBlur={(e) => setBlurBorder(e.currentTarget)}
+                      onFocus={(e) => {
+                        focusRoseGold(e.currentTarget);
+                      }}
+                      onBlur={(e) => {
+                        blurReset(e.currentTarget);
+                      }}
                     >
                       <option value="">Choose a service...</option>
-                      <option>Swedish Massage</option>
-                      <option>Deep Tissue Massage</option>
-                      <option>Aromatherapy</option>
-                      <option>Luxury Facial</option>
-                      <option>Body Scrub &amp; Wrap</option>
-                      <option>Bridal Package</option>
-                      <option>Hair Care Treatment</option>
-                      <option>Nail Art &amp; Manicure</option>
-                      <option>Waxing &amp; Threading</option>
-                      <option>General Enquiry</option>
+                      <optgroup label="Salon Services">
+                        <option>Hair Styling</option>
+                        <option>Hair Spa</option>
+                      </optgroup>
+                      <optgroup label="Beauty Services">
+                        <option>Facial Treatment</option>
+                        <option>Bridal Makeup</option>
+                        <option>Skin Care</option>
+                      </optgroup>
+                      <optgroup label="Spa & Massage">
+                        <option>Body Massage</option>
+                        <option>Aromatherapy</option>
+                        <option>Foot Reflexology</option>
+                        <option>Swedish Massage</option>
+                        <option>Deep Tissue Massage</option>
+                        <option>Thai Massage</option>
+                        <option>Hot Stone Therapy</option>
+                      </optgroup>
+                      <optgroup label="Packages">
+                        <option>Beauty Packages</option>
+                        <option>Other</option>
+                      </optgroup>
                     </select>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-                    <div>
-                      <label
-                        htmlFor="contact-date"
-                        className="block text-xs uppercase tracking-widest mb-2"
-                        style={{ color: "#4a6a58" }}
-                      >
-                        Preferred Date
-                      </label>
-                      <input
-                        id="contact-date"
-                        type="date"
-                        data-ocid="contact.date_input"
-                        className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
-                        style={FIELD_STYLE}
-                        onFocus={(e) => setFocusBorder(e.currentTarget)}
-                        onBlur={(e) => setBlurBorder(e.currentTarget)}
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="contact-time"
-                        className="block text-xs uppercase tracking-widest mb-2"
-                        style={{ color: "#4a6a58" }}
-                      >
-                        Preferred Time
-                      </label>
-                      <select
-                        id="contact-time"
-                        data-ocid="contact.time_select"
-                        className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none"
-                        style={FIELD_STYLE}
-                        onFocus={(e) => setFocusBorder(e.currentTarget)}
-                        onBlur={(e) => setBlurBorder(e.currentTarget)}
-                      >
-                        <option value="">Any time</option>
-                        <option>09:00 AM</option>
-                        <option>11:00 AM</option>
-                        <option>01:00 PM</option>
-                        <option>03:00 PM</option>
-                        <option>05:00 PM</option>
-                        <option>07:00 PM</option>
-                      </select>
-                    </div>
+                  <div>
+                    <label
+                      htmlFor="contact-date"
+                      className="block text-xs uppercase tracking-widest mb-2"
+                      style={{ color: "#d6b36a" }}
+                    >
+                      Preferred Date
+                    </label>
+                    <input
+                      id="contact-date"
+                      type="date"
+                      data-ocid="contact.date_input"
+                      className="w-full px-4 py-3 text-sm focus:outline-none"
+                      style={{ ...FIELD_STYLE, colorScheme: "dark" }}
+                      onFocus={(e) => {
+                        focusRoseGold(e.currentTarget);
+                      }}
+                      onBlur={(e) => {
+                        blurReset(e.currentTarget);
+                      }}
+                    />
                   </div>
 
                   <div>
                     <label
                       htmlFor="contact-message"
                       className="block text-xs uppercase tracking-widest mb-2"
-                      style={{ color: "#4a6a58" }}
+                      style={{ color: "#d6b36a" }}
                     >
-                      Message / Special Requests
+                      Message
                     </label>
                     <textarea
                       id="contact-message"
                       rows={4}
                       data-ocid="contact.message_textarea"
-                      placeholder="Any specific requirements, health conditions, or questions..."
-                      className="w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none resize-none"
+                      placeholder="Tell us about your requirements or any special requests..."
+                      className="w-full px-4 py-3 text-sm focus:outline-none resize-none"
                       style={FIELD_STYLE}
-                      onFocus={(e) => setFocusBorder(e.currentTarget)}
-                      onBlur={(e) => setBlurBorder(e.currentTarget)}
+                      onFocus={(e) => {
+                        focusRoseGold(e.currentTarget);
+                      }}
+                      onBlur={(e) => {
+                        blurReset(e.currentTarget);
+                      }}
                     />
                   </div>
 
-                  {/* Submit — dark green bg with gold text */}
                   <button
                     type="submit"
                     data-ocid="contact.submit_button"
-                    className="w-full font-semibold py-4 rounded transition-smooth shadow-gold tracking-widest text-sm uppercase flex items-center justify-center gap-2"
-                    style={{ backgroundColor: "#1a3a2a", color: "#d4af37" }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = "#2d5a3d";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = "#1a3a2a";
+                    className="w-full py-4 rounded-lg text-sm font-semibold uppercase tracking-widest text-white flex items-center justify-center gap-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl"
+                    style={{
+                      background:
+                        "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                      boxShadow: "0 4px 20px rgba(183,110,121,0.35)",
                     }}
                   >
                     <Send className="w-4 h-4" />
-                    Send Enquiry
+                    Send Message
                   </button>
-
-                  {/* Divider */}
-                  <div className="relative flex items-center py-2">
-                    <div
-                      className="flex-1 border-t"
-                      style={{ borderColor: "#c8d8c0" }}
-                    />
-                    <span
-                      className="px-4 text-xs uppercase tracking-wider"
-                      style={{ color: "#6a9a7a" }}
-                    >
-                      Or
-                    </span>
-                    <div
-                      className="flex-1 border-t"
-                      style={{ borderColor: "#c8d8c0" }}
-                    />
-                  </div>
-
-                  {/* WhatsApp button — gold bg with dark green text */}
-                  <a
-                    href="https://wa.me/917200245009?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20ASP%20Spa%20Pondicherry."
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    data-ocid="contact.whatsapp_button"
-                    className="w-full flex items-center justify-center gap-2.5 py-3.5 rounded transition-smooth text-sm font-semibold tracking-wider uppercase"
-                    style={{
-                      backgroundColor: "#d4af37",
-                      color: "#1a3a2a",
-                      boxShadow: "0 4px 14px rgba(212,175,55,0.3)",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = "#b8962e";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = "#d4af37";
-                    }}
-                  >
-                    <MessageCircle className="w-4 h-4" />
-                    Book via WhatsApp
-                  </a>
                 </form>
               )}
             </div>
           </div>
         </div>
+      </section>
+
+      {/* ── Google Maps ──────────────────────────────────────────────── */}
+      <section
+        data-ocid="contact.map_section"
+        style={{ backgroundColor: "#0d0d0d" }}
+      >
+        <div
+          className="py-4 px-6 flex items-center gap-3"
+          style={{
+            background:
+              "linear-gradient(135deg, rgba(183,110,121,0.15), rgba(214,179,106,0.1))",
+            borderTop: "1px solid rgba(183,110,121,0.2)",
+            borderBottom: "1px solid rgba(183,110,121,0.2)",
+          }}
+        >
+          <MapPin className="w-4 h-4" style={{ color: "#b76e79" }} />
+          <h2
+            className="font-display text-lg font-light"
+            style={{ color: "#d6b36a" }}
+          >
+            Find Us on the Map
+          </h2>
+          <span className="text-xs ml-2" style={{ color: "#888888" }}>
+            No 182, Chetty St, Puducherry – 605001
+          </span>
+        </div>
+        <iframe
+          data-ocid="contact.map"
+          title="Magic Moon Beauty care & Spa Location Map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62615.02!2d79.8083!3d11.9340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361e8e24e66bf%3A0x4f3ef94fa0c7a9b!2sPuducherry%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000"
+          width="100%"
+          height="400"
+          style={{
+            border: 0,
+            display: "block",
+            filter: "grayscale(30%) contrast(1.05)",
+          }}
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
       </section>
     </>
   );

@@ -1,27 +1,26 @@
 {
-  "overview": "Premium 5-page website for ASP Spa (Unisex Salon & Bridal Studio) in Pondicherry. Features a luxury gold/black/cream design with booking forms, service showcase, gallery, and contact page with Google Maps.",
+  "overview": "Premium luxury 5-page salon, beauty & spa website for Magic Moon Beauty care & Spa in Pondicherry with Rose Gold branding.",
   "features": [
-    "5-page responsive website (Home, About, Services, Gallery, Contact)",
-    "2-row responsive navbar with logo and contact info",
-    "4-column footer across all pages",
-    "Floating call and WhatsApp quick contact icons",
-    "Booking form with service selection",
-    "9 massage service cards with descriptions",
-    "9-image gallery with lightbox",
-    "Testimonials carousel",
-    "Google Maps embed",
-    "Premium gold/black/cream luxury aesthetic"
+    "Fullscreen luxury hero with animated headings and booking buttons",
+    "5 fully responsive pages: Home, About, Services, Gallery, Contact",
+    "Service cards for Salon, Beauty, and Spa treatments with hover animations",
+    "Gallery with category filters and zoom effects",
+    "Booking and contact forms with validation",
+    "Sticky navbar with scroll behavior",
+    "Floating Call and WhatsApp buttons on every page",
+    "Animated counters, testimonials slider, and scroll reveal effects",
+    "SEO optimized for Pondicherry salon and spa keywords",
+    "Rose Gold + Champagne Gold luxury color scheme"
   ],
-  "category": "business-marketing",
+  "category": "landing-page",
   "tags": [
     "spa",
     "salon",
-    "pondicherry",
+    "beauty",
     "luxury",
-    "booking",
-    "gallery",
-    "responsive",
-    "local-business"
+    "pondicherry",
+    "rose-gold",
+    "wellness"
   ],
-  "last_updated": "2026-04-15T02:42:42.534Z"
+  "last_updated": "2026-05-23T07:59:29.359Z"
 }

@@ -23718,7 +23718,7 @@ const createLucideIcon = (iconName, iconNode) => {
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$i = [
+const __iconNode$m = [
   [
     "path",
     {
@@ -23728,7 +23728,45 @@ const __iconNode$i = [
   ],
   ["circle", { cx: "12", cy: "8", r: "6", key: "1vp47v" }]
 ];
-const Award = createLucideIcon("award", __iconNode$i);
+const Award = createLucideIcon("award", __iconNode$m);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$l = [["path", { d: "m15 18-6-6 6-6", key: "1wnfg3" }]];
+const ChevronLeft = createLucideIcon("chevron-left", __iconNode$l);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$k = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
+const ChevronRight = createLucideIcon("chevron-right", __iconNode$k);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$j = [
+  ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+  ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+];
+const CircleCheckBig = createLucideIcon("circle-check-big", __iconNode$j);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$i = [
+  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
+];
+const Clock = createLucideIcon("clock", __iconNode$i);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23736,22 +23774,22 @@ const Award = createLucideIcon("award", __iconNode$i);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$h = [
-  ["path", { d: "m11 10 3 3", key: "fzmg1i" }],
-  [
-    "path",
-    { d: "M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z", key: "p4q2r7" }
-  ],
-  ["path", { d: "M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031", key: "wy6l02" }]
+  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
+  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
 ];
-const Brush = createLucideIcon("brush", __iconNode$h);
+const DollarSign = createLucideIcon("dollar-sign", __iconNode$h);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-const __iconNode$g = [["path", { d: "m9 18 6-6-6-6", key: "mthhwq" }]];
-const ChevronRight = createLucideIcon("chevron-right", __iconNode$g);
+const __iconNode$g = [
+  ["path", { d: "M15 3h6v6", key: "1q9fwt" }],
+  ["path", { d: "M10 14 21 3", key: "gplh6r" }],
+  ["path", { d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6", key: "a6xqqp" }]
+];
+const ExternalLink = createLucideIcon("external-link", __iconNode$g);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23759,56 +23797,6 @@ const ChevronRight = createLucideIcon("chevron-right", __iconNode$g);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$f = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
-];
-const Clock = createLucideIcon("clock", __iconNode$f);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$e = [
-  [
-    "path",
-    {
-      d: "M12 5a3 3 0 1 1 3 3m-3-3a3 3 0 1 0-3 3m3-3v1M9 8a3 3 0 1 0 3 3M9 8h1m5 0a3 3 0 1 1-3 3m3-3h-1m-2 3v-1",
-      key: "3pnvol"
-    }
-  ],
-  ["circle", { cx: "12", cy: "8", r: "2", key: "1822b1" }],
-  ["path", { d: "M12 10v12", key: "6ubwww" }],
-  ["path", { d: "M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5Z", key: "9hd38g" }],
-  ["path", { d: "M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5Z", key: "ufn41s" }]
-];
-const Flower2 = createLucideIcon("flower-2", __iconNode$e);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$d = [
-  ["path", { d: "M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2", key: "1fvzgz" }],
-  ["path", { d: "M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2", key: "1kc0my" }],
-  ["path", { d: "M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8", key: "10h0bg" }],
-  [
-    "path",
-    {
-      d: "M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15",
-      key: "1s1gnw"
-    }
-  ]
-];
-const Hand = createLucideIcon("hand", __iconNode$d);
-/**
- * @license lucide-react v0.511.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-const __iconNode$c = [
   [
     "path",
     {
@@ -23817,7 +23805,53 @@ const __iconNode$c = [
     }
   ]
 ];
-const Heart = createLucideIcon("heart", __iconNode$c);
+const Heart = createLucideIcon("heart", __iconNode$f);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$e = [
+  ["path", { d: "M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8", key: "5wwlr5" }],
+  [
+    "path",
+    {
+      d: "M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",
+      key: "1d0kgt"
+    }
+  ]
+];
+const House = createLucideIcon("house", __iconNode$e);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$d = [
+  [
+    "path",
+    {
+      d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
+      key: "1r0f0z"
+    }
+  ],
+  ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
+];
+const MapPin = createLucideIcon("map-pin", __iconNode$d);
+/**
+ * @license lucide-react v0.511.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+const __iconNode$c = [
+  ["path", { d: "M4 12h16", key: "1lakjw" }],
+  ["path", { d: "M4 18h16", key: "19g7jn" }],
+  ["path", { d: "M4 6h16", key: "1o0s65" }]
+];
+const Menu = createLucideIcon("menu", __iconNode$c);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23825,16 +23859,9 @@ const Heart = createLucideIcon("heart", __iconNode$c);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$b = [
-  [
-    "path",
-    {
-      d: "M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z",
-      key: "nnexq3"
-    }
-  ],
-  ["path", { d: "M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12", key: "mt58a7" }]
+  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
 ];
-const Leaf = createLucideIcon("leaf", __iconNode$b);
+const MessageCircle = createLucideIcon("message-circle", __iconNode$b);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23845,13 +23872,15 @@ const __iconNode$a = [
   [
     "path",
     {
-      d: "M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0",
-      key: "1r0f0z"
+      d: "M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z",
+      key: "1a0edw"
     }
   ],
-  ["circle", { cx: "12", cy: "10", r: "3", key: "ilqhr7" }]
+  ["path", { d: "M12 22V12", key: "d0xqtd" }],
+  ["polyline", { points: "3.29 7 12 12 20.71 7", key: "ousv84" }],
+  ["path", { d: "m7.5 4.27 9 5.15", key: "1c824w" }]
 ];
-const MapPin = createLucideIcon("map-pin", __iconNode$a);
+const Package = createLucideIcon("package", __iconNode$a);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23859,11 +23888,15 @@ const MapPin = createLucideIcon("map-pin", __iconNode$a);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$9 = [
-  ["path", { d: "M4 12h16", key: "1lakjw" }],
-  ["path", { d: "M4 18h16", key: "19g7jn" }],
-  ["path", { d: "M4 6h16", key: "1o0s65" }]
+  [
+    "path",
+    {
+      d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
+      key: "9njp5v"
+    }
+  ]
 ];
-const Menu = createLucideIcon("menu", __iconNode$9);
+const Phone = createLucideIcon("phone", __iconNode$9);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23871,9 +23904,22 @@ const Menu = createLucideIcon("menu", __iconNode$9);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$8 = [
-  ["path", { d: "M7.9 20A9 9 0 1 0 4 16.1L2 22Z", key: "vv11sd" }]
+  [
+    "path",
+    {
+      d: "M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
+      key: "rib7q0"
+    }
+  ],
+  [
+    "path",
+    {
+      d: "M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z",
+      key: "1ymkrd"
+    }
+  ]
 ];
-const MessageCircle = createLucideIcon("message-circle", __iconNode$8);
+const Quote = createLucideIcon("quote", __iconNode$8);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23884,12 +23930,13 @@ const __iconNode$7 = [
   [
     "path",
     {
-      d: "M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384",
-      key: "9njp5v"
+      d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
+      key: "1ffxy3"
     }
-  ]
+  ],
+  ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }]
 ];
-const Phone = createLucideIcon("phone", __iconNode$7);
+const Send = createLucideIcon("send", __iconNode$7);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23897,13 +23944,16 @@ const Phone = createLucideIcon("phone", __iconNode$7);
  * See the LICENSE file in the root directory of this source tree.
  */
 const __iconNode$6 = [
-  ["circle", { cx: "6", cy: "6", r: "3", key: "1lh9wr" }],
-  ["path", { d: "M8.12 8.12 12 12", key: "1alkpv" }],
-  ["path", { d: "M20 4 8.12 15.88", key: "xgtan2" }],
-  ["circle", { cx: "6", cy: "18", r: "3", key: "fqmcym" }],
-  ["path", { d: "M14.8 14.8 20 20", key: "ptml3r" }]
+  [
+    "path",
+    {
+      d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+      key: "oel41y"
+    }
+  ],
+  ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
 ];
-const Scissors = createLucideIcon("scissors", __iconNode$6);
+const ShieldCheck = createLucideIcon("shield-check", __iconNode$6);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -23914,13 +23964,12 @@ const __iconNode$5 = [
   [
     "path",
     {
-      d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
-      key: "1ffxy3"
+      d: "M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z",
+      key: "oel41y"
     }
-  ],
-  ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }]
+  ]
 ];
-const Send = createLucideIcon("send", __iconNode$5);
+const Shield = createLucideIcon("shield", __iconNode$5);
 /**
  * @license lucide-react v0.511.0 - ISC
  *
@@ -24113,27 +24162,32 @@ function FloatingIcons() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "a",
       {
-        href: "tel:7200245009",
+        href: "tel:07081078910",
         "data-ocid": "floating.call_button",
-        "aria-label": "Call ASP Spa",
-        className: "fixed left-4 z-50 flex items-center justify-center rounded-full transition-smooth shadow-gold",
+        "aria-label": "Call Magic Moon Beauty care & Spa",
+        className: "fixed left-4 z-50 flex items-center justify-center rounded-full transition-smooth",
         style: {
           bottom: "5rem",
           width: "52px",
           height: "52px",
-          backgroundColor: "#1a3a2a",
-          color: "#d4af37",
-          border: "2px solid #d4af37"
+          backgroundColor: "#1a1a1a",
+          color: "#b76e79",
+          border: "2px solid #b76e79",
+          boxShadow: "0 4px 20px rgba(183,110,121,0.35)"
         },
         onMouseEnter: (e) => {
-          e.currentTarget.style.transform = "scale(1.12)";
-          e.currentTarget.style.backgroundColor = "#d4af37";
-          e.currentTarget.style.color = "#111";
+          const el = e.currentTarget;
+          el.style.transform = "scale(1.12)";
+          el.style.background = "linear-gradient(135deg, #b76e79, #d6b36a)";
+          el.style.color = "#fff";
+          el.style.borderColor = "transparent";
         },
         onMouseLeave: (e) => {
-          e.currentTarget.style.transform = "scale(1)";
-          e.currentTarget.style.backgroundColor = "#1a3a2a";
-          e.currentTarget.style.color = "#d4af37";
+          const el = e.currentTarget;
+          el.style.transform = "scale(1)";
+          el.style.background = "#1a1a1a";
+          el.style.color = "#b76e79";
+          el.style.borderColor = "#b76e79";
         },
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-5 h-5", strokeWidth: 2.5 })
       }
@@ -24141,11 +24195,11 @@ function FloatingIcons() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "a",
       {
-        href: "https://wa.me/917200245009",
+        href: "https://wa.me/917081078910",
         target: "_blank",
         rel: "noopener noreferrer",
         "data-ocid": "floating.whatsapp_button",
-        "aria-label": "Chat on WhatsApp",
+        "aria-label": "Chat on WhatsApp with Magic Moon Spa",
         className: "fixed right-4 z-50 flex items-center justify-center rounded-full transition-smooth",
         style: {
           bottom: "5rem",
@@ -24156,12 +24210,14 @@ function FloatingIcons() {
           boxShadow: "0 4px 20px rgba(37, 211, 102, 0.35)"
         },
         onMouseEnter: (e) => {
-          e.currentTarget.style.transform = "scale(1.12)";
-          e.currentTarget.style.backgroundColor = "#1da851";
+          const el = e.currentTarget;
+          el.style.transform = "scale(1.12)";
+          el.style.backgroundColor = "#1da851";
         },
         onMouseLeave: (e) => {
-          e.currentTarget.style.transform = "scale(1)";
-          e.currentTarget.style.backgroundColor = "#25D366";
+          const el = e.currentTarget;
+          el.style.transform = "scale(1)";
+          el.style.backgroundColor = "#25D366";
         },
         children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { className: "w-6 h-6" })
       }
@@ -24169,15 +24225,14 @@ function FloatingIcons() {
   ] });
 }
 const serviceLinks = [
-  "Swedish Massage",
-  "Deep Tissue Massage",
-  "Aromatherapy",
+  "Hair Styling",
+  "Hair Spa",
   "Facial Treatment",
-  "Body Scrub & Wrap",
-  "Bridal Packages",
-  "Hair Care",
-  "Nail Art & Manicure",
-  "Waxing & Threading"
+  "Bridal Makeup",
+  "Body Massage",
+  "Aromatherapy",
+  "Skin Care",
+  "Foot Reflexology"
 ];
 const quickLinks = [
   { to: "/", label: "Home" },
@@ -24188,140 +24243,337 @@ const quickLinks = [
 ];
 function Footer() {
   const year = (/* @__PURE__ */ new Date()).getFullYear();
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "footer-dark text-[#c8d8cc]", children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("footer", { className: "footer-dark", style: { color: "#c0b090" }, children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 py-14", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "img",
-          {
-            src: "/assets/images/logo.png",
-            alt: "ASP Spa",
-            className: "h-12 w-auto object-contain mb-4 brightness-110",
-            onError: (e) => {
-              e.target.style.display = "none";
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(Link, { to: "/", className: "block mb-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "span",
+            {
+              className: "gradient-rose-text font-display text-2xl italic font-semibold block",
+              style: { fontFamily: "'Cormorant Garamond', serif" },
+              children: "Magic Moon"
             }
-          }
-        ) }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm leading-relaxed text-[#8aab96] mb-4", children: "ASP Spa is Pondicherry's premier unisex salon & bridal studio. We offer a sanctuary of luxury wellness, blending ancient healing traditions with modern spa therapies." }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-xs text-[#6b8f78]", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-3.5 h-3.5 text-gold flex-shrink-0" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Mon–Sat: 9:00 AM – 9:00 PM" })
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "span",
+            {
+              className: "text-xs tracking-[0.2em] uppercase block mt-0.5",
+              style: { color: "#d6b36a" },
+              children: "Beauty care & Spa"
+            }
+          )
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-2 text-xs text-[#6b8f78] mt-1", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-3.5 h-3.5 text-gold flex-shrink-0" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Sunday: 10:00 AM – 6:00 PM" })
-        ] })
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-display text-xl text-gold mb-5 tracking-wide", children: "Our Services" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: serviceLinks.map((service) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Link,
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "p",
           {
-            to: "/services",
-            className: "flex items-center gap-2 text-sm text-[#8aab96] hover:text-gold transition-smooth",
+            className: "text-sm leading-relaxed mb-4",
+            style: { color: "#9a8a7a" },
+            children: "Magic Moon Beauty care & Spa is Pondicherry's premier luxury salon, beauty & wellness destination. We blend expert beauty treatments with a relaxing spa experience — all in one elegant space."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "flex items-center gap-2 text-xs",
+            style: { color: "#7a6a5a" },
             children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-3.5 h-3.5 text-gold flex-shrink-0" }),
-              service
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Clock,
+                {
+                  className: "w-3.5 h-3.5 flex-shrink-0",
+                  style: { color: "#b76e79" }
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Mon – Sat: 9:00 AM – 8:00 PM" })
             ]
           }
-        ) }, service)) })
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "flex items-center gap-2 text-xs mt-1",
+            style: { color: "#7a6a5a" },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                Clock,
+                {
+                  className: "w-3.5 h-3.5 flex-shrink-0",
+                  style: { color: "#b76e79" }
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Sunday: 10:00 AM – 6:00 PM" })
+            ]
+          }
+        )
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-display text-xl text-gold mb-5 tracking-wide", children: "Quick Links" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 mb-6", children: quickLinks.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h4",
+          {
+            className: "font-display text-xl mb-5 tracking-wide",
+            style: { color: "#d6b36a" },
+            children: "Quick Links"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2", children: quickLinks.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
           Link,
           {
             to: link.to,
-            className: "flex items-center gap-2 text-sm text-[#8aab96] hover:text-gold transition-smooth",
+            "data-ocid": `footer.${link.label.toLowerCase().replace(" ", "_")}_link`,
+            className: "flex items-center gap-2 text-sm transition-smooth",
+            style: { color: "#9a8a7a" },
+            onMouseEnter: (e) => {
+              e.currentTarget.style.color = "#b76e79";
+            },
+            onMouseLeave: (e) => {
+              e.currentTarget.style.color = "#9a8a7a";
+            },
             children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-3.5 h-3.5 text-gold flex-shrink-0" }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                ChevronRight,
+                {
+                  className: "w-3.5 h-3.5 flex-shrink-0",
+                  style: { color: "#b76e79" }
+                }
+              ),
               link.label
             ]
           }
-        ) }, link.to)) }),
+        ) }, link.to)) })
+      ] }),
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h4",
+          {
+            className: "font-display text-xl mb-5 tracking-wide",
+            style: { color: "#d6b36a" },
+            children: "Our Services"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("ul", { className: "space-y-2 mb-6", children: serviceLinks.map((service) => /* @__PURE__ */ jsxRuntimeExports.jsx("li", { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Link,
+          {
+            to: "/services",
+            className: "flex items-center gap-2 text-sm transition-smooth",
+            style: { color: "#9a8a7a" },
+            onMouseEnter: (e) => {
+              e.currentTarget.style.color = "#b76e79";
+            },
+            onMouseLeave: (e) => {
+              e.currentTarget.style.color = "#9a8a7a";
+            },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                ChevronRight,
+                {
+                  className: "w-3.5 h-3.5 flex-shrink-0",
+                  style: { color: "#b76e79" }
+                }
+              ),
+              service
+            ]
+          }
+        ) }, service)) }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           Link,
           {
             to: "/contact",
             "data-ocid": "footer.book_button",
-            className: "inline-block bg-gold hover:bg-gold-dark text-[#111] text-sm font-semibold px-5 py-2.5 rounded transition-smooth shadow-gold",
-            children: "Book an Appointment"
+            className: "inline-block text-sm font-semibold px-5 py-2.5 rounded transition-smooth gradient-rose-gold text-white shadow-roseglow hover:opacity-90",
+            children: "Book Appointment"
           }
         )
       ] }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx("h4", { className: "font-display text-xl text-gold mb-5 tracking-wide", children: "Contact Us" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h4",
+          {
+            className: "font-display text-xl mb-5 tracking-wide",
+            style: { color: "#d6b36a" },
+            children: "Contact Us"
+          }
+        ),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-start gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4 text-gold flex-shrink-0 mt-0.5" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm text-[#8aab96] leading-relaxed", children: [
-              "1st Floor, 155, Needarajapaiyer St,",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-              "MG Road Area, Puducherry 605001"
-            ] })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-gold flex-shrink-0" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "a",
+              MapPin,
               {
-                href: "tel:7200245009",
-                className: "text-sm text-[#8aab96] hover:text-gold transition-smooth",
-                children: "72002 45009"
+                className: "w-4 h-4 flex-shrink-0 mt-0.5",
+                style: { color: "#b76e79" }
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "p",
+              {
+                className: "text-sm leading-relaxed",
+                style: { color: "#9a8a7a" },
+                children: [
+                  "No 182, 1st Floor, Chetty St,",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "Puducherry – 605001"
+                ]
               }
             )
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4 text-[#25D366] flex-shrink-0" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Phone,
+              {
+                className: "w-4 h-4 flex-shrink-0",
+                style: { color: "#b76e79" }
+              }
+            ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "a",
               {
-                href: "https://wa.me/917200245009",
+                href: "tel:07081078910",
+                className: "text-sm transition-smooth",
+                style: { color: "#9a8a7a" },
+                onMouseEnter: (e) => {
+                  e.currentTarget.style.color = "#b76e79";
+                },
+                onMouseLeave: (e) => {
+                  e.currentTarget.style.color = "#9a8a7a";
+                },
+                children: "070810 78910"
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-3", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              MessageCircle,
+              {
+                className: "w-4 h-4 flex-shrink-0",
+                style: { color: "#25D366" }
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "https://wa.me/917081078910",
                 target: "_blank",
                 rel: "noopener noreferrer",
-                className: "text-sm text-[#8aab96] hover:text-gold transition-smooth",
-                children: "WhatsApp: 72002 45009"
+                className: "text-sm transition-smooth",
+                style: { color: "#9a8a7a" },
+                onMouseEnter: (e) => {
+                  e.currentTarget.style.color = "#25D366";
+                },
+                onMouseLeave: (e) => {
+                  e.currentTarget.style.color = "#9a8a7a";
+                },
+                children: "WhatsApp: 070810 78910"
               }
             )
           ] })
         ] }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mt-5 rounded overflow-hidden border border-[#2d5c3f]", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "iframe",
-          {
-            title: "ASP Spa Location",
-            src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.823!2d79.832!3d11.934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTHCsDU2JzAyLjQiTiA3OcKwNDknNTUuMiJF!5e0!3m2!1sen!2sin!4v1234567890",
-            width: "100%",
-            height: "120",
-            style: { border: 0 },
-            allowFullScreen: true,
-            loading: "lazy",
-            referrerPolicy: "no-referrer-when-downgrade"
-          }
-        ) })
-      ] })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "border-t border-[#1e4a30]", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-[#5a7a64]", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-        "© ",
-        year,
-        " ASP Spa & Bridal Studio. All rights reserved."
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
-        "Built with love using",
-        " ",
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-5 flex items-center gap-3", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "a",
+            {
+              href: "https://wa.me/917081078910",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              "aria-label": "WhatsApp",
+              className: "w-9 h-9 rounded-full flex items-center justify-center transition-smooth border",
+              style: {
+                backgroundColor: "rgba(183,110,121,0.1)",
+                borderColor: "rgba(183,110,121,0.3)",
+                color: "#b76e79"
+              },
+              onMouseEnter: (e) => {
+                e.currentTarget.style.backgroundColor = "#b76e79";
+                e.currentTarget.style.color = "#fff";
+              },
+              onMouseLeave: (e) => {
+                e.currentTarget.style.backgroundColor = "rgba(183,110,121,0.1)";
+                e.currentTarget.style.color = "#b76e79";
+              },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4" })
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "a",
+            {
+              href: "tel:07081078910",
+              "aria-label": "Call us",
+              className: "w-9 h-9 rounded-full flex items-center justify-center transition-smooth border",
+              style: {
+                backgroundColor: "rgba(214,179,106,0.1)",
+                borderColor: "rgba(214,179,106,0.3)",
+                color: "#d6b36a"
+              },
+              onMouseEnter: (e) => {
+                e.currentTarget.style.backgroundColor = "#d6b36a";
+                e.currentTarget.style.color = "#111";
+              },
+              onMouseLeave: (e) => {
+                e.currentTarget.style.backgroundColor = "rgba(214,179,106,0.1)";
+                e.currentTarget.style.color = "#d6b36a";
+              },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4" })
+            }
+          )
+        ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
+          "div",
           {
-            href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "asp-spa")}`,
-            target: "_blank",
-            rel: "noopener noreferrer",
-            className: "text-gold hover:underline",
-            children: "caffeine.ai"
+            className: "mt-5 rounded overflow-hidden border",
+            style: { borderColor: "rgba(183,110,121,0.25)" },
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "iframe",
+              {
+                title: "Magic Moon Beauty care & Spa Location",
+                src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.5!2d79.8384!3d11.9346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361f54d3c2c23%3A0x4e0a4f3a4b2c1d0e!2sChetty%20St%2C%20Puducherry%2C%20605001!5e0!3m2!1sen!2sin!4v1234567890",
+                width: "100%",
+                height: "120",
+                style: { border: 0 },
+                allowFullScreen: true,
+                loading: "lazy",
+                referrerPolicy: "no-referrer-when-downgrade"
+              }
+            )
           }
         )
       ] })
-    ] }) })
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "div",
+      {
+        className: "border-t",
+        style: { borderColor: "rgba(183,110,121,0.18)" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "container mx-auto px-4 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs",
+            style: { color: "#6a5a4a" },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
+                "© ",
+                year,
+                " Magic Moon Beauty care & Spa. All rights reserved."
+              ] }),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { children: [
+                "Built with love using",
+                " ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "a",
+                  {
+                    href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "magic-moon-spa")}`,
+                    target: "_blank",
+                    rel: "noopener noreferrer",
+                    className: "transition-smooth hover:underline",
+                    style: { color: "#b76e79" },
+                    children: "caffeine.ai"
+                  }
+                )
+              ] })
+            ]
+          }
+        )
+      }
+    )
   ] });
 }
 const navLinks = [
@@ -24333,137 +24585,247 @@ const navLinks = [
 ];
 function Navbar() {
   const [menuOpen, setMenuOpen] = reactExports.useState(false);
+  const [scrolled, setScrolled] = reactExports.useState(false);
   const routerState = useRouterState();
   const pathname = routerState.location.pathname;
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "navbar-dark sticky top-0 z-40 shadow-luxury", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "border-b border-[#2d5c3f]", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 py-3 flex items-center justify-between", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", "data-ocid": "nav.logo_link", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "img",
-        {
-          src: "/assets/images/logo.png",
-          alt: "ASP Spa Logo",
-          className: "h-14 w-auto object-contain",
-          onError: (e) => {
-            e.target.style.display = "none";
-          }
-        }
-      ) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "hidden md:flex items-center gap-6", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "a",
-          {
-            href: "tel:7200245009",
-            "data-ocid": "nav.phone_link",
-            className: "flex items-center gap-2 text-sm text-[#c8d8cc] hover:text-gold transition-smooth",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-gold" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "72002 45009" })
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          "a",
-          {
-            href: "https://wa.me/917200245009",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            "data-ocid": "nav.whatsapp_link",
-            className: "flex items-center gap-2 text-sm text-[#c8d8cc] hover:text-gold transition-smooth",
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4 text-[#25D366]" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "WhatsApp Us" })
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: "/contact",
-            "data-ocid": "nav.book_button",
-            className: "bg-gold hover:bg-gold-dark text-[#111] text-sm font-semibold px-5 py-2 rounded transition-smooth shadow-gold",
-            children: "BOOK NOW"
-          }
-        )
-      ] }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex md:hidden items-center gap-3", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          Link,
-          {
-            to: "/contact",
-            className: "bg-gold text-[#111] text-xs font-semibold px-3 py-1.5 rounded transition-smooth",
-            children: "BOOK"
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "button",
-          {
-            type: "button",
-            onClick: () => setMenuOpen(!menuOpen),
-            "data-ocid": "nav.mobile_menu_toggle",
-            className: "text-[#c8d8cc] hover:text-gold transition-smooth p-1",
-            "aria-label": "Toggle menu",
-            children: menuOpen ? /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-6 h-6" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Menu, { className: "w-6 h-6" })
-          }
-        )
-      ] })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:block", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("nav", { className: "flex items-center justify-center gap-1", children: navLinks.map((link) => {
-      const isActive = pathname === link.to || link.to !== "/" && pathname.startsWith(link.to);
-      return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        Link,
-        {
-          to: link.to,
-          "data-ocid": `nav.${link.label.toLowerCase().replace(" ", "_")}_link`,
-          className: `relative px-5 py-3.5 text-sm font-medium tracking-wide transition-smooth ${isActive ? "text-gold" : "text-[#adc5b4] hover:text-gold"}`,
-          children: [
-            link.label,
-            isActive && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "absolute bottom-0 left-1/2 -translate-x-1/2 w-10 h-0.5 bg-gold rounded-full" })
-          ]
-        },
-        link.to
-      );
-    }) }) }) }),
-    menuOpen && /* @__PURE__ */ jsxRuntimeExports.jsx(
+  reactExports.useEffect(() => {
+    const handleScroll = () => setScrolled(window.scrollY > 50);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("header", { className: "sticky top-0 z-40", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
       "div",
       {
-        className: "md:hidden border-t border-[#2d5c3f]",
-        style: { backgroundColor: "#1f4530" },
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { className: "container mx-auto px-4 py-3 flex flex-col gap-1", children: [
-          navLinks.map((link) => {
-            const isActive = pathname === link.to || link.to !== "/" && pathname.startsWith(link.to);
-            return /* @__PURE__ */ jsxRuntimeExports.jsx(
+        className: "accent-bar overflow-hidden transition-all duration-500 ease-in-out",
+        style: {
+          maxHeight: scrolled ? "0" : "40px",
+          opacity: scrolled ? 0 : 1
+        },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "h-10 flex items-center justify-between px-6",
+            style: {
+              background: "linear-gradient(90deg, #b76e79 0%, #c4826a 40%, #d6b36a 100%)"
+            },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                "a",
+                {
+                  href: "tel:07081078910",
+                  "data-ocid": "nav.accentbar_phone",
+                  className: "flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-3 h-3" }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs tracking-widest uppercase font-medium", children: "070810 78910" })
+                  ]
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "span",
+                {
+                  className: "hidden sm:block text-white/60 text-xs tracking-[0.3em] uppercase",
+                  style: {
+                    fontFamily: "'Cormorant Garamond', serif",
+                    fontStyle: "italic"
+                  },
+                  children: "Luxury Beauty & Spa • Pondicherry"
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                "a",
+                {
+                  href: "https://wa.me/917081078910",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  "data-ocid": "nav.accentbar_whatsapp",
+                  className: "flex items-center gap-2 text-white/95 hover:text-white transition-colors duration-200",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-3 h-3" }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs tracking-widest uppercase font-medium", children: "WhatsApp" })
+                  ]
+                }
+              )
+            ]
+          }
+        )
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "nav",
+      {
+        className: `transition-all duration-400 ${scrolled ? "navbar-scrolled shadow-luxury" : "navbar-dark"}`,
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4 md:px-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between h-16 md:h-18", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
               Link,
               {
-                to: link.to,
-                onClick: () => setMenuOpen(false),
-                "data-ocid": `nav.mobile_${link.label.toLowerCase().replace(" ", "_")}_link`,
-                className: `block px-4 py-3 text-sm font-medium rounded transition-smooth ${isActive ? "text-gold border-l-2 border-gold pl-5" : "text-[#adc5b4] hover:text-gold"}`,
-                style: isActive ? { backgroundColor: "#255038" } : void 0,
-                onMouseEnter: (e) => {
-                  if (!isActive)
-                    e.currentTarget.style.backgroundColor = "#255038";
-                },
-                onMouseLeave: (e) => {
-                  if (!isActive)
-                    e.currentTarget.style.backgroundColor = "";
-                },
-                children: link.label
-              },
-              link.to
-            );
-          }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "pt-3 pb-2 border-t border-[#2d5c3f] mt-2 flex gap-4 px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "a",
+                to: "/",
+                "data-ocid": "nav.logo_link",
+                className: "flex-shrink-0 group",
+                children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "leading-none", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "span",
+                    {
+                      className: "navbar-logo-text block text-2xl md:text-[1.75rem] italic font-semibold tracking-wide",
+                      style: { fontFamily: "'Cormorant Garamond', serif" },
+                      children: "Magic Moon"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "span",
+                    {
+                      className: "block text-[0.6rem] tracking-[0.32em] uppercase mt-0.5",
+                      style: { color: "#d6b36a", opacity: 0.9 },
+                      children: "Beauty care & Spa"
+                    }
+                  )
+                ] })
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "nav",
+              {
+                className: "hidden md:flex items-center gap-0",
+                "aria-label": "Main navigation",
+                children: navLinks.map((link, index2) => {
+                  const isActive = pathname === link.to || link.to !== "/" && pathname.startsWith(link.to);
+                  return /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "flex items-center", children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                      Link,
+                      {
+                        to: link.to,
+                        "data-ocid": `nav.${link.label.toLowerCase().replace(" ", "_")}_link`,
+                        className: `nav-link relative px-4 py-2 text-sm font-medium tracking-wider uppercase transition-all duration-300 ${isActive ? "nav-link-active" : "nav-link-idle"}`,
+                        children: [
+                          link.label,
+                          isActive && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "nav-active-bar" })
+                        ]
+                      }
+                    ),
+                    index2 < navLinks.length - 1 && /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "nav-diamond", "aria-hidden": "true", children: "◆" })
+                  ] }, link.to);
+                })
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hidden md:flex items-center", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Link,
+              {
+                to: "/contact",
+                "data-ocid": "nav.book_button",
+                className: "book-now-btn",
+                children: "Book Now"
+              }
+            ) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                type: "button",
+                onClick: () => setMenuOpen(!menuOpen),
+                "data-ocid": "nav.mobile_menu_toggle",
+                className: "md:hidden flex items-center justify-center w-10 h-10 transition-smooth rounded-full",
+                style: { color: "#d6b36a" },
+                "aria-label": "Toggle menu",
+                "aria-expanded": menuOpen,
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "span",
+                  {
+                    className: "transition-all duration-300",
+                    style: {
+                      transform: menuOpen ? "rotate(90deg)" : "rotate(0deg)"
+                    },
+                    children: menuOpen ? /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-5 h-5" }) : /* @__PURE__ */ jsxRuntimeExports.jsx(Menu, { className: "w-5 h-5" })
+                  }
+                )
+              }
+            )
+          ] }) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
             {
-              href: "tel:7200245009",
-              className: "flex items-center gap-2 text-sm text-[#c8d8cc]",
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4 text-gold" }),
-                "72002 45009"
-              ]
+              className: "md:hidden overflow-hidden transition-all duration-400 ease-in-out",
+              style: { maxHeight: menuOpen ? "420px" : "0" },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "div",
+                {
+                  className: "border-t",
+                  style: {
+                    backgroundColor: "rgba(17,17,17,0.97)",
+                    backdropFilter: "blur(20px)",
+                    borderColor: "rgba(183,110,121,0.2)"
+                  },
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsxs("nav", { className: "container mx-auto px-6 py-4 flex flex-col gap-1", children: [
+                    navLinks.map((link) => {
+                      const isActive = pathname === link.to || link.to !== "/" && pathname.startsWith(link.to);
+                      return /* @__PURE__ */ jsxRuntimeExports.jsx(
+                        Link,
+                        {
+                          to: link.to,
+                          onClick: () => setMenuOpen(false),
+                          "data-ocid": `nav.mobile_${link.label.toLowerCase().replace(" ", "_")}_link`,
+                          className: "mobile-nav-link",
+                          style: {
+                            color: isActive ? "#b76e79" : "#c0b090",
+                            borderLeft: isActive ? "3px solid #b76e79" : "3px solid transparent",
+                            background: isActive ? "rgba(183,110,121,0.08)" : "transparent"
+                          },
+                          children: link.label
+                        },
+                        link.to
+                      );
+                    }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                      "div",
+                      {
+                        className: "flex items-center gap-5 pt-4 mt-2 border-t",
+                        style: { borderColor: "rgba(183,110,121,0.2)" },
+                        children: [
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                            "a",
+                            {
+                              href: "tel:07081078910",
+                              className: "flex items-center gap-2 text-sm",
+                              style: { color: "#d6b36a" },
+                              children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4", style: { color: "#b76e79" } }),
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "070810 78910" })
+                              ]
+                            }
+                          ),
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                            "a",
+                            {
+                              href: "https://wa.me/917081078910",
+                              target: "_blank",
+                              rel: "noopener noreferrer",
+                              className: "flex items-center gap-2 text-sm",
+                              style: { color: "#25D366" },
+                              children: [
+                                /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4" }),
+                                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "WhatsApp" })
+                              ]
+                            }
+                          )
+                        ]
+                      }
+                    ),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      Link,
+                      {
+                        to: "/contact",
+                        onClick: () => setMenuOpen(false),
+                        "data-ocid": "nav.mobile_book_button",
+                        className: "book-now-btn mt-3 text-center block",
+                        children: "Book Appointment"
+                      }
+                    )
+                  ] })
+                }
+              )
             }
-          ) })
-        ] })
+          )
+        ]
       }
     )
   ] });
@@ -24478,69 +24840,186 @@ function Layout({ children }) {
 }
 const whyChooseItems = [
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Award, { className: "w-8 h-8 text-gold" }),
-    title: "Certified Experts",
-    desc: "Our therapists are trained and certified in a wide range of massage and beauty techniques, ensuring professional-grade results every time."
+    icon: Award,
+    title: "Certified Professionals",
+    desc: "Our beauty experts hold certifications from recognized institutes, delivering safe, precise, and expert-level treatments every visit."
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Leaf, { className: "w-8 h-8 text-gold" }),
-    title: "Premium Products",
-    desc: "We exclusively use high-end, skin-safe products — from cold-pressed essential oils to gold-infused skincare formulations."
+    icon: Users,
+    title: "Experienced Beauticians",
+    desc: "Years of hands-on experience across hair, skin, and bridal makeup ensure flawless results tailored to every client's unique needs."
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Users, { className: "w-8 h-8 text-gold" }),
-    title: "Unisex Sanctuary",
-    desc: "A welcoming space for all — our spa caters to men, women, and brides with tailored treatments for every individual need."
+    icon: ShieldCheck,
+    title: "Hygienic Salon",
+    desc: "We follow strict sanitization protocols with sterilized tools and fresh linens for every session — your safety is our first priority."
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-8 h-8 text-gold" }),
-    title: "Punctual & Personal",
-    desc: "We respect your time. Every session starts on schedule, and every treatment is personalized to your preferences and health needs."
+    icon: Sparkles,
+    title: "Luxury Interiors",
+    desc: "Step into an ambience of opulence — rose gold accents, plush seating, and calming aromatherapy create a truly immersive luxury feel."
+  },
+  {
+    icon: Heart,
+    title: "Relaxing Atmosphere",
+    desc: "From the moment you enter, soft lighting, soothing music, and our warm hospitality ensure you feel completely at ease."
+  },
+  {
+    icon: DollarSign,
+    title: "Affordable Pricing",
+    desc: "Premium beauty and spa experiences shouldn't break the bank. Our transparent pricing ensures luxury is accessible to everyone."
+  }
+];
+const teamMembers = [
+  {
+    name: "Kavya R.",
+    role: "Senior Beauty Expert & Makeup Artist",
+    bio: "With 8+ years transforming faces for weddings, events, and editorial shoots, Kavya brings artistry and precision to every look — from subtle glam to dramatic bridal beauty.",
+    image: "/assets/generated/team-kavya.dim_400x500.jpg"
+  },
+  {
+    name: "Preethi M.",
+    role: "Head Hair Stylist & Colorist",
+    bio: "Trained in advanced coloring techniques, Preethi creates stunning hair transformations — balayage, keratin, bridal styling, and bespoke cuts that frame your face perfectly.",
+    image: "/assets/generated/team-preethi.dim_400x500.jpg"
+  },
+  {
+    name: "Lakshmi D.",
+    role: "Certified Massage Therapist & Spa Expert",
+    bio: "A certified specialist in Swedish, deep tissue, and aromatherapy massages, Lakshmi brings a healing touch that leaves guests feeling deeply restored and refreshed.",
+    image: "/assets/generated/team-lakshmi.dim_400x500.jpg"
   }
 ];
 const testimonials = [
   {
-    name: "Priya Krishnamurthy",
-    role: "Bride, Dec 2024",
-    quote: "My bridal package at ASP Spa was absolutely divine. The team made me feel like royalty. My skin was glowing on my wedding day!",
+    name: "Meena S.",
+    quote: "Absolutely the best beauty experience in Pondicherry! The ambience is stunning, the staff incredibly professional, and my facial left my skin glowing for weeks.",
     stars: 5
   },
   {
-    name: "Ramesh Iyer",
-    role: "Regular Client",
-    quote: "Best deep tissue massage in Pondicherry, hands down. I come here every month and the quality is consistently excellent.",
+    name: "Rathi P.",
+    quote: "The team is so professional and the ambience is truly luxurious. I came for a hair spa and left feeling like royalty. Magic Moon is my go-to salon now!",
     stars: 5
   },
   {
-    name: "Sunita Mehra",
-    role: "Spa Enthusiast",
-    quote: "The ambiance is gorgeous — very premium. The facial I got left my skin so smooth and bright. Will definitely be back!",
+    name: "Sneha V.",
+    quote: "My bridal makeup was absolutely flawless. Thank you Magic Moon! Kavya understood exactly what I wanted and exceeded every expectation. Perfect day!",
     stars: 5
   }
 ];
+const stats = [
+  { value: 500, suffix: "+", label: "Happy Clients" },
+  { value: 10, suffix: "+", label: "Premium Services" },
+  { value: 5, suffix: "+", label: "Years of Excellence" },
+  { value: 4.9, suffix: "/5", label: "Rating" }
+];
+function useCountUp(target, duration = 2e3, start = false) {
+  const [count, setCount] = reactExports.useState(0);
+  reactExports.useEffect(() => {
+    if (!start) return;
+    const isDecimal = target % 1 !== 0;
+    const startTime = performance.now();
+    const step = (now2) => {
+      const progress = Math.min((now2 - startTime) / duration, 1);
+      const eased = 1 - (1 - progress) ** 3;
+      const current = eased * target;
+      setCount(isDecimal ? Math.round(current * 10) / 10 : Math.floor(current));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [start, target, duration]);
+  return count;
+}
+function StatCounter({
+  value,
+  suffix: suffix2,
+  label
+}) {
+  const ref = reactExports.useRef(null);
+  const [started, setStarted] = reactExports.useState(false);
+  const count = useCountUp(value, 2e3, started);
+  reactExports.useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) setStarted(true);
+      },
+      { threshold: 0.5 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { ref, className: "text-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "font-display text-5xl font-light text-white", children: [
+      count,
+      suffix2
+    ] }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "p",
+      {
+        className: "text-sm uppercase tracking-widest mt-2",
+        style: { color: "#f7e7e3" },
+        children: label
+      }
+    )
+  ] });
+}
 function About() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "section",
       {
         "data-ocid": "about.header_section",
-        className: "relative py-24 flex items-center justify-center overflow-hidden",
+        className: "relative h-80 flex flex-col items-center justify-center overflow-hidden",
         style: {
-          backgroundImage: "url('/assets/generated/gallery-5.dim_600x400.jpg')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1600&h=600')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         },
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[#1a3a2a]/80" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-0",
+              style: {
+                background: "linear-gradient(to bottom, rgba(17,17,17,0.75) 0%, rgba(17,17,17,0.85) 100%)"
+              }
+            }
+          ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-gold mb-3", children: "Our Story" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-5xl md:text-6xl font-light text-[#faf7f0]", children: "About ASP Spa" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mt-5" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-2 mt-5 text-sm text-[#c8d8c4]", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "hover:text-gold transition-smooth", children: "Home" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4 text-[#8aaa92]" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "About" })
-            ] })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "h1",
+              {
+                className: "font-display text-6xl md:text-7xl font-light mb-4",
+                style: {
+                  background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 50%, #b76e79 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text"
+                },
+                children: "About Us"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
+              {
+                className: "flex items-center justify-center gap-2 text-sm",
+                style: { color: "#f7e7e3" },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(House, { className: "w-4 h-4" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    Link,
+                    {
+                      to: "/",
+                      className: "hover:text-[#b76e79] transition-colors duration-200",
+                      style: { color: "#f7e7e3" },
+                      children: "Home"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4", style: { color: "#b76e79" } }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#d6b36a" }, children: "About" })
+                ]
+              }
+            )
           ] })
         ]
       }
@@ -24549,119 +25028,194 @@ function About() {
       "section",
       {
         "data-ocid": "about.story_section",
-        className: "py-20",
-        style: { backgroundColor: "#faf7f0" },
-        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-14 items-center", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Who We Are" }),
+        className: "py-24",
+        style: { backgroundColor: "#111111" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 gap-4", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "col-span-2 rounded-xl overflow-hidden",
+                style: { height: "280px" },
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "img",
+                  {
+                    src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&h=400",
+                    alt: "Luxury beauty salon interior",
+                    className: "w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  }
+                )
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "rounded-xl overflow-hidden",
+                style: { height: "200px" },
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "img",
+                  {
+                    src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=400&h=400",
+                    alt: "Premium spa beauty treatment",
+                    className: "w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  }
+                )
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "rounded-xl overflow-hidden",
+                style: { height: "200px" },
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "img",
+                  {
+                    src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=400&h=400",
+                    alt: "Relaxing spa ambience",
+                    className: "w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                  }
+                )
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                className: "text-xs uppercase tracking-[0.3em] mb-3",
+                style: { color: "#d6b36a" },
+                children: "Our Story"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
               "h2",
               {
-                className: "font-display text-4xl font-light mb-5 leading-snug",
-                style: { color: "#1a3a2a" },
-                children: "Pondicherry's Premier Luxury Spa & Bridal Studio"
+                className: "font-display text-4xl md:text-5xl font-light mb-5 leading-tight",
+                style: { color: "#ffffff" },
+                children: [
+                  "Welcome to",
+                  " ",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "span",
+                    {
+                      style: {
+                        background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                        WebkitBackgroundClip: "text",
+                        WebkitTextFillColor: "transparent",
+                        backgroundClip: "text"
+                      },
+                      children: "Magic Moon"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                  "Beauty care & Spa"
+                ]
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-20 mb-6" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "w-20 h-0.5 mb-6",
+                style: {
+                  background: "linear-gradient(to right, #b76e79, #d6b36a)"
+                }
+              }
+            ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "p",
               {
                 className: "text-sm leading-relaxed mb-4",
-                style: { color: "#4a6b52" },
-                children: "Founded with a passion for holistic wellness, ASP Spa has quickly become Pondicherry's most trusted destination for premium spa and beauty services. Located in the heart of MG Road Area, our sanctuary is designed to transport you away from the bustle of daily life."
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "p",
-              {
-                className: "text-sm leading-relaxed mb-4",
-                style: { color: "#4a6b52" },
-                children: "Our carefully curated treatments draw from both Ayurvedic traditions and contemporary European spa techniques. Each session is thoughtfully designed to restore physical vitality, emotional calm, and radiant confidence."
+                style: { color: "#c0a8a0" },
+                children: "Nestled in the heart of Pondicherry, Magic Moon Beauty care & Spa is your premier luxury destination for beauty, wellness, and complete transformation. We blend world-class treatments with a warm, personalised approach that makes every visit a truly indulgent experience."
               }
             ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "p",
               {
                 className: "text-sm leading-relaxed mb-8",
-                style: { color: "#4a6b52" },
-                children: "Whether you're preparing for your wedding, recovering from a demanding week, or simply treating yourself to some well-deserved self-care — ASP Spa is your personal haven of luxury in Pondicherry."
+                style: { color: "#c0a8a0" },
+                children: "From signature hair treatments and bridal makeup to rejuvenating facials and soothing body therapies — our certified experts use only the finest products to deliver results that exceed expectations."
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex gap-10 mb-8", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-4xl font-light text-gold", children: "500+" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "p",
-                  {
-                    className: "text-xs uppercase tracking-wider mt-1",
-                    style: { color: "#4a6b52" },
-                    children: "Happy Clients"
-                  }
-                )
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-4xl font-light text-gold", children: "9+" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "p",
-                  {
-                    className: "text-xs uppercase tracking-wider mt-1",
-                    style: { color: "#4a6b52" },
-                    children: "Expert Services"
-                  }
-                )
-              ] }),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-4xl font-light text-gold", children: "3+" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "p",
-                  {
-                    className: "text-xs uppercase tracking-wider mt-1",
-                    style: { color: "#4a6b52" },
-                    children: "Years Experience"
-                  }
-                )
-              ] })
-            ] }),
             /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              Link,
+              "div",
               {
-                to: "/contact",
-                "data-ocid": "about.book_button",
-                className: "inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] px-7 py-3.5 rounded transition-smooth font-semibold text-sm shadow-gold",
+                className: "rounded-xl p-5 mb-5 border",
+                style: {
+                  backgroundColor: "#1a1a1a",
+                  borderColor: "rgba(183,110,121,0.25)"
+                },
                 children: [
-                  "Book a Session ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-xs uppercase tracking-widest mb-2",
+                      style: { color: "#b76e79" },
+                      children: "Our Mission"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-sm leading-relaxed",
+                      style: { color: "#c0a8a0" },
+                      children: "To provide an unparalleled luxury beauty & spa experience that rejuvenates the mind, body, and soul — combining expert craftsmanship, premium products, and heartfelt hospitality."
+                    }
+                  )
                 ]
               }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-item aspect-[4/3]", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
               {
-                src: "/assets/generated/gallery-1.dim_600x400.jpg",
-                alt: "Spa interior",
-                className: "w-full h-full object-cover"
+                className: "rounded-xl p-5 mb-8 border",
+                style: {
+                  backgroundColor: "#1a1a1a",
+                  borderColor: "rgba(214,179,106,0.25)"
+                },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-xs uppercase tracking-widest mb-2",
+                      style: { color: "#d6b36a" },
+                      children: "Our Vision"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-sm leading-relaxed",
+                      style: { color: "#c0a8a0" },
+                      children: "To be Pondicherry's most trusted and loved beauty destination — a place where every client leaves feeling more confident, beautiful, and deeply relaxed."
+                    }
+                  )
+                ]
               }
-            ) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 gap-4", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-item aspect-square", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-4 gap-4", children: [
+              { val: "500+", label: "Clients" },
+              { val: "10+", label: "Services" },
+              { val: "5+", label: "Years" },
+              { val: "4.9", label: "Rating" }
+            ].map((s) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "p",
                 {
-                  src: "/assets/generated/gallery-4.dim_600x400.jpg",
-                  alt: "Hot stone massage",
-                  className: "w-full h-full object-cover"
+                  className: "font-display text-3xl font-light",
+                  style: { color: "#d6b36a" },
+                  children: s.val
                 }
-              ) }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-item aspect-square", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "p",
                 {
-                  src: "/assets/generated/gallery-3.dim_600x400.jpg",
-                  alt: "Facial treatment",
-                  className: "w-full h-full object-cover"
+                  className: "text-xs uppercase tracking-wider mt-1",
+                  style: { color: "#c0a8a0" },
+                  children: s.label
                 }
-              ) })
-            ] })
+              )
+            ] }, s.label)) })
           ] })
         ] }) })
       }
@@ -24670,49 +25224,200 @@ function About() {
       "section",
       {
         "data-ocid": "about.why_choose_section",
-        className: "py-20 section-alt",
+        className: "py-24",
+        style: { backgroundColor: "#0d0d0d" },
         children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Our Promise" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", style: { color: "#1a3a2a" }, children: "Why Choose ASP Spa" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle text-sm", style: { color: "#4a6b52" }, children: "We go beyond pampering — every visit is a commitment to your well-being, comfort, and radiant transformation." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto", children: whyChooseItems.map((item, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-center text-xs uppercase tracking-[0.3em] mb-3",
+              style: { color: "#d6b36a" },
+              children: "Our Promise"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h2",
+            {
+              className: "font-display text-4xl md:text-5xl font-light text-center mb-4",
+              style: { color: "#ffffff" },
+              children: "Why Choose Us"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
             {
-              "data-ocid": `about.why_choose_card.${idx + 1}`,
-              className: "border rounded-lg p-7 text-center transition-smooth hover:shadow-luxury hover:-translate-y-1 hover:border-gold",
+              className: "w-24 h-0.5 mx-auto mb-12",
               style: {
-                backgroundColor: "#faf7f0",
-                borderColor: "rgba(212, 175, 55, 0.25)"
+                background: "linear-gradient(to right, #b76e79, #d6b36a)"
+              }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto", children: whyChooseItems.map((item, idx) => {
+            const IconEl = item.icon;
+            return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
+              {
+                "data-ocid": `about.why_choose_card.${idx + 1}`,
+                className: "group rounded-2xl p-8 border transition-all duration-300 hover:-translate-y-1",
+                style: {
+                  background: "rgba(255,255,255,0.03)",
+                  backdropFilter: "blur(12px)",
+                  borderColor: "rgba(183,110,121,0.18)",
+                  boxShadow: "0 4px 24px rgba(0,0,0,0.3)"
+                },
+                onMouseEnter: (e) => {
+                  e.currentTarget.style.borderColor = "rgba(183,110,121,0.6)";
+                  e.currentTarget.style.boxShadow = "0 8px 40px rgba(183,110,121,0.15)";
+                },
+                onMouseLeave: (e) => {
+                  e.currentTarget.style.borderColor = "rgba(183,110,121,0.18)";
+                  e.currentTarget.style.boxShadow = "0 4px 24px rgba(0,0,0,0.3)";
+                },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "div",
+                    {
+                      className: "w-14 h-14 rounded-full flex items-center justify-center mb-5",
+                      style: {
+                        background: "linear-gradient(135deg, rgba(183,110,121,0.2), rgba(214,179,106,0.2))",
+                        border: "1px solid rgba(183,110,121,0.3)"
+                      },
+                      children: /* @__PURE__ */ jsxRuntimeExports.jsx(IconEl, { className: "w-6 h-6", style: { color: "#b76e79" } })
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "h3",
+                    {
+                      className: "font-display text-xl font-light mb-3",
+                      style: { color: "#d6b36a" },
+                      children: item.title
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-sm leading-relaxed",
+                      style: { color: "#c0a8a0" },
+                      children: item.desc
+                    }
+                  )
+                ]
+              },
+              item.title
+            );
+          }) })
+        ] })
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "about.team_section",
+        className: "py-24",
+        style: { backgroundColor: "#111111" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-center text-xs uppercase tracking-[0.3em] mb-3",
+              style: { color: "#d6b36a" },
+              children: "The Experts"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h2",
+            {
+              className: "font-display text-4xl md:text-5xl font-light text-center mb-4",
+              style: { color: "#ffffff" },
+              children: "Meet Our Experts"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "w-24 h-0.5 mx-auto mb-12",
+              style: {
+                background: "linear-gradient(to right, #b76e79, #d6b36a)"
+              }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto", children: teamMembers.map((member, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              "data-ocid": `about.team_card.${idx + 1}`,
+              className: "group rounded-2xl overflow-hidden border transition-all duration-300 hover:-translate-y-2",
+              style: {
+                background: "rgba(255,255,255,0.03)",
+                backdropFilter: "blur(12px)",
+                borderColor: "rgba(183,110,121,0.18)",
+                boxShadow: "0 4px 24px rgba(0,0,0,0.4)"
+              },
+              onMouseEnter: (e) => {
+                e.currentTarget.style.borderColor = "rgba(183,110,121,0.6)";
+                e.currentTarget.style.boxShadow = "0 12px 48px rgba(183,110,121,0.2)";
+              },
+              onMouseLeave: (e) => {
+                e.currentTarget.style.borderColor = "rgba(183,110,121,0.18)";
+                e.currentTarget.style.boxShadow = "0 4px 24px rgba(0,0,0,0.4)";
               },
               children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center pt-8 pb-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
                   "div",
                   {
-                    className: "w-16 h-16 rounded-full border border-gold/40 flex items-center justify-center",
-                    style: { backgroundColor: "#1a3a2a" },
-                    children: item.icon
+                    className: "w-32 h-32 rounded-full overflow-hidden",
+                    style: {
+                      border: "3px solid",
+                      borderColor: "#b76e79",
+                      boxShadow: "0 0 0 4px rgba(183,110,121,0.15)"
+                    },
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "img",
+                      {
+                        src: member.image,
+                        alt: member.name,
+                        className: "w-full h-full object-cover object-top"
+                      }
+                    )
                   }
                 ) }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "h3",
-                  {
-                    className: "font-display text-xl font-light mb-3",
-                    style: { color: "#1a3a2a" },
-                    children: item.title
-                  }
-                ),
-                /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "p",
-                  {
-                    className: "text-sm leading-relaxed",
-                    style: { color: "#4a6b52" },
-                    children: item.desc
-                  }
-                )
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "px-7 pb-8 text-center", children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "h3",
+                    {
+                      className: "font-display text-2xl font-light mb-1",
+                      style: { color: "#ffffff" },
+                      children: member.name
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-xs uppercase tracking-wider mb-4",
+                      style: { color: "#d6b36a" },
+                      children: member.role
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "div",
+                    {
+                      className: "w-10 h-0.5 mx-auto mb-4",
+                      style: {
+                        background: "linear-gradient(to right, #b76e79, #d6b36a)"
+                      }
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "p",
+                    {
+                      className: "text-sm leading-relaxed",
+                      style: { color: "#c0a8a0" },
+                      children: member.bio
+                    }
+                  )
+                ] })
               ]
             },
-            item.title
+            member.name
           )) })
         ] })
       }
@@ -24721,54 +25426,70 @@ function About() {
       "section",
       {
         "data-ocid": "about.testimonials_section",
-        className: "py-20",
-        style: { backgroundColor: "#1a3a2a" },
+        className: "py-24",
+        style: { backgroundColor: "#0d0d0d" },
         children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Client Stories" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "h2",
-            {
-              className: "font-display text-4xl font-light tracking-wide text-center mb-3",
-              style: { color: "#faf7f0" },
-              children: "What Our Clients Say"
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "p",
             {
-              className: "text-center text-sm max-w-xl mx-auto mb-12",
-              style: { color: "#a8c5b0" },
-              children: "Real experiences from our valued guests who trust ASP Spa for their wellness journey."
+              className: "text-center text-xs uppercase tracking-[0.3em] mb-3",
+              style: { color: "#d6b36a" },
+              children: "Client Stories"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h2",
+            {
+              className: "font-display text-4xl md:text-5xl font-light text-center mb-4",
+              style: { color: "#ffffff" },
+              children: "Client Testimonials"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "w-24 h-0.5 mx-auto mb-12",
+              style: {
+                background: "linear-gradient(to right, #b76e79, #d6b36a)"
+              }
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto", children: testimonials.map((t, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
             "div",
             {
               "data-ocid": `about.testimonial.${idx + 1}`,
-              className: "rounded-xl p-8 shadow-luxury relative border",
+              className: "rounded-2xl p-8 relative border",
               style: {
-                backgroundColor: "#1f4530",
-                borderColor: "rgba(212, 175, 55, 0.2)"
+                background: "rgba(255,255,255,0.03)",
+                backdropFilter: "blur(12px)",
+                borderColor: "rgba(214,179,106,0.2)",
+                boxShadow: "0 4px 24px rgba(0,0,0,0.3)"
               },
               children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display text-6xl text-gold/30 leading-none absolute top-4 right-6", children: '"' }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex mb-4 gap-0.5", children: Array.from({ length: t.stars }).map((_, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Quote,
+                  {
+                    className: "w-8 h-8 absolute top-5 right-5 opacity-30",
+                    style: { color: "#b76e79" }
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex gap-1 mb-5", children: Array.from({ length: t.stars }).map((_, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
                   Star,
                   {
-                    className: "w-4 h-4 fill-gold text-gold"
+                    className: "w-4 h-4",
+                    style: { color: "#d6b36a", fill: "#d6b36a" }
                   },
                   `star-${t.name}-${i}`
                 )) }),
                 /* @__PURE__ */ jsxRuntimeExports.jsxs(
                   "p",
                   {
-                    className: "text-sm leading-relaxed mb-6 italic",
-                    style: { color: "#c8d8c4" },
+                    className: "text-sm leading-relaxed italic mb-6",
+                    style: { color: "#c0a8a0" },
                     children: [
-                      '"',
+                      "“",
                       t.quote,
-                      '"'
+                      "”"
                     ]
                   }
                 ),
@@ -24776,22 +25497,25 @@ function About() {
                   /* @__PURE__ */ jsxRuntimeExports.jsx(
                     "div",
                     {
-                      className: "w-10 h-10 rounded-full flex items-center justify-center text-gold font-display text-lg border border-gold/30",
-                      style: { backgroundColor: "rgba(212, 175, 55, 0.15)" },
+                      className: "w-10 h-10 rounded-full flex items-center justify-center font-display text-lg",
+                      style: {
+                        background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                        color: "#111111"
+                      },
                       children: t.name[0]
                     }
                   ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "p",
-                      {
-                        className: "font-medium text-sm",
-                        style: { color: "#faf7f0" },
-                        children: t.name
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs", style: { color: "#8aaa92" }, children: t.role })
-                  ] })
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                    "p",
+                    {
+                      className: "font-medium text-sm",
+                      style: { color: "#ffffff" },
+                      children: [
+                        "— ",
+                        t.name
+                      ]
+                    }
+                  )
                 ] })
               ]
             },
@@ -24799,49 +25523,204 @@ function About() {
           )) })
         ] })
       }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "about.stats_section",
+        className: "py-20",
+        style: {
+          background: "linear-gradient(135deg, #b76e79 0%, #9e5a64 30%, #c4904a 70%, #d6b36a 100%)"
+        },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-4 gap-10 max-w-4xl mx-auto", children: stats.map((stat) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+          StatCounter,
+          {
+            value: stat.value,
+            suffix: stat.suffix,
+            label: stat.label
+          },
+          stat.label
+        )) }) })
+      }
     )
   ] });
 }
-const FIELD_STYLE = {
-  backgroundColor: "#fff",
-  border: "1px solid #c8d8c0",
-  color: "#1a3a2a"
-};
-function setFocusBorder(el) {
-  el.style.borderColor = "#d4af37";
+function focusRoseGold(el) {
+  el.style.borderColor = "#b76e79";
+  el.style.boxShadow = "0 0 0 2px rgba(183,110,121,0.18)";
 }
-function setBlurBorder(el) {
-  el.style.borderColor = "#c8d8c0";
+function blurReset(el) {
+  el.style.borderColor = "rgba(183,110,121,0.25)";
+  el.style.boxShadow = "none";
+}
+const FIELD_STYLE = {
+  backgroundColor: "#1a1a1a",
+  border: "1px solid rgba(183,110,121,0.25)",
+  color: "#ffffff",
+  borderRadius: "6px",
+  transition: "border-color 0.2s, box-shadow 0.2s"
+};
+function ContactCard({
+  icon,
+  iconBg,
+  title,
+  children,
+  href,
+  ocid
+}) {
+  const inner = /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": ocid,
+      className: "flex items-start gap-4 p-5 rounded-xl transition-all duration-300",
+      style: {
+        backgroundColor: "#1a1a1a",
+        border: "1px solid rgba(183,110,121,0.2)",
+        backdropFilter: "blur(8px)"
+      },
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0",
+            style: { background: iconBg },
+            children: icon
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "min-w-0", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-xs uppercase tracking-widest mb-1 font-medium",
+              style: { color: "#d6b36a" },
+              children: title
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { style: { color: "#cccccc" }, className: "text-sm leading-relaxed", children })
+        ] })
+      ]
+    }
+  );
+  if (href) {
+    return /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "a",
+      {
+        href,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        className: "block hover:scale-[1.01] transition-transform duration-200",
+        children: inner
+      }
+    );
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "hover:scale-[1.01] transition-transform duration-200", children: inner });
+}
+function CTAButton({ href, ocid, gradient, children }) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "a",
+    {
+      href,
+      "data-ocid": ocid,
+      target: "_blank",
+      rel: "noopener noreferrer",
+      className: "flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-lg text-sm font-medium text-white transition-all duration-300 hover:scale-105 hover:shadow-lg",
+      style: { background: gradient },
+      children
+    }
+  );
 }
 function Contact() {
   const [submitted, setSubmitted] = reactExports.useState(false);
+  reactExports.useEffect(() => {
+    document.title = "Contact | Magic Moon Beauty care & Spa — Best Salon & Spa Pondicherry";
+  }, []);
   function handleSubmit(e) {
     e.preventDefault();
     setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 5e3);
+    setTimeout(() => {
+      setSubmitted(false);
+    }, 6e3);
   }
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "section",
       {
         "data-ocid": "contact.header_section",
-        className: "relative py-24 flex items-center justify-center overflow-hidden",
+        className: "relative h-80 flex items-center justify-center overflow-hidden",
         style: {
-          backgroundImage: "url('/assets/generated/gallery-5.dim_600x400.jpg')",
+          backgroundImage: "url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&h=500&q=80')",
           backgroundSize: "cover",
           backgroundPosition: "center"
         },
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[#1a3a2a]/75" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-0",
+              style: { background: "rgba(17,17,17,0.72)" }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-x-0 bottom-0 h-1/2",
+              style: {
+                background: "linear-gradient(to top, rgba(183,110,121,0.12), transparent)"
+              }
+            }
+          ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-gold mb-3", children: "Get in Touch" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-5xl md:text-6xl font-light text-[#faf7f0]", children: "Contact Us" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mt-5" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-2 mt-5 text-sm text-[#c8d8c0]", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "hover:text-gold transition-smooth", children: "Home" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4 text-[#6a9a7a]" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "Contact" })
-            ] })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                className: "text-xs uppercase tracking-[0.3em] mb-3 font-medium",
+                style: { color: "#d6b36a" },
+                children: "Get in Touch"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "h1",
+              {
+                className: "font-display text-5xl md:text-6xl font-light",
+                style: {
+                  background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text"
+                },
+                children: "Contact Us"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "w-24 h-px mx-auto mt-5 mb-5",
+                style: {
+                  background: "linear-gradient(90deg, transparent, #b76e79, #d6b36a, transparent)"
+                }
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "nav",
+              {
+                className: "flex items-center justify-center gap-2 text-sm",
+                "aria-label": "Breadcrumb",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    Link,
+                    {
+                      to: "/",
+                      "data-ocid": "contact.home_link",
+                      className: "transition-colors duration-200 hover:text-white",
+                      style: { color: "#999999" },
+                      children: "Home"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4", style: { color: "#b76e79" } }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#d6b36a" }, children: "Contact" })
+                ]
+              }
+            )
           ] })
         ]
       }
@@ -24851,268 +25730,173 @@ function Contact() {
       {
         "data-ocid": "contact.main_section",
         className: "py-20",
-        style: { backgroundColor: "#faf7f0" },
+        style: { backgroundColor: "#111111" },
         children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Find Us" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "h2",
+              "p",
               {
-                className: "font-display text-4xl font-light mb-5 leading-snug",
-                style: { color: "#1a3a2a" },
-                children: "Visit ASP Spa in Pondicherry"
+                className: "text-xs uppercase tracking-[0.25em] mb-3 font-medium",
+                style: { color: "#d6b36a" },
+                children: "Find Us"
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-20 mb-8" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-5 mb-8", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl font-light mb-4 leading-snug text-white", children: "Magic Moon Beauty care & Spa" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "w-20 h-px mb-8",
+                style: {
+                  background: "linear-gradient(90deg, #b76e79, #d6b36a)"
+                }
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4 mb-8", children: [
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "div",
+                ContactCard,
                 {
-                  "data-ocid": "contact.address_card",
-                  className: "flex items-start gap-4 p-5 rounded-lg",
-                  style: {
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740"
-                  },
+                  ocid: "contact.address_card",
+                  icon: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-white" }),
+                  iconBg: "linear-gradient(135deg, #b76e79, #9e5a64)",
+                  title: "Our Address",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "div",
-                      {
-                        className: "w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0",
-                        style: {
-                          backgroundColor: "#1a3a2a",
-                          border: "1px solid #d4af3760"
-                        },
-                        children: /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-5 h-5 text-gold" })
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "p",
-                        {
-                          className: "font-medium text-sm mb-1",
-                          style: { color: "#1a3a2a" },
-                          children: "Our Address"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                        "p",
-                        {
-                          className: "text-sm leading-relaxed",
-                          style: { color: "#4a6a58" },
-                          children: [
-                            "1st Floor, 155, Needarajapaiyer St,",
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                            "MG Road Area, Puducherry 605001,",
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
-                            "Tamil Nadu, India"
-                          ]
-                        }
-                      )
-                    ] })
+                    "No 182, 1st Floor, Chetty St,",
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    "Puducherry – 605001,",
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    "Tamil Nadu, India"
                   ]
                 }
               ),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "div",
+                ContactCard,
                 {
-                  "data-ocid": "contact.phone_card",
-                  className: "flex items-center gap-4 p-5 rounded-lg",
-                  style: {
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740"
-                  },
+                  ocid: "contact.phone_card",
+                  href: "tel:07081078910",
+                  icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-5 h-5 text-white" }),
+                  iconBg: "linear-gradient(135deg, #d6b36a, #b89040)",
+                  title: "Phone / Call Us",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "div",
-                      {
-                        className: "w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0",
-                        style: {
-                          backgroundColor: "#1a3a2a",
-                          border: "1px solid #d4af3760"
-                        },
-                        children: /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-5 h-5 text-gold" })
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "p",
-                        {
-                          className: "font-medium text-sm mb-1",
-                          style: { color: "#1a3a2a" },
-                          children: "Phone / Call Us"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "a",
-                        {
-                          href: "tel:7200245009",
-                          className: "text-sm transition-smooth hover:text-gold",
-                          style: { color: "#4a6a58" },
-                          children: "72002 45009"
-                        }
-                      )
-                    ] })
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "font-semibold", style: { color: "#d6b36a" }, children: "070810 78910" }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs", style: { color: "#888888" }, children: "Tap to call us directly" })
                   ]
                 }
               ),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "a",
+                ContactCard,
                 {
-                  href: "https://wa.me/917200245009",
-                  target: "_blank",
-                  rel: "noopener noreferrer",
-                  "data-ocid": "contact.whatsapp_card",
-                  className: "flex items-center gap-4 p-5 rounded-lg transition-smooth",
-                  style: {
-                    backgroundColor: "#fff",
-                    border: "1px solid #25D36640"
-                  },
-                  onMouseEnter: (e) => {
-                    e.currentTarget.style.borderColor = "#25D36680";
-                    e.currentTarget.style.backgroundColor = "#f0fdf4";
-                  },
-                  onMouseLeave: (e) => {
-                    e.currentTarget.style.borderColor = "#25D36640";
-                    e.currentTarget.style.backgroundColor = "#fff";
-                  },
+                  ocid: "contact.whatsapp_card",
+                  href: "https://wa.me/917081078910",
+                  icon: /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { className: "w-5 h-5 text-white" }),
+                  iconBg: "linear-gradient(135deg, #25D366, #1da050)",
+                  title: "WhatsApp Chat",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0 bg-[#25D366]/15 border border-[#25D366]/30", children: /* @__PURE__ */ jsxRuntimeExports.jsx(SiWhatsapp, { className: "w-5 h-5 text-[#25D366]" }) }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "p",
-                        {
-                          className: "font-medium text-sm mb-1",
-                          style: { color: "#1a3a2a" },
-                          children: "WhatsApp Enquiry"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm", style: { color: "#4a6a58" }, children: [
-                        "Chat with us:",
-                        " ",
-                        /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[#25D366]", children: "+91 72002 45009" })
-                      ] })
-                    ] })
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#25D366" }, className: "font-medium", children: "Chat on WhatsApp" }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs", style: { color: "#888888" }, children: "+91 70810 78910" })
                   ]
                 }
               ),
               /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "div",
+                ContactCard,
                 {
-                  "data-ocid": "contact.hours_card",
-                  className: "flex items-center gap-4 p-5 rounded-lg",
-                  style: {
-                    backgroundColor: "#fff",
-                    border: "1px solid #d4af3740"
-                  },
+                  ocid: "contact.hours_card",
+                  icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-5 h-5 text-white" }),
+                  iconBg: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                  title: "Business Hours",
                   children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "div",
-                      {
-                        className: "w-12 h-12 rounded-full flex items-center justify-center flex-shrink-0",
-                        style: {
-                          backgroundColor: "#1a3a2a",
-                          border: "1px solid #d4af3760"
-                        },
-                        children: /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-5 h-5 text-gold" })
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "p",
-                        {
-                          className: "font-medium text-sm mb-1",
-                          style: { color: "#1a3a2a" },
-                          children: "Opening Hours"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm", style: { color: "#4a6a58" }, children: "Mon – Sat: 9:00 AM – 9:00 PM" }),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm", style: { color: "#4a6a58" }, children: "Sunday: 10:00 AM – 6:00 PM" })
-                    ] })
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Mon – Sat: 9:00 AM – 8:00 PM" }),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: "Sunday: 10:00 AM – 6:00 PM" })
                   ]
                 }
               )
             ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "div",
-              {
-                "data-ocid": "contact.map",
-                className: "rounded-xl overflow-hidden shadow-luxury",
-                style: { border: "1px solid #d4af3730" },
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "div",
-                    {
-                      className: "px-5 py-3 flex items-center gap-2",
-                      style: { backgroundColor: "#1a3a2a" },
-                      children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4 text-gold" }),
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(
-                          "span",
-                          {
-                            className: "text-xs uppercase tracking-widest font-medium",
-                            style: { color: "#d4af37" },
-                            children: "Our Location"
-                          }
-                        )
-                      ]
-                    }
-                  ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "iframe",
-                    {
-                      title: "ASP Spa Location Map",
-                      src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3914.823!2d79.83198!3d11.93404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361e8e24e66bf%3A0x0!2zMTHCsDU2JzAyLjQiTiA3OcKwNDknNTUuMiJF!5e0!3m2!1sen!2sin!4v1700000000000",
-                      width: "100%",
-                      height: "260",
-                      style: { border: 0, display: "block" },
-                      allowFullScreen: true,
-                      loading: "lazy",
-                      referrerPolicy: "no-referrer-when-downgrade"
-                    }
-                  )
-                ]
-              }
-            )
+            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-wrap gap-3", children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                CTAButton,
+                {
+                  href: "tel:07081078910",
+                  ocid: "contact.call_button",
+                  gradient: "linear-gradient(135deg, #b76e79, #9e5a64)",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4" }),
+                    "Click to Call"
+                  ]
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                CTAButton,
+                {
+                  href: "https://wa.me/917081078910",
+                  ocid: "contact.whatsapp_button",
+                  gradient: "linear-gradient(135deg, #25D366, #1da050)",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4" }),
+                    "WhatsApp Chat"
+                  ]
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs(
+                CTAButton,
+                {
+                  href: "https://maps.google.com/?q=No+182+Chetty+St+Puducherry+605001",
+                  ocid: "contact.directions_button",
+                  gradient: "linear-gradient(135deg, #d6b36a, #b89040)",
+                  children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(ExternalLink, { className: "w-4 h-4" }),
+                    "Get Directions"
+                  ]
+                }
+              )
+            ] })
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Send a Message" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "h2",
+              "p",
               {
-                className: "font-display text-4xl font-light mb-5",
-                style: { color: "#1a3a2a" },
-                children: "Book an Appointment"
+                className: "text-xs uppercase tracking-[0.25em] mb-3 font-medium",
+                style: { color: "#d6b36a" },
+                children: "Send a Message"
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-20 mb-8" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl font-light mb-4 text-white", children: "Send Us a Message" }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "div",
+              {
+                className: "w-20 h-px mb-8",
+                style: {
+                  background: "linear-gradient(90deg, #b76e79, #d6b36a)"
+                }
+              }
+            ),
             submitted ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
               "div",
               {
                 "data-ocid": "contact.success_state",
                 className: "rounded-xl p-10 text-center",
                 style: {
-                  backgroundColor: "#e8f5ec",
-                  border: "1px solid #1a3a2a40"
+                  background: "linear-gradient(135deg, rgba(183,110,121,0.12), rgba(214,179,106,0.12))",
+                  border: "1px solid rgba(183,110,121,0.4)"
                 },
                 children: [
                   /* @__PURE__ */ jsxRuntimeExports.jsx(
                     "div",
                     {
                       className: "w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-5",
-                      style: { backgroundColor: "#1a3a2a" },
-                      children: /* @__PURE__ */ jsxRuntimeExports.jsx(Send, { className: "w-7 h-7 text-gold" })
+                      style: {
+                        background: "linear-gradient(135deg, #b76e79, #d6b36a)"
+                      },
+                      children: /* @__PURE__ */ jsxRuntimeExports.jsx(CircleCheckBig, { className: "w-8 h-8 text-white" })
                     }
                   ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "h3",
-                    {
-                      className: "font-display text-2xl font-light mb-2",
-                      style: { color: "#1a3a2a" },
-                      children: "Message Sent!"
-                    }
-                  ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm", style: { color: "#2d5a3d" }, children: "Thank you for contacting ASP Spa. We'll get back to you within 1 hour to confirm your booking." })
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-2xl font-light mb-2 text-white", children: "Message Sent!" }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm", style: { color: "#cccccc" }, children: [
+                    "Thank you for contacting Magic Moon Beauty care & Spa.",
+                    /* @__PURE__ */ jsxRuntimeExports.jsx("br", {}),
+                    "We'll get back to you within 1 hour to confirm your booking."
+                  ] })
                 ]
               }
             ) : /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -25129,7 +25913,7 @@ function Contact() {
                         {
                           htmlFor: "contact-name",
                           className: "block text-xs uppercase tracking-widest mb-2",
-                          style: { color: "#4a6a58" },
+                          style: { color: "#d6b36a" },
                           children: "Full Name *"
                         }
                       ),
@@ -25141,10 +25925,14 @@ function Contact() {
                           required: true,
                           "data-ocid": "contact.name_input",
                           placeholder: "Your full name",
-                          className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
+                          className: "w-full px-4 py-3 text-sm focus:outline-none",
                           style: FIELD_STYLE,
-                          onFocus: (e) => setFocusBorder(e.currentTarget),
-                          onBlur: (e) => setBlurBorder(e.currentTarget)
+                          onFocus: (e) => {
+                            focusRoseGold(e.currentTarget);
+                          },
+                          onBlur: (e) => {
+                            blurReset(e.currentTarget);
+                          }
                         }
                       )
                     ] }),
@@ -25154,7 +25942,7 @@ function Contact() {
                         {
                           htmlFor: "contact-phone",
                           className: "block text-xs uppercase tracking-widest mb-2",
-                          style: { color: "#4a6a58" },
+                          style: { color: "#d6b36a" },
                           children: "Phone Number *"
                         }
                       ),
@@ -25166,10 +25954,14 @@ function Contact() {
                           required: true,
                           "data-ocid": "contact.phone_input",
                           placeholder: "Your mobile number",
-                          className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
+                          className: "w-full px-4 py-3 text-sm focus:outline-none",
                           style: FIELD_STYLE,
-                          onFocus: (e) => setFocusBorder(e.currentTarget),
-                          onBlur: (e) => setBlurBorder(e.currentTarget)
+                          onFocus: (e) => {
+                            focusRoseGold(e.currentTarget);
+                          },
+                          onBlur: (e) => {
+                            blurReset(e.currentTarget);
+                          }
                         }
                       )
                     ] })
@@ -25178,33 +25970,9 @@ function Contact() {
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
                       "label",
                       {
-                        htmlFor: "contact-email",
-                        className: "block text-xs uppercase tracking-widest mb-2",
-                        style: { color: "#4a6a58" },
-                        children: "Email Address"
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "input",
-                      {
-                        id: "contact-email",
-                        type: "email",
-                        "data-ocid": "contact.email_input",
-                        placeholder: "your@email.com (optional)",
-                        className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
-                        style: FIELD_STYLE,
-                        onFocus: (e) => setFocusBorder(e.currentTarget),
-                        onBlur: (e) => setBlurBorder(e.currentTarget)
-                      }
-                    )
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "label",
-                      {
                         htmlFor: "contact-service",
                         className: "block text-xs uppercase tracking-widest mb-2",
-                        style: { color: "#4a6a58" },
+                        style: { color: "#d6b36a" },
                         children: "Select Service *"
                       }
                     ),
@@ -25214,81 +25982,68 @@ function Contact() {
                         id: "contact-service",
                         required: true,
                         "data-ocid": "contact.service_select",
-                        className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
+                        className: "w-full px-4 py-3 text-sm focus:outline-none",
                         style: FIELD_STYLE,
-                        onFocus: (e) => setFocusBorder(e.currentTarget),
-                        onBlur: (e) => setBlurBorder(e.currentTarget),
+                        onFocus: (e) => {
+                          focusRoseGold(e.currentTarget);
+                        },
+                        onBlur: (e) => {
+                          blurReset(e.currentTarget);
+                        },
                         children: [
                           /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: "", children: "Choose a service..." }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Swedish Massage" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Deep Tissue Massage" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Aromatherapy" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Luxury Facial" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Body Scrub & Wrap" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Bridal Package" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Hair Care Treatment" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Nail Art & Manicure" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Waxing & Threading" }),
-                          /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "General Enquiry" })
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("optgroup", { label: "Salon Services", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Hair Styling" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Hair Spa" })
+                          ] }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("optgroup", { label: "Beauty Services", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Facial Treatment" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Bridal Makeup" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Skin Care" })
+                          ] }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("optgroup", { label: "Spa & Massage", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Body Massage" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Aromatherapy" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Foot Reflexology" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Swedish Massage" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Deep Tissue Massage" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Thai Massage" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Hot Stone Therapy" })
+                          ] }),
+                          /* @__PURE__ */ jsxRuntimeExports.jsxs("optgroup", { label: "Packages", children: [
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Beauty Packages" }),
+                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Other" })
+                          ] })
                         ]
                       }
                     )
                   ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-5", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "label",
-                        {
-                          htmlFor: "contact-date",
-                          className: "block text-xs uppercase tracking-widest mb-2",
-                          style: { color: "#4a6a58" },
-                          children: "Preferred Date"
+                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "label",
+                      {
+                        htmlFor: "contact-date",
+                        className: "block text-xs uppercase tracking-widest mb-2",
+                        style: { color: "#d6b36a" },
+                        children: "Preferred Date"
+                      }
+                    ),
+                    /* @__PURE__ */ jsxRuntimeExports.jsx(
+                      "input",
+                      {
+                        id: "contact-date",
+                        type: "date",
+                        "data-ocid": "contact.date_input",
+                        className: "w-full px-4 py-3 text-sm focus:outline-none",
+                        style: { ...FIELD_STYLE, colorScheme: "dark" },
+                        onFocus: (e) => {
+                          focusRoseGold(e.currentTarget);
+                        },
+                        onBlur: (e) => {
+                          blurReset(e.currentTarget);
                         }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "input",
-                        {
-                          id: "contact-date",
-                          type: "date",
-                          "data-ocid": "contact.date_input",
-                          className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
-                          style: FIELD_STYLE,
-                          onFocus: (e) => setFocusBorder(e.currentTarget),
-                          onBlur: (e) => setBlurBorder(e.currentTarget)
-                        }
-                      )
-                    ] }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(
-                        "label",
-                        {
-                          htmlFor: "contact-time",
-                          className: "block text-xs uppercase tracking-widest mb-2",
-                          style: { color: "#4a6a58" },
-                          children: "Preferred Time"
-                        }
-                      ),
-                      /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                        "select",
-                        {
-                          id: "contact-time",
-                          "data-ocid": "contact.time_select",
-                          className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none",
-                          style: FIELD_STYLE,
-                          onFocus: (e) => setFocusBorder(e.currentTarget),
-                          onBlur: (e) => setBlurBorder(e.currentTarget),
-                          children: [
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: "", children: "Any time" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "09:00 AM" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "11:00 AM" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "01:00 PM" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "03:00 PM" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "05:00 PM" }),
-                            /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "07:00 PM" })
-                          ]
-                        }
-                      )
-                    ] })
+                      }
+                    )
                   ] }),
                   /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -25296,8 +26051,8 @@ function Contact() {
                       {
                         htmlFor: "contact-message",
                         className: "block text-xs uppercase tracking-widest mb-2",
-                        style: { color: "#4a6a58" },
-                        children: "Message / Special Requests"
+                        style: { color: "#d6b36a" },
+                        children: "Message"
                       }
                     ),
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -25306,11 +26061,15 @@ function Contact() {
                         id: "contact-message",
                         rows: 4,
                         "data-ocid": "contact.message_textarea",
-                        placeholder: "Any specific requirements, health conditions, or questions...",
-                        className: "w-full rounded px-4 py-3 text-sm transition-smooth focus:outline-none resize-none",
+                        placeholder: "Tell us about your requirements or any special requests...",
+                        className: "w-full px-4 py-3 text-sm focus:outline-none resize-none",
                         style: FIELD_STYLE,
-                        onFocus: (e) => setFocusBorder(e.currentTarget),
-                        onBlur: (e) => setBlurBorder(e.currentTarget)
+                        onFocus: (e) => {
+                          focusRoseGold(e.currentTarget);
+                        },
+                        onBlur: (e) => {
+                          blurReset(e.currentTarget);
+                        }
                       }
                     )
                   ] }),
@@ -25319,66 +26078,14 @@ function Contact() {
                     {
                       type: "submit",
                       "data-ocid": "contact.submit_button",
-                      className: "w-full font-semibold py-4 rounded transition-smooth shadow-gold tracking-widest text-sm uppercase flex items-center justify-center gap-2",
-                      style: { backgroundColor: "#1a3a2a", color: "#d4af37" },
-                      onMouseEnter: (e) => {
-                        e.currentTarget.style.backgroundColor = "#2d5a3d";
-                      },
-                      onMouseLeave: (e) => {
-                        e.currentTarget.style.backgroundColor = "#1a3a2a";
+                      className: "w-full py-4 rounded-lg text-sm font-semibold uppercase tracking-widest text-white flex items-center justify-center gap-2 transition-all duration-300 hover:scale-[1.02] hover:shadow-xl",
+                      style: {
+                        background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                        boxShadow: "0 4px 20px rgba(183,110,121,0.35)"
                       },
                       children: [
                         /* @__PURE__ */ jsxRuntimeExports.jsx(Send, { className: "w-4 h-4" }),
-                        "Send Enquiry"
-                      ]
-                    }
-                  ),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative flex items-center py-2", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "div",
-                      {
-                        className: "flex-1 border-t",
-                        style: { borderColor: "#c8d8c0" }
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "span",
-                      {
-                        className: "px-4 text-xs uppercase tracking-wider",
-                        style: { color: "#6a9a7a" },
-                        children: "Or"
-                      }
-                    ),
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "div",
-                      {
-                        className: "flex-1 border-t",
-                        style: { borderColor: "#c8d8c0" }
-                      }
-                    )
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    "a",
-                    {
-                      href: "https://wa.me/917200245009?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20ASP%20Spa%20Pondicherry.",
-                      target: "_blank",
-                      rel: "noopener noreferrer",
-                      "data-ocid": "contact.whatsapp_button",
-                      className: "w-full flex items-center justify-center gap-2.5 py-3.5 rounded transition-smooth text-sm font-semibold tracking-wider uppercase",
-                      style: {
-                        backgroundColor: "#d4af37",
-                        color: "#1a3a2a",
-                        boxShadow: "0 4px 14px rgba(212,175,55,0.3)"
-                      },
-                      onMouseEnter: (e) => {
-                        e.currentTarget.style.backgroundColor = "#b8962e";
-                      },
-                      onMouseLeave: (e) => {
-                        e.currentTarget.style.backgroundColor = "#d4af37";
-                      },
-                      children: [
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4" }),
-                        "Book via WhatsApp"
+                        "Send Message"
                       ]
                     }
                   )
@@ -25388,127 +26095,295 @@ function Contact() {
           ] })
         ] }) })
       }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "section",
+      {
+        "data-ocid": "contact.map_section",
+        style: { backgroundColor: "#0d0d0d" },
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "py-4 px-6 flex items-center gap-3",
+              style: {
+                background: "linear-gradient(135deg, rgba(183,110,121,0.15), rgba(214,179,106,0.1))",
+                borderTop: "1px solid rgba(183,110,121,0.2)",
+                borderBottom: "1px solid rgba(183,110,121,0.2)"
+              },
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(MapPin, { className: "w-4 h-4", style: { color: "#b76e79" } }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "h2",
+                  {
+                    className: "font-display text-lg font-light",
+                    style: { color: "#d6b36a" },
+                    children: "Find Us on the Map"
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-xs ml-2", style: { color: "#888888" }, children: "No 182, Chetty St, Puducherry – 605001" })
+              ]
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "iframe",
+            {
+              "data-ocid": "contact.map",
+              title: "Magic Moon Beauty care & Spa Location Map",
+              src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62615.02!2d79.8083!3d11.9340!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5361e8e24e66bf%3A0x4f3ef94fa0c7a9b!2sPuducherry%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1700000000000",
+              width: "100%",
+              height: "400",
+              style: {
+                border: 0,
+                display: "block",
+                filter: "grayscale(30%) contrast(1.05)"
+              },
+              allowFullScreen: true,
+              loading: "lazy",
+              referrerPolicy: "no-referrer-when-downgrade"
+            }
+          )
+        ]
+      }
     )
   ] });
 }
 const galleryImages = [
   {
-    src: "/assets/generated/gallery-1.dim_600x400.jpg",
-    alt: "Luxury spa massage room with candlelight",
-    category: "Spa Interior"
+    src: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&h=600",
+    alt: "Luxury salon interior with elegant lighting",
+    category: "Salon"
   },
   {
-    src: "/assets/generated/gallery-2.dim_600x400.jpg",
-    alt: "Indian bridal makeup and styling",
-    category: "Bridal Studio"
+    src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&h=600",
+    alt: "Professional hair cutting session",
+    category: "Salon"
   },
   {
-    src: "/assets/generated/gallery-3.dim_600x400.jpg",
-    alt: "Luxury gold facial treatment",
-    category: "Facial Treatments"
+    src: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&h=600",
+    alt: "Luxury facial treatment therapy",
+    category: "Beauty"
   },
   {
-    src: "/assets/generated/gallery-4.dim_600x400.jpg",
-    alt: "Hot stone massage therapy",
+    src: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=800&h=600",
+    alt: "Professional makeup application",
+    category: "Beauty"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&h=600",
+    alt: "Serene luxury spa treatment room",
+    category: "Spa"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=800&h=600",
+    alt: "Hot stone therapy on the back",
+    category: "Spa"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=800&h=600",
+    alt: "Swedish massage with aromatic oils",
     category: "Massage"
   },
   {
-    src: "/assets/generated/gallery-5.dim_600x400.jpg",
-    alt: "Spa reception area",
-    category: "Spa Interior"
+    src: "https://images.unsplash.com/photo-1591343395082-e120087004b4?auto=format&fit=crop&w=800&h=600",
+    alt: "Relaxing couples massage side by side",
+    category: "Massage"
   },
   {
-    src: "/assets/generated/gallery-6.dim_600x400.jpg",
-    alt: "Professional hair care treatment",
-    category: "Hair Care"
+    src: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&h=600",
+    alt: "Bridal makeup application for wedding day",
+    category: "Bridal Makeup"
   },
   {
-    src: "/assets/generated/gallery-7.dim_600x400.jpg",
-    alt: "Luxury nail art and manicure",
-    category: "Nail Art"
+    src: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=800&h=600",
+    alt: "Stunning bridal look with gold accents",
+    category: "Bridal Makeup"
   },
   {
-    src: "/assets/generated/gallery-8.dim_600x400.jpg",
-    alt: "Indian bridal party preparation",
-    category: "Bridal Studio"
+    src: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&h=600",
+    alt: "Expert hair styling session in salon",
+    category: "Hair Styling"
   },
   {
-    src: "/assets/generated/gallery-9.dim_600x400.jpg",
-    alt: "Aromatherapy spa treatment",
-    category: "Aromatherapy"
+    src: "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&h=600",
+    alt: "Professional hair coloring treatment",
+    category: "Hair Styling"
   }
 ];
 const categories = [
   "All",
-  ...Array.from(new Set(galleryImages.map((img) => img.category)))
+  "Salon",
+  "Beauty",
+  "Spa",
+  "Massage",
+  "Bridal Makeup",
+  "Hair Styling"
 ];
 function Gallery() {
   const [activeCategory, setActiveCategory] = reactExports.useState("All");
-  const [lightboxSrc, setLightboxSrc] = reactExports.useState(null);
+  const [lightboxIndex, setLightboxIndex] = reactExports.useState(null);
   const filtered = activeCategory === "All" ? galleryImages : galleryImages.filter((img) => img.category === activeCategory);
+  function openLightbox(idx) {
+    setLightboxIndex(idx);
+    document.body.style.overflow = "hidden";
+  }
+  function closeLightbox() {
+    setLightboxIndex(null);
+    document.body.style.overflow = "";
+  }
+  function prevImage() {
+    if (lightboxIndex === null) return;
+    setLightboxIndex((lightboxIndex - 1 + filtered.length) % filtered.length);
+  }
+  function nextImage() {
+    if (lightboxIndex === null) return;
+    setLightboxIndex((lightboxIndex + 1) % filtered.length);
+  }
+  const currentImage = lightboxIndex !== null ? filtered[lightboxIndex] : null;
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "section",
       {
         "data-ocid": "gallery.header_section",
-        className: "relative py-24 flex items-center justify-center overflow-hidden",
-        style: {
-          backgroundImage: "url('/assets/generated/gallery-8.dim_600x400.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        },
+        className: "relative h-80 flex items-center justify-center overflow-hidden",
         children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "https://images.unsplash.com/photo-1611073615830-9b895e11b987?auto=format&fit=crop&w=1400&h=600",
+              alt: "Magic Moon Spa Gallery",
+              className: "absolute inset-0 w-full h-full object-cover"
+            }
+          ),
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
             {
               className: "absolute inset-0",
-              style: { background: "rgba(26, 58, 42, 0.75)" }
+              style: { background: "rgba(17,17,17,0.78)" }
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-gold mb-3", children: "Our Work & Space" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-5xl md:text-6xl font-light text-[#faf7f0]", children: "Elegant Gallery" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mt-5" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-2 mt-5 text-sm text-[#d4c89a]", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "hover:text-gold transition-smooth", children: "Home" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4 text-[#7aaa8a]" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "Gallery" })
-            ] })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                className: "text-xs uppercase tracking-[0.35em] mb-3",
+                style: { color: "#d6b36a" },
+                children: "Magic Moon Beauty care & Spa"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "h1",
+              {
+                className: "font-display text-5xl md:text-6xl font-light mb-4",
+                style: {
+                  background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 50%, #b76e79 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text"
+                },
+                children: "Our Gallery"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "nav",
+              {
+                className: "flex items-center justify-center gap-2 text-sm",
+                "aria-label": "Breadcrumb",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    Link,
+                    {
+                      to: "/",
+                      className: "transition-colors duration-200 hover:underline",
+                      style: { color: "#d6b36a" },
+                      children: "Home"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4", style: { color: "#b76e79" } }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#f7e7e3" }, children: "Gallery" })
+                ]
+              }
+            )
           ] })
         ]
       }
     ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { "data-ocid": "gallery.grid_section", className: "py-20 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Visual Journey" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", children: "Moments of Luxury" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle text-sm", children: "Explore the world of ASP Spa — from our serene treatment rooms to transformative beauty results and joyful bridal celebrations." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "div",
-        {
-          "data-ocid": "gallery.category_filters",
-          className: "flex flex-wrap justify-center gap-3 mb-12",
-          children: categories.map((cat) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "button",
-            {
-              type: "button",
-              "data-ocid": `gallery.filter.${cat.toLowerCase().replace(/ /g, "_")}`,
-              onClick: () => setActiveCategory(cat),
-              className: `px-5 py-2 rounded-full text-sm font-medium border transition-smooth ${activeCategory === cat ? "border-gold shadow-gold text-[#faf7f0]" : "border-border text-muted-foreground hover:border-gold hover:text-gold bg-card"}`,
-              style: activeCategory === cat ? { backgroundColor: "#1a3a2a", borderColor: "#d4af37" } : {},
-              children: cat
-            },
-            cat
-          ))
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto", children: filtered.map((img, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "gallery.filter_section",
+        className: "py-8 bg-background",
+        style: { borderBottom: "1px solid rgba(183,110,121,0.2)" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            "data-ocid": "gallery.category_filters",
+            className: "flex flex-wrap justify-center gap-3",
+            children: categories.map((cat) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "button",
+              {
+                type: "button",
+                "data-ocid": `gallery.filter.${cat.toLowerCase().replace(/ /g, "_")}`,
+                onClick: () => {
+                  setActiveCategory(cat);
+                },
+                className: "px-5 py-2 rounded-full text-sm font-medium transition-all duration-300",
+                style: activeCategory === cat ? {
+                  background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                  color: "#111111",
+                  border: "1px solid transparent",
+                  fontWeight: 600
+                } : {
+                  background: "transparent",
+                  color: "#b76e79",
+                  border: "1px solid #b76e79"
+                },
+                children: cat
+              },
+              cat
+            ))
+          }
+        ) })
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { "data-ocid": "gallery.grid_section", className: "py-16 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-12", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "p",
+          {
+            className: "text-xs uppercase tracking-[0.3em] mb-3",
+            style: { color: "#d6b36a" },
+            children: "Visual Showcase"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h2",
+          {
+            className: "font-display text-4xl md:text-5xl font-light mb-4",
+            style: { color: "#f7e7e3" },
+            children: "Moments of Luxury"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "mx-auto w-24 h-px",
+            style: {
+              background: "linear-gradient(90deg, transparent, #d6b36a, transparent)"
+            }
+          }
+        )
+      ] }),
+      filtered.length > 0 ? /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 max-w-7xl mx-auto", children: filtered.map((img, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
         "button",
         {
           type: "button",
           "data-ocid": `gallery.item.${idx + 1}`,
-          className: "group relative gallery-item aspect-[4/3] cursor-pointer text-left w-full",
-          onClick: () => setLightboxSrc(img.src),
+          className: "group relative aspect-[4/3] overflow-hidden rounded-lg cursor-pointer w-full",
+          style: { background: "#1a1a1a" },
+          onClick: () => {
+            openLightbox(idx);
+          },
           "aria-label": `View ${img.alt}`,
           children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -25516,414 +26391,1139 @@ function Gallery() {
               {
                 src: img.src,
                 alt: img.alt,
-                className: "w-full h-full object-cover transition-smooth group-hover:scale-105"
+                className: "w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "div",
+              {
+                className: "absolute inset-0 flex flex-col items-center justify-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+                style: { background: "rgba(17,17,17,0.72)" },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ZoomIn, { className: "w-8 h-8", style: { color: "#b76e79" } }),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "span",
+                    {
+                      className: "text-xs uppercase tracking-wider px-3 py-1 rounded-full",
+                      style: {
+                        background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                        color: "#111111",
+                        fontWeight: 600
+                      },
+                      children: img.category
+                    }
+                  )
+                ]
               }
             ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "div",
               {
-                className: "absolute inset-0 transition-smooth flex items-center justify-center",
-                style: { background: "rgba(26, 58, 42, 0)" },
-                onMouseEnter: (e) => {
-                  e.currentTarget.style.background = "rgba(26, 58, 42, 0.6)";
-                },
-                onMouseLeave: (e) => {
-                  e.currentTarget.style.background = "rgba(26, 58, 42, 0)";
-                },
-                children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "opacity-0 group-hover:opacity-100 transition-smooth flex flex-col items-center gap-2", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(ZoomIn, { className: "w-8 h-8 text-gold" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "span",
-                    {
-                      className: "text-xs text-gold uppercase tracking-wider px-3 py-1 rounded",
-                      style: { backgroundColor: "rgba(18, 43, 30, 0.75)" },
-                      children: img.category
-                    }
-                  )
-                ] })
+                className: "absolute inset-0 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none",
+                style: {
+                  boxShadow: "inset 0 0 0 2px rgba(183,110,121,0.6)"
+                }
               }
             )
           ]
         },
-        img.src
-      )) }),
-      filtered.length === 0 && /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        "div",
-        {
-          "data-ocid": "gallery.empty_state",
-          className: "text-center py-16 text-muted-foreground",
-          children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "font-display text-2xl font-light mb-2", children: "No images in this category" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "button",
-              {
-                type: "button",
-                onClick: () => setActiveCategory("All"),
-                className: "text-gold hover:underline text-sm",
-                children: "View all images"
-              }
-            )
-          ]
-        }
-      )
+        `${img.category}-${idx}`
+      )) }) : /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": "gallery.empty_state", className: "text-center py-20", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "p",
+          {
+            className: "font-display text-2xl font-light mb-4",
+            style: { color: "#f7e7e3" },
+            children: "No images in this category"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "button",
+          {
+            type: "button",
+            onClick: () => {
+              setActiveCategory("All");
+            },
+            className: "text-sm underline transition-colors duration-200",
+            style: { color: "#d6b36a" },
+            children: "View all images"
+          }
+        )
+      ] })
     ] }) }),
-    lightboxSrc && /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "dialog",
-      {
-        open: true,
-        "data-ocid": "gallery.lightbox",
-        className: "fixed inset-0 z-50 m-0 max-w-none w-full h-full flex items-center justify-center p-4 backdrop-blur-sm border-0",
-        style: { backgroundColor: "rgba(18, 43, 30, 0.93)" },
-        onClick: () => setLightboxSrc(null),
-        onKeyDown: (e) => {
-          if (e.key === "Escape") setLightboxSrc(null);
-        },
-        "aria-label": "Gallery lightbox",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative max-w-4xl max-h-[90vh] w-full", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
-            {
-              src: lightboxSrc,
-              alt: "Gallery preview",
-              className: "w-full max-h-[85vh] object-contain rounded-lg shadow-luxury"
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "button",
-            {
-              type: "button",
-              "data-ocid": "gallery.lightbox_close_button",
-              onClick: () => setLightboxSrc(null),
-              className: "absolute -top-3 -right-3 w-9 h-9 rounded-full flex items-center justify-center text-lg font-bold transition-smooth hover:bg-gold-dark",
-              style: { backgroundColor: "#d4af37", color: "#1a3a2a" },
-              "aria-label": "Close lightbox",
-              children: "×"
-            }
-          )
-        ] })
-      }
-    ),
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "section",
       {
         "data-ocid": "gallery.cta_section",
-        className: "py-16 section-alt text-center",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-3xl font-light mb-4", children: "Experience the ASP Spa Difference" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground mb-8 max-w-md mx-auto", children: "Book your appointment today and become part of our growing family of wellness enthusiasts." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            Link,
-            {
-              to: "/contact",
-              "data-ocid": "gallery.cta_book_button",
-              className: "inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] font-semibold px-8 py-3.5 rounded transition-smooth shadow-gold text-sm",
-              children: [
-                "Book Your Session ",
-                /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-              ]
-            }
-          )
-        ] })
-      }
-    )
-  ] });
-}
-const featuredServices = [
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Flower2, { className: "w-10 h-10 text-gold" }),
-    title: "Swedish Massage",
-    desc: "Melt away tension with our signature full-body Swedish massage. Warm oils, long gliding strokes, and expert techniques restore your body's natural balance."
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "w-10 h-10 text-gold" }),
-    title: "Luxury Facials",
-    desc: "Reveal radiant skin with our advanced facial treatments. From deep cleansing to gold-infused glow facials, we tailor every session to your skin's unique needs."
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { className: "w-10 h-10 text-gold" }),
-    title: "Bridal Packages",
-    desc: "Complete bridal beauty journeys for your most special day. Hair, makeup, mehndi, skincare & more — curated to make you shine from head to toe."
-  }
-];
-const galleryPreview = [
-  "/assets/generated/gallery-1.dim_600x400.jpg",
-  "/assets/generated/gallery-2.dim_600x400.jpg",
-  "/assets/generated/gallery-3.dim_600x400.jpg",
-  "/assets/generated/gallery-4.dim_600x400.jpg",
-  "/assets/generated/gallery-5.dim_600x400.jpg",
-  "/assets/generated/gallery-6.dim_600x400.jpg"
-];
-function Home() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs(
-      "section",
-      {
-        "data-ocid": "home.hero_section",
-        className: "relative min-h-[88vh] flex items-center justify-center overflow-hidden",
+        className: "py-20",
         style: {
-          backgroundImage: "url('/assets/generated/hero-spa.dim_1920x900.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
+          background: "linear-gradient(135deg, #1a1a1a 0%, #2a1a1e 50%, #1a1a1a 100%)"
         },
-        children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[#1a3a2a]/70" }),
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 text-center", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx(
             "div",
             {
-              className: "absolute inset-x-0 bottom-0 h-32",
+              className: "mx-auto w-16 h-px mb-8",
               style: {
-                background: "linear-gradient(to top, rgba(26,58,42,0.85), transparent)"
+                background: "linear-gradient(90deg, transparent, #b76e79, transparent)"
               }
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4 max-w-3xl mx-auto animate-fade-up", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-gold mb-4 font-body", children: "Premium Spa & Bridal Studio — Pondicherry" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("h1", { className: "font-display text-5xl md:text-7xl font-light text-[#faf7f0] leading-tight mb-6", children: [
-              "Recover. Recharge.",
-              " ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "gradient-gold-text italic", children: "Reconnect." })
-            ] }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-lg text-[#c8d8c0] font-light mb-10 leading-relaxed", children: "Experience the finest spa and salon treatments in Pondicherry. Where ancient healing traditions meet modern luxury wellness." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                Link,
-                {
-                  to: "/contact",
-                  "data-ocid": "home.hero_book_button",
-                  className: "inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] font-semibold px-8 py-3.5 rounded transition-smooth shadow-gold text-sm tracking-wide",
-                  children: [
-                    "Book Your Experience",
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-                  ]
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                "a",
-                {
-                  href: "tel:7200245009",
-                  "data-ocid": "home.hero_call_button",
-                  className: "inline-flex items-center justify-center gap-2 border border-gold/60 text-gold hover:bg-gold/10 font-medium px-8 py-3.5 rounded transition-smooth text-sm tracking-wide",
-                  children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4" }),
-                    "72002 45009"
-                  ]
-                }
-              )
-            ] })
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-3 bg-[#1a3a2a]/85 border border-gold/30 rounded-full px-5 py-2.5 backdrop-blur-sm", children: [
-            [1, 2, 3, 4, 5].map((i) => /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { className: "w-3.5 h-3.5 fill-gold text-gold" }, i)),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-[#faf7f0] text-xs ml-1", children: "5-Star Rated in Pondicherry" })
-          ] })
-        ]
-      }
-    ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "section",
-      {
-        "data-ocid": "home.services_section",
-        className: "py-20 bg-background",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "What We Offer" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", children: "Premium Services" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle font-body text-sm", children: "From restorative massages to transformative bridal packages — every service crafted for your ultimate well-being." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto", children: featuredServices.map((service, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "div",
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h2",
             {
-              "data-ocid": `home.service_card.${idx + 1}`,
-              className: "service-card group animate-fade-up hover:border-gold",
-              style: {
-                animationDelay: `${idx * 0.15}s`,
-                backgroundColor: "#faf7f0"
-              },
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center mb-5", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "div",
-                  {
-                    className: "w-20 h-20 rounded-full border border-gold/40 flex items-center justify-center group-hover:border-gold transition-smooth",
-                    style: { backgroundColor: "#1a3a2a" },
-                    children: service.icon
-                  }
-                ) }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-2xl font-light mb-3 text-foreground", children: service.title }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed mb-5", children: service.desc }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                  Link,
-                  {
-                    to: "/services",
-                    "data-ocid": `home.service_learn_more.${idx + 1}`,
-                    className: "inline-flex items-center gap-1 text-gold text-sm hover:gap-2 transition-smooth font-medium",
-                    children: [
-                      "Learn More ",
-                      /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-                    ]
-                  }
-                )
-              ]
-            },
-            service.title
-          )) }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            Link,
-            {
-              to: "/services",
-              "data-ocid": "home.all_services_button",
-              className: "inline-flex items-center gap-2 border border-gold text-gold hover:bg-gold hover:text-[#1a3a2a] px-8 py-3 rounded transition-smooth text-sm font-medium",
-              children: [
-                "View All 9 Services ",
-                /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-              ]
+              className: "font-display text-4xl md:text-5xl font-light mb-4",
+              style: { color: "#f7e7e3" },
+              children: "Experience Luxury at Magic Moon"
             }
-          ) })
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-base mb-10 max-w-xl mx-auto",
+              style: { color: "#b0a090" },
+              children: "Indulge in our world-class beauty and spa treatments — crafted for your comfort and elegance."
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "tel:07081078910",
+                "data-ocid": "gallery.book_appointment_button",
+                className: "inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105",
+                style: {
+                  background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                  color: "#111111"
+                },
+                children: "Book Appointment"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "https://wa.me/917081078910",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                "data-ocid": "gallery.whatsapp_button",
+                className: "inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105",
+                style: {
+                  border: "2px solid #d6b36a",
+                  color: "#d6b36a",
+                  background: "transparent"
+                },
+                children: "💬 WhatsApp Now"
+              }
+            )
+          ] })
         ] })
       }
     ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { "data-ocid": "home.gallery_section", className: "py-20 section-alt", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Our Space & Work" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", children: "Elegant Gallery" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle font-body text-sm", children: "A glimpse into the serene world of ASP Spa — where luxury meets tranquility." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto", children: galleryPreview.map((src, idx) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "div",
-        {
-          "data-ocid": `home.gallery_item.${idx + 1}`,
-          className: "gallery-item aspect-[4/3]",
-          children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
-            {
-              src,
-              alt: `ASP Spa spa and wellness scene ${idx + 1}`,
-              className: "w-full h-full object-cover"
-            }
-          )
-        },
-        src
-      )) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        Link,
-        {
-          to: "/gallery",
-          "data-ocid": "home.view_gallery_button",
-          className: "inline-flex items-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] px-8 py-3 rounded transition-smooth text-sm font-semibold",
-          children: [
-            "View Full Gallery ",
-            /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-          ]
-        }
-      ) })
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { "data-ocid": "home.booking_section", className: "py-20 bg-background", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Reserve Your Spot" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", children: "Book an Appointment" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle font-body text-sm", children: "Select your preferred service and time. We'll confirm your booking within 1 hour." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(BookingForm, {})
-    ] }) }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(
-      "section",
+    currentImage !== null && lightboxIndex !== null && /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "div",
       {
-        "data-ocid": "home.about_section",
-        className: "py-20",
-        style: { backgroundColor: "#1a3a2a" },
-        children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Our Story" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl font-light mb-5 leading-snug text-[#faf7f0]", children: "A Sanctuary of Luxury Wellness in Pondicherry" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-20 mb-6" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-[#c8d8c0] leading-relaxed mb-4", children: "Nestled in the heart of Pondicherry, ASP Spa offers a curated escape from the everyday. Our team of expert therapists and beauty professionals bring years of training in both traditional Indian and contemporary spa techniques." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-[#c8d8c0] leading-relaxed mb-8", children: "From the moment you step through our doors, you're welcomed into a world of refined elegance — warm gold tones, aromatic oils, and the quiet luxury that defines every ASP experience." }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              Link,
-              {
-                to: "/about",
-                "data-ocid": "home.learn_more_button",
-                className: "inline-flex items-center gap-2 border border-gold text-gold hover:bg-gold hover:text-[#1a3a2a] px-6 py-3 rounded transition-smooth text-sm font-medium",
-                children: [
-                  "Discover Our Story ",
-                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-                ]
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-2 gap-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-item aspect-[3/4]", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
-              {
-                src: "/assets/generated/gallery-5.dim_600x400.jpg",
-                alt: "Spa reception",
-                className: "w-full h-full object-cover"
-              }
-            ) }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gallery-item aspect-[3/4] mt-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "img",
-              {
-                src: "/assets/generated/gallery-3.dim_600x400.jpg",
-                alt: "Facial treatment",
-                className: "w-full h-full object-cover"
-              }
-            ) })
-          ] })
-        ] }) })
+        "data-ocid": "gallery.dialog",
+        role: "dialog",
+        "aria-modal": "true",
+        "aria-label": "Gallery lightbox",
+        className: "fixed inset-0 z-50 flex items-center justify-center",
+        style: { background: "rgba(0,0,0,0.92)" },
+        onClick: closeLightbox,
+        onKeyDown: (e) => {
+          if (e.key === "Escape") closeLightbox();
+        },
+        tabIndex: -1,
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "div",
+          {
+            className: "relative max-w-4xl w-full mx-4 flex flex-col items-center",
+            onClick: (e) => {
+              e.stopPropagation();
+            },
+            onKeyDown: (e) => {
+              e.stopPropagation();
+            },
+            children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "button",
+                {
+                  type: "button",
+                  "data-ocid": "gallery.close_button",
+                  className: "absolute -top-12 right-0 flex items-center justify-center w-10 h-10 rounded-full transition-colors duration-200",
+                  style: { color: "#b76e79", border: "1px solid #b76e79" },
+                  onClick: closeLightbox,
+                  "aria-label": "Close lightbox",
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(X, { className: "w-5 h-5" })
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "mb-3", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "span",
+                {
+                  className: "text-xs uppercase tracking-widest px-4 py-1.5 rounded-full font-semibold",
+                  style: {
+                    background: "linear-gradient(135deg, #b76e79, #d6b36a)",
+                    color: "#111111"
+                  },
+                  children: currentImage.category
+                }
+              ) }),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "div",
+                {
+                  className: "relative w-full rounded-xl overflow-hidden",
+                  style: { maxHeight: "70vh" },
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      src: currentImage.src,
+                      alt: currentImage.alt,
+                      className: "w-full object-contain",
+                      style: { maxHeight: "70vh" }
+                    }
+                  )
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "p",
+                {
+                  className: "mt-3 text-sm text-center",
+                  style: { color: "#b0a090" },
+                  children: currentImage.alt
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center gap-6 mt-5", children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "button",
+                  {
+                    type: "button",
+                    "data-ocid": "gallery.prev_button",
+                    className: "flex items-center justify-center w-10 h-10 rounded-full transition-all duration-200 hover:scale-110",
+                    style: { border: "1px solid #d6b36a", color: "#d6b36a" },
+                    onClick: prevImage,
+                    "aria-label": "Previous image",
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronLeft, { className: "w-5 h-5" })
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsxs("span", { className: "text-sm", style: { color: "#b0a090" }, children: [
+                  lightboxIndex + 1,
+                  " / ",
+                  filtered.length
+                ] }),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "button",
+                  {
+                    type: "button",
+                    "data-ocid": "gallery.next_button",
+                    className: "flex items-center justify-center w-10 h-10 rounded-full transition-all duration-200 hover:scale-110",
+                    style: { border: "1px solid #d6b36a", color: "#d6b36a" },
+                    onClick: nextImage,
+                    "aria-label": "Next image",
+                    children: /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-5 h-5" })
+                  }
+                )
+              ] })
+            ]
+          }
+        )
       }
     )
   ] });
 }
-function BookingForm() {
+const SERVICES = [
+  {
+    title: "Hair Styling",
+    desc: "Expert cuts, blowouts, and styling crafted for your unique beauty.",
+    img: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Hair Spa",
+    desc: "Deep nourishing hair spa treatments to restore strength and shine.",
+    img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Facial Treatment",
+    desc: "Rejuvenating facials using premium products for radiant, glowing skin.",
+    img: "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Bridal Makeup",
+    desc: "Flawless bridal looks that make you shine on your most special day.",
+    img: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Body Massage",
+    desc: "Full-body therapeutic massages to melt tension and restore balance.",
+    img: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Aromatherapy",
+    desc: "Sensory healing with pure essential oils for deep mind-body relaxation.",
+    img: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Skin Care",
+    desc: "Advanced skin care therapies for clarity, hydration, and youthful glow.",
+    img: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Foot Reflexology",
+    desc: "Reviving foot reflexology to relieve stress and boost circulation.",
+    img: "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?auto=format&fit=crop&w=600&h=400&q=80"
+  },
+  {
+    title: "Beauty Packages",
+    desc: "Curated luxury beauty packages designed for total pampering and care.",
+    img: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&h=400&q=80"
+  }
+];
+const WHY_US = [
+  {
+    icon: Award,
+    title: "Certified Beauty Experts",
+    desc: "Our professionals hold top certifications in beauty and wellness therapies."
+  },
+  {
+    icon: Star,
+    title: "Professional Therapists",
+    desc: "Skilled and experienced therapists dedicated to your total well-being."
+  },
+  {
+    icon: Shield,
+    title: "Hygienic Environment",
+    desc: "Immaculate hygiene standards maintained across every treatment area."
+  },
+  {
+    icon: Sparkles,
+    title: "Premium Beauty Products",
+    desc: "Only luxury-grade, skin-safe products used in all our treatments."
+  },
+  {
+    icon: Package,
+    title: "Affordable Luxury Packages",
+    desc: "Premium spa experiences crafted to suit every lifestyle and budget."
+  },
+  {
+    icon: Heart,
+    title: "Relaxing Ambience",
+    desc: "A serene, peaceful sanctuary designed for complete mind-body escape."
+  }
+];
+const GALLERY_IMGS = [
+  "https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=600&h=400&q=80",
+  "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=600&h=400&q=80",
+  "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&h=400&q=80",
+  "https://images.unsplash.com/photo-1591343395082-e120087004b4?auto=format&fit=crop&w=600&h=400&q=80",
+  "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=600&h=400&q=80",
+  "https://images.unsplash.com/photo-1498843053639-170ff2122f35?auto=format&fit=crop&w=600&h=400&q=80"
+];
+const TESTIMONIALS = [
+  {
+    text: "Best spa experience in Pondicherry! The ambience is absolutely divine and the therapists are world-class.",
+    name: "Priya S.",
+    rating: 5
+  },
+  {
+    text: "Professional staff, relaxing treatments, and a truly luxurious atmosphere. I visit every month!",
+    name: "Divya K.",
+    rating: 5
+  },
+  {
+    text: "Luxury beauty care at very affordable pricing. The bridal package was absolutely stunning. Highly recommended!",
+    name: "Anjali R.",
+    rating: 5
+  }
+];
+const BOOKING_SERVICES = [
+  "Hair Styling",
+  "Hair Spa",
+  "Facial Treatment",
+  "Bridal Makeup",
+  "Body Massage",
+  "Aromatherapy",
+  "Skin Care",
+  "Foot Reflexology",
+  "Beauty Packages"
+];
+const roseGoldGrad = "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)";
+function Home() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(HeroSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(AboutPreviewSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(ServicesSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(WhyChooseUsSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(GalleryPreviewSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(TestimonialsSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(BookingFormSection, {}),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(CTASection, {})
+  ] });
+}
+function HeroSection() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs(
-    "form",
+    "section",
     {
-      "data-ocid": "home.booking_form",
-      className: "max-w-2xl mx-auto border border-gold/25 rounded-xl p-8 shadow-luxury",
-      style: { backgroundColor: "#faf7f0" },
-      onSubmit: (e) => e.preventDefault(),
+      "data-ocid": "home.hero_section",
+      className: "relative min-h-screen flex items-center justify-center overflow-hidden",
+      style: {
+        backgroundImage: "url('https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1920&q=80')",
+        backgroundSize: "cover",
+        backgroundPosition: "center"
+      },
       children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx(
           "div",
           {
-            className: "rounded-lg px-6 py-3 mb-7 text-center",
-            style: { backgroundColor: "#1a3a2a" },
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold font-body", children: "Reserve Your Experience" })
+            className: "absolute inset-0",
+            style: { background: "rgba(0,0,0,0.65)" }
           }
         ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "absolute inset-x-0 bottom-0 h-48",
+            style: {
+              background: "linear-gradient(to top, rgba(183,110,121,0.18), transparent)"
+            }
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4 max-w-4xl mx-auto", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-xs uppercase tracking-[0.4em] mb-5 font-body",
+              style: { color: "#d6b36a" },
+              children: "Magic Moon Beauty care & Spa · Pondicherry"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h1",
+            {
+              className: "font-display text-5xl md:text-7xl lg:text-8xl font-light leading-tight mb-6",
+              style: {
+                fontFamily: "Cormorant Garamond, serif",
+                background: roseGoldGrad,
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
+                backgroundClip: "text"
+              },
+              children: "Relax | Refresh | Rejuvenate"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-lg md:text-xl italic font-light mb-10 leading-relaxed",
+              style: { color: "rgba(255,255,255,0.88)" },
+              children: "Luxury Salon, Beauty & Spa Experience in Pondicherry"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "button",
+              {
+                type: "button",
+                "data-ocid": "home.hero_book_button",
+                className: "inline-flex items-center justify-center gap-2 font-semibold px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:scale-105 hover:shadow-lg",
+                style: {
+                  background: roseGoldGrad,
+                  color: "#111111",
+                  boxShadow: "0 4px 20px rgba(183,110,121,0.4)"
+                },
+                onClick: () => {
+                  var _a2;
+                  (_a2 = document.getElementById("booking")) == null ? void 0 : _a2.scrollIntoView({ behavior: "smooth" });
+                },
+                children: [
+                  "Book Appointment",
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
+                ]
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "a",
+              {
+                href: "https://wa.me/917081078910",
+                "data-ocid": "home.hero_whatsapp_button",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                className: "inline-flex items-center justify-center gap-2 font-medium px-8 py-4 rounded-full text-sm tracking-wide transition-all duration-300 hover:scale-105",
+                style: {
+                  border: "1.5px solid #b76e79",
+                  color: "#b76e79",
+                  background: "rgba(183,110,121,0.08)"
+                },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(MessageCircle, { className: "w-4 h-4" }),
+                  "WhatsApp Now"
+                ]
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "inline-flex items-center gap-2 mt-12 px-5 py-2.5 rounded-full backdrop-blur-sm",
+              style: {
+                background: "rgba(255,255,255,0.07)",
+                border: "1px solid rgba(183,110,121,0.35)"
+              },
+              children: [
+                [1, 2, 3, 4, 5].map((i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  Star,
+                  {
+                    className: "w-3.5 h-3.5",
+                    style: { color: "#d6b36a", fill: "#d6b36a" }
+                  },
+                  i
+                )),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-white/80 text-xs ml-1", children: "5-Star Rated in Pondicherry" })
+              ]
+            }
+          )
+        ] })
+      ]
+    }
+  );
+}
+const STATS = [
+  { value: "500+", label: "Happy Clients" },
+  { value: "10+", label: "Services" },
+  { value: "5+", label: "Years Experience" },
+  { value: "4.9", label: "Rating" }
+];
+function AboutPreviewSection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.about_section",
+      className: "py-20",
+      style: { background: "#1a1a1a" },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "container mx-auto px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-14 items-center", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative rounded-2xl overflow-hidden shadow-2xl", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "https://images.unsplash.com/photo-1583416750470-965b2707b355?auto=format&fit=crop&w=800&h=600&q=80",
+              alt: "Luxury spa interior at Magic Moon",
+              className: "w-full h-80 lg:h-[480px] object-cover"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "absolute bottom-6 left-6 px-5 py-3 rounded-xl backdrop-blur-sm",
+              style: {
+                background: "rgba(0,0,0,0.6)",
+                border: "1px solid rgba(214,179,106,0.4)"
+              },
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "p",
+                  {
+                    className: "text-xs uppercase tracking-widest",
+                    style: { color: "#d6b36a" },
+                    children: "Est. 2019"
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-white font-light text-sm mt-0.5", children: "Pondicherry's Premier Spa" })
+              ]
+            }
+          )
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-xs uppercase tracking-[0.3em] mb-4",
+              style: { color: "#d6b36a" },
+              children: "About Magic Moon"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "h2",
+            {
+              className: "text-4xl md:text-5xl font-light mb-5 leading-snug",
+              style: {
+                fontFamily: "Cormorant Garamond, serif",
+                color: "#ffffff"
+              },
+              children: [
+                "Where Luxury Meets",
+                " ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#b76e79", fontStyle: "italic" }, children: "Beauty & Wellness" })
+              ]
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "w-16 h-px mb-6",
+              style: { background: roseGoldGrad }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-sm leading-relaxed mb-4",
+              style: { color: "rgba(255,255,255,0.65)" },
+              children: "Nestled in the heart of Pondicherry, Magic Moon Beauty care & Spa is your sanctuary for total rejuvenation. We blend timeless beauty rituals with modern luxury treatments to deliver an unmatched pampering experience."
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-sm leading-relaxed mb-8",
+              style: { color: "rgba(255,255,255,0.65)" },
+              children: "From premium hair styling and bridal makeup to therapeutic body massages and advanced skin care — every service is performed by certified experts in an ambience of pure, feminine elegance."
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8", children: STATS.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "div",
+            {
+              className: "text-center py-4 rounded-xl",
+              style: {
+                background: "rgba(183,110,121,0.1)",
+                border: "1px solid rgba(183,110,121,0.2)"
+              },
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "p",
+                  {
+                    className: "text-2xl font-light",
+                    style: {
+                      fontFamily: "Cormorant Garamond, serif",
+                      color: "#d6b36a"
+                    },
+                    children: s.value
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "p",
+                  {
+                    className: "text-xs mt-1",
+                    style: { color: "rgba(255,255,255,0.55)" },
+                    children: s.label
+                  }
+                )
+              ]
+            },
+            s.label
+          )) }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            Link,
+            {
+              to: "/about",
+              "data-ocid": "home.about_read_more_button",
+              className: "inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105",
+              style: { border: "1.5px solid #b76e79", color: "#b76e79" },
+              children: [
+                "Read More ",
+                /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
+              ]
+            }
+          )
+        ] })
+      ] }) })
+    }
+  );
+}
+function ServicesSection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.services_section",
+      className: "py-20",
+      style: { background: "#111111" },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          SectionHeader,
+          {
+            eyebrow: "What We Offer",
+            title: "Our Premium Services",
+            subtitle: "From expert hair styling and bridal makeup to therapeutic spa treatments — every service crafted for your luxury beauty experience."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto", children: SERVICES.map((svc, idx) => /* @__PURE__ */ jsxRuntimeExports.jsx(ServiceCard, { svc, idx }, svc.title)) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-12", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Link,
+          {
+            to: "/services",
+            "data-ocid": "home.view_all_services_button",
+            className: "inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105 hover:shadow-lg",
+            style: {
+              background: roseGoldGrad,
+              color: "#111111",
+              boxShadow: "0 4px 20px rgba(183,110,121,0.35)"
+            },
+            children: [
+              "View All Services ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
+            ]
+          }
+        ) })
+      ] })
+    }
+  );
+}
+function ServiceCard({
+  svc,
+  idx
+}) {
+  const [hovered, setHovered] = reactExports.useState(false);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": `home.service_card.${idx + 1}`,
+      className: "rounded-2xl overflow-hidden cursor-pointer transition-all duration-300",
+      style: {
+        background: "rgba(255,255,255,0.04)",
+        backdropFilter: "blur(12px)",
+        border: hovered ? "1.5px solid #b76e79" : "1.5px solid rgba(255,255,255,0.08)",
+        transform: hovered ? "translateY(-6px) scale(1.02)" : "translateY(0) scale(1)",
+        boxShadow: hovered ? "0 16px 40px rgba(183,110,121,0.25)" : "0 4px 20px rgba(0,0,0,0.3)"
+      },
+      onMouseEnter: () => setHovered(true),
+      onMouseLeave: () => setHovered(false),
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative overflow-hidden h-48", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: svc.img,
+              alt: svc.title,
+              className: "w-full h-full object-cover transition-transform duration-500",
+              style: { transform: hovered ? "scale(1.08)" : "scale(1)" }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-0",
+              style: {
+                background: "linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 60%)"
+              }
+            }
+          )
+        ] }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h3",
+            {
+              className: "text-xl font-light mb-2",
+              style: {
+                fontFamily: "Cormorant Garamond, serif",
+                color: hovered ? "#d6b36a" : "#ffffff",
+                transition: "color 0.3s"
+              },
+              children: svc.title
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-xs leading-relaxed",
+              style: { color: "rgba(255,255,255,0.55)" },
+              children: svc.desc
+            }
+          )
+        ] })
+      ]
+    }
+  );
+}
+function WhyChooseUsSection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.why_choose_section",
+      className: "py-20",
+      style: {
+        background: "linear-gradient(180deg, #111111 0%, #1a1a1a 100%)"
+      },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          SectionHeader,
+          {
+            eyebrow: "Our Promise",
+            title: "Why Choose Magic Moon?",
+            subtitle: "We blend expertise, hygiene, and luxury to give you the ultimate beauty and wellness experience."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto", children: WHY_US.map((item, idx) => /* @__PURE__ */ jsxRuntimeExports.jsx(WhyCard, { item, idx }, item.title)) })
+      ] })
+    }
+  );
+}
+function WhyCard({
+  item,
+  idx
+}) {
+  const [hovered, setHovered] = reactExports.useState(false);
+  const Icon2 = item.icon;
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": `home.why_card.${idx + 1}`,
+      className: "p-6 rounded-2xl text-center transition-all duration-300",
+      style: {
+        background: hovered ? "rgba(183,110,121,0.12)" : "rgba(255,255,255,0.04)",
+        backdropFilter: "blur(10px)",
+        border: hovered ? "1.5px solid rgba(183,110,121,0.5)" : "1.5px solid rgba(255,255,255,0.07)",
+        transform: hovered ? "translateY(-4px)" : "translateY(0)"
+      },
+      onMouseEnter: () => setHovered(true),
+      onMouseLeave: () => setHovered(false),
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4 transition-all duration-300",
+            style: {
+              background: hovered ? roseGoldGrad : "rgba(183,110,121,0.15)"
+            },
+            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Icon2,
+              {
+                className: "w-6 h-6",
+                style: { color: hovered ? "#111111" : "#b76e79" }
+              }
+            )
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h3",
+          {
+            className: "text-lg font-light mb-2",
+            style: { fontFamily: "Cormorant Garamond, serif", color: "#ffffff" },
+            children: item.title
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "p",
+          {
+            className: "text-xs leading-relaxed",
+            style: { color: "rgba(255,255,255,0.55)" },
+            children: item.desc
+          }
+        )
+      ]
+    }
+  );
+}
+function GalleryPreviewSection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.gallery_section",
+      className: "py-20",
+      style: { background: "#111111" },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          SectionHeader,
+          {
+            eyebrow: "Our Space & Work",
+            title: "Our Gallery",
+            subtitle: "A glimpse into the serene world of Magic Moon — where luxury beauty meets tranquil wellness."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto", children: GALLERY_IMGS.map((src, idx) => /* @__PURE__ */ jsxRuntimeExports.jsx(GalleryItem, { src, idx }, src)) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          Link,
+          {
+            to: "/gallery",
+            "data-ocid": "home.view_gallery_button",
+            className: "inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105",
+            style: { border: "1.5px solid #b76e79", color: "#b76e79" },
+            children: [
+              "View Full Gallery ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
+            ]
+          }
+        ) })
+      ] })
+    }
+  );
+}
+function GalleryItem({ src, idx }) {
+  const [hovered, setHovered] = reactExports.useState(false);
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": `home.gallery_item.${idx + 1}`,
+      className: "relative overflow-hidden rounded-xl aspect-[4/3] cursor-pointer",
+      onMouseEnter: () => setHovered(true),
+      onMouseLeave: () => setHovered(false),
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "img",
+          {
+            src,
+            alt: `Magic Moon beauty and spa scene ${idx + 1}`,
+            className: "w-full h-full object-cover transition-transform duration-500",
+            style: { transform: hovered ? "scale(1.1)" : "scale(1)" }
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "absolute inset-0 transition-opacity duration-300",
+            style: {
+              background: "linear-gradient(135deg, rgba(183,110,121,0.35), rgba(214,179,106,0.2))",
+              opacity: hovered ? 1 : 0
+            }
+          }
+        )
+      ]
+    }
+  );
+}
+function TestimonialsSection() {
+  const [active, setActive] = reactExports.useState(0);
+  const timerRef = reactExports.useRef(null);
+  reactExports.useEffect(() => {
+    timerRef.current = setInterval(() => {
+      setActive((prev) => (prev + 1) % TESTIMONIALS.length);
+    }, 4500);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, []);
+  const t = TESTIMONIALS[active];
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.testimonials_section",
+      className: "py-20",
+      style: { background: "#1a1a1a" },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          SectionHeader,
+          {
+            eyebrow: "Client Love",
+            title: "What Our Clients Say",
+            subtitle: "Real words from our valued guests across Pondicherry."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-2xl mx-auto text-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            Quote,
+            {
+              className: "w-10 h-10 mx-auto mb-6",
+              style: { color: "#b76e79" }
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center gap-1 mb-5", children: Array.from(
+              { length: t.rating },
+              (_, i) => `star-${t.rating}-${i}`
+            ).map((starKey) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+              Star,
+              {
+                className: "w-5 h-5",
+                style: { color: "#d6b36a", fill: "#d6b36a" }
+              },
+              starKey
+            )) }),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "p",
+              {
+                className: "text-xl md:text-2xl font-light italic leading-relaxed mb-6",
+                style: {
+                  fontFamily: "Cormorant Garamond, serif",
+                  color: "rgba(255,255,255,0.9)"
+                },
+                children: [
+                  "“",
+                  t.text,
+                  "”"
+                ]
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "p",
+              {
+                className: "text-sm font-medium tracking-wider",
+                style: { color: "#d6b36a" },
+                children: [
+                  "— ",
+                  t.name
+                ]
+              }
+            )
+          ] }, active),
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex justify-center gap-2 mt-8", children: TESTIMONIALS.map((t2, i) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              type: "button",
+              "data-ocid": `home.testimonial_dot.${i + 1}`,
+              className: "rounded-full transition-all duration-300",
+              style: {
+                width: i === active ? "24px" : "8px",
+                height: "8px",
+                background: i === active ? "#b76e79" : "rgba(183,110,121,0.3)"
+              },
+              onClick: () => {
+                setActive(i);
+                if (timerRef.current) clearInterval(timerRef.current);
+                timerRef.current = setInterval(() => {
+                  setActive((prev) => (prev + 1) % TESTIMONIALS.length);
+                }, 4500);
+              },
+              "aria-label": `Go to testimonial ${i + 1}`
+            },
+            t2.name
+          )) })
+        ] })
+      ] })
+    }
+  );
+}
+function BookingFormSection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      id: "booking",
+      "data-ocid": "home.booking_section",
+      className: "py-20",
+      style: { background: "#111111" },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          SectionHeader,
+          {
+            eyebrow: "Reserve Your Spot",
+            title: "Book Your Appointment",
+            subtitle: "Select your preferred service and time. We'll confirm your booking within 1 hour."
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(BookingForm, {})
+      ] })
+    }
+  );
+}
+function BookingForm() {
+  const [fields, setFields] = reactExports.useState({
+    name: "",
+    phone: "",
+    service: "",
+    date: "",
+    message: ""
+  });
+  const [errors, setErrors] = reactExports.useState({});
+  const [submitted, setSubmitted] = reactExports.useState(false);
+  function validate() {
+    const e = {};
+    if (!fields.name.trim()) e.name = "Full name is required.";
+    if (!fields.phone.trim() || !/^[0-9+\s\-()]{7,15}$/.test(fields.phone)) {
+      e.phone = "Please enter a valid phone number.";
+    }
+    if (!fields.service) e.service = "Please select a service.";
+    if (!fields.date) e.date = "Please choose a date.";
+    return e;
+  }
+  function handleSubmit(e) {
+    e.preventDefault();
+    const errs = validate();
+    if (Object.keys(errs).length > 0) {
+      setErrors(errs);
+      return;
+    }
+    setSubmitted(true);
+  }
+  function handleChange(field, value) {
+    setFields((prev) => ({ ...prev, [field]: value }));
+    setErrors((prev) => ({ ...prev, [field]: void 0 }));
+  }
+  const inputStyle = {
+    background: "rgba(255,255,255,0.04)",
+    border: "1.5px solid rgba(255,255,255,0.12)",
+    color: "#ffffff",
+    borderRadius: "10px",
+    padding: "12px 16px",
+    width: "100%",
+    fontSize: "0.875rem",
+    outline: "none",
+    transition: "border-color 0.2s"
+  };
+  if (submitted) {
+    return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "div",
+      {
+        "data-ocid": "home.booking_success_state",
+        className: "max-w-xl mx-auto text-center py-14 px-8 rounded-2xl",
+        style: {
+          background: "rgba(183,110,121,0.08)",
+          border: "1.5px solid rgba(183,110,121,0.35)"
+        },
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-5",
+              style: { background: roseGoldGrad },
+              children: /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { className: "w-8 h-8 text-white" })
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h3",
+            {
+              className: "text-3xl font-light mb-3",
+              style: {
+                fontFamily: "Cormorant Garamond, serif",
+                color: "#d6b36a"
+              },
+              children: "Appointment Requested!"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-sm", style: { color: "rgba(255,255,255,0.65)" }, children: [
+            "Thank you, ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#b76e79" }, children: fields.name }),
+            "! We'll confirm your",
+            " ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { style: { color: "#d6b36a" }, children: fields.service }),
+            " ",
+            "appointment on",
+            " ",
+            /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { style: { color: "#d6b36a" }, children: fields.date }),
+            " within 1 hour."
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: "https://wa.me/917081078910",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              className: "inline-flex items-center gap-2 mt-6 px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105",
+              style: { background: roseGoldGrad, color: "#111111" },
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4" }),
+                " Confirm via WhatsApp"
+              ]
+            }
+          )
+        ]
+      }
+    );
+  }
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "form",
+    {
+      "data-ocid": "home.booking_form",
+      className: "max-w-2xl mx-auto rounded-2xl p-8",
+      style: {
+        background: "rgba(255,255,255,0.03)",
+        border: "1.5px solid rgba(183,110,121,0.2)"
+      },
+      onSubmit: handleSubmit,
+      noValidate: true,
+      children: [
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-5", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "label",
               {
-                htmlFor: "booking-service",
-                className: "block text-xs uppercase tracking-widest text-muted-foreground mb-2 font-body",
-                children: "Select Service"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "select",
-              {
-                id: "booking-service",
-                "data-ocid": "home.booking_service_select",
-                className: "w-full bg-background border border-border rounded px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-smooth",
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: "", children: "Choose a service..." }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Swedish Massage" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Deep Tissue Massage" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Aromatherapy" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Luxury Facial" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Body Scrub & Wrap" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Bridal Package" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Hair Care Treatment" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Nail Art & Manicure" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "Waxing & Threading" })
-                ]
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "label",
-              {
                 htmlFor: "booking-name",
-                className: "block text-xs uppercase tracking-widest text-muted-foreground mb-2 font-body",
-                children: "Your Name"
+                className: "block text-xs uppercase tracking-widest mb-2",
+                style: { color: "rgba(255,255,255,0.5)" },
+                children: "Full Name"
               }
             ),
             /* @__PURE__ */ jsxRuntimeExports.jsx(
@@ -25932,68 +27532,32 @@ function BookingForm() {
                 id: "booking-name",
                 type: "text",
                 "data-ocid": "home.booking_name_input",
-                placeholder: "Enter your name",
-                className: "w-full bg-background border border-border rounded px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold transition-smooth"
+                placeholder: "Your full name",
+                value: fields.name,
+                onChange: (e) => handleChange("name", e.target.value),
+                style: {
+                  ...inputStyle,
+                  borderColor: errors.name ? "#b76e79" : "rgba(255,255,255,0.12)"
+                }
+              }
+            ),
+            errors.name && /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                "data-ocid": "home.booking_name_field_error",
+                className: "text-xs mt-1",
+                style: { color: "#b76e79" },
+                children: errors.name
               }
             )
           ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "label",
-              {
-                htmlFor: "booking-date",
-                className: "block text-xs uppercase tracking-widest text-muted-foreground mb-2 font-body",
-                children: "Preferred Date"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "input",
-              {
-                id: "booking-date",
-                type: "date",
-                "data-ocid": "home.booking_date_input",
-                className: "w-full bg-background border border-border rounded px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-smooth"
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "label",
-              {
-                htmlFor: "booking-time",
-                className: "block text-xs uppercase tracking-widest text-muted-foreground mb-2 font-body",
-                children: "Preferred Time"
-              }
-            ),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs(
-              "select",
-              {
-                id: "booking-time",
-                "data-ocid": "home.booking_time_select",
-                className: "w-full bg-background border border-border rounded px-4 py-3 text-sm text-foreground focus:outline-none focus:border-gold transition-smooth",
-                children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: "", children: "Choose a time..." }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "09:00 AM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "10:00 AM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "11:00 AM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "12:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "02:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "03:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "04:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "05:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "06:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "07:00 PM" }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { children: "08:00 PM" })
-                ]
-              }
-            )
-          ] }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sm:col-span-2", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
               "label",
               {
                 htmlFor: "booking-phone",
-                className: "block text-xs uppercase tracking-widest text-muted-foreground mb-2 font-body",
+                className: "block text-xs uppercase tracking-widest mb-2",
+                style: { color: "rgba(255,255,255,0.5)" },
                 children: "Phone Number"
               }
             ),
@@ -26003,8 +27567,117 @@ function BookingForm() {
                 id: "booking-phone",
                 type: "tel",
                 "data-ocid": "home.booking_phone_input",
-                placeholder: "Your mobile number",
-                className: "w-full bg-background border border-border rounded px-4 py-3 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-gold transition-smooth"
+                placeholder: "07081078910",
+                value: fields.phone,
+                onChange: (e) => handleChange("phone", e.target.value),
+                style: {
+                  ...inputStyle,
+                  borderColor: errors.phone ? "#b76e79" : "rgba(255,255,255,0.12)"
+                }
+              }
+            ),
+            errors.phone && /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                "data-ocid": "home.booking_phone_field_error",
+                className: "text-xs mt-1",
+                style: { color: "#b76e79" },
+                children: errors.phone
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "label",
+              {
+                htmlFor: "booking-service",
+                className: "block text-xs uppercase tracking-widest mb-2",
+                style: { color: "rgba(255,255,255,0.5)" },
+                children: "Select Service"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "select",
+              {
+                id: "booking-service",
+                "data-ocid": "home.booking_service_select",
+                value: fields.service,
+                onChange: (e) => handleChange("service", e.target.value),
+                style: {
+                  ...inputStyle,
+                  borderColor: errors.service ? "#b76e79" : "rgba(255,255,255,0.12)"
+                },
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: "", style: { background: "#1a1a1a" }, children: "Choose a service..." }),
+                  BOOKING_SERVICES.map((s) => /* @__PURE__ */ jsxRuntimeExports.jsx("option", { value: s, style: { background: "#1a1a1a" }, children: s }, s))
+                ]
+              }
+            ),
+            errors.service && /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                "data-ocid": "home.booking_service_field_error",
+                className: "text-xs mt-1",
+                style: { color: "#b76e79" },
+                children: errors.service
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "label",
+              {
+                htmlFor: "booking-date",
+                className: "block text-xs uppercase tracking-widest mb-2",
+                style: { color: "rgba(255,255,255,0.5)" },
+                children: "Preferred Date"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "input",
+              {
+                id: "booking-date",
+                type: "date",
+                "data-ocid": "home.booking_date_input",
+                value: fields.date,
+                onChange: (e) => handleChange("date", e.target.value),
+                style: {
+                  ...inputStyle,
+                  colorScheme: "dark",
+                  borderColor: errors.date ? "#b76e79" : "rgba(255,255,255,0.12)"
+                }
+              }
+            ),
+            errors.date && /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "p",
+              {
+                "data-ocid": "home.booking_date_field_error",
+                className: "text-xs mt-1",
+                style: { color: "#b76e79" },
+                children: errors.date
+              }
+            )
+          ] }),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "sm:col-span-2", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "label",
+              {
+                htmlFor: "booking-message",
+                className: "block text-xs uppercase tracking-widest mb-2",
+                style: { color: "rgba(255,255,255,0.5)" },
+                children: "Message (Optional)"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "textarea",
+              {
+                id: "booking-message",
+                "data-ocid": "home.booking_message_textarea",
+                placeholder: "Any special requests or notes...",
+                rows: 3,
+                value: fields.message,
+                onChange: (e) => handleChange("message", e.target.value),
+                style: { ...inputStyle, resize: "vertical" }
               }
             )
           ] })
@@ -26014,125 +27687,424 @@ function BookingForm() {
           {
             type: "submit",
             "data-ocid": "home.booking_submit_button",
-            className: "w-full mt-6 bg-gold hover:bg-gold-dark text-[#1a3a2a] font-semibold py-4 rounded transition-smooth shadow-gold tracking-widest text-sm uppercase",
-            children: "Confirm Booking"
+            className: "w-full mt-6 py-4 rounded-full text-sm font-semibold uppercase tracking-widest transition-all duration-300 hover:scale-[1.02] hover:shadow-lg",
+            style: {
+              background: roseGoldGrad,
+              color: "#111111",
+              boxShadow: "0 4px 20px rgba(183,110,121,0.35)"
+            },
+            children: "Book Appointment"
           }
         ),
-        /* @__PURE__ */ jsxRuntimeExports.jsxs("p", { className: "text-center text-xs text-muted-foreground mt-3", children: [
-          "Or WhatsApp us at",
-          " ",
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "a",
-            {
-              href: "https://wa.me/917200245009",
-              className: "text-gold hover:underline",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              children: "72002 45009"
-            }
-          )
-        ] })
+        /* @__PURE__ */ jsxRuntimeExports.jsxs(
+          "p",
+          {
+            className: "text-center text-xs mt-4",
+            style: { color: "rgba(255,255,255,0.4)" },
+            children: [
+              "Or WhatsApp us at",
+              " ",
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                "a",
+                {
+                  href: "https://wa.me/917081078910",
+                  target: "_blank",
+                  rel: "noopener noreferrer",
+                  style: { color: "#b76e79" },
+                  children: "+91 70810 78910"
+                }
+              )
+            ]
+          }
+        )
       ]
     }
   );
 }
-const services = [
+function CTASection() {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(
+    "section",
+    {
+      "data-ocid": "home.cta_section",
+      className: "py-24 text-center",
+      style: { background: roseGoldGrad },
+      children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 max-w-3xl", children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "p",
+          {
+            className: "text-xs uppercase tracking-[0.4em] mb-4 font-body",
+            style: { color: "rgba(17,17,17,0.65)" },
+            children: "Your Luxury Awaits"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "h2",
+          {
+            className: "text-4xl md:text-5xl font-light mb-6 leading-snug",
+            style: {
+              fontFamily: "Cormorant Garamond, serif",
+              color: "#111111"
+            },
+            children: "Book Your Luxury Beauty & Spa Experience Today"
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm mb-10", style: { color: "rgba(17,17,17,0.7)" }, children: "Located at No 182, 1st Floor, Chetty St, Puducherry – 605001" }),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "button",
+            {
+              type: "button",
+              "data-ocid": "home.cta_book_button",
+              className: "inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 hover:scale-105",
+              style: {
+                background: "#111111",
+                color: "#d6b36a",
+                boxShadow: "0 4px 20px rgba(0,0,0,0.3)"
+              },
+              onClick: () => {
+                var _a2;
+                (_a2 = document.getElementById("booking")) == null ? void 0 : _a2.scrollIntoView({ behavior: "smooth" });
+              },
+              children: "Book Appointment Now"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            "a",
+            {
+              href: "tel:07081078910",
+              "data-ocid": "home.cta_call_button",
+              className: "inline-flex items-center justify-center gap-2 px-8 py-4 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 hover:scale-105",
+              style: {
+                background: "rgba(17,17,17,0.15)",
+                color: "#111111",
+                border: "1.5px solid rgba(17,17,17,0.25)"
+              },
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(Phone, { className: "w-4 h-4" }),
+                " 070810 78910"
+              ]
+            }
+          )
+        ] })
+      ] })
+    }
+  );
+}
+function SectionHeader({
+  eyebrow,
+  title,
+  subtitle
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mb-14 max-w-2xl mx-auto", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "p",
+      {
+        className: "text-xs uppercase tracking-[0.35em] mb-4 font-body",
+        style: { color: "#d6b36a" },
+        dangerouslySetInnerHTML: { __html: eyebrow }
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "h2",
+      {
+        className: "text-4xl md:text-5xl font-light mb-4",
+        style: { fontFamily: "Cormorant Garamond, serif", color: "#ffffff" },
+        dangerouslySetInnerHTML: { __html: title }
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "div",
+      {
+        className: "w-14 h-px mx-auto mb-5",
+        style: { background: roseGoldGrad }
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "p",
+      {
+        className: "text-sm leading-relaxed",
+        style: { color: "rgba(255,255,255,0.55)" },
+        dangerouslySetInnerHTML: { __html: subtitle }
+      }
+    )
+  ] });
+}
+const salonServices = [
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Flower2, { className: "w-10 h-10 text-gold" }),
-    title: "Swedish Massage",
-    duration: "60 / 90 min",
-    desc: "Our signature full-body Swedish massage uses long, flowing strokes and warm aromatic oils to melt tension, improve circulation, and induce deep relaxation.",
-    benefits: ["Stress Relief", "Improved Circulation", "Muscle Relaxation"],
-    image: "/assets/generated/gallery-4.dim_600x400.jpg"
+    title: "Hair Cut",
+    description: "Precision cuts tailored to your face shape and style preferences",
+    image: "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=600&h=450"
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Leaf, { className: "w-10 h-10 text-gold" }),
-    title: "Deep Tissue Massage",
-    duration: "60 / 90 min",
-    desc: "Targeting deeper muscle layers, this therapeutic massage releases chronic tension, knots, and postural strain. Ideal for athletes and desk workers.",
-    benefits: ["Pain Relief", "Posture Correction", "Injury Recovery"],
-    image: "/assets/generated/gallery-1.dim_600x400.jpg"
+    title: "Hair Styling",
+    description: "Professional styling for any occasion from everyday to bridal",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&h=450"
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Sparkles, { className: "w-10 h-10 text-gold" }),
-    title: "Aromatherapy",
-    duration: "75 min",
-    desc: "A deeply sensory experience combining therapeutic touch with pure essential oil blends. Each session is customized to your mood, needs, and skin type.",
-    benefits: ["Mood Enhancement", "Emotional Balance", "Skin Nourishment"],
-    image: "/assets/generated/gallery-9.dim_600x400.jpg"
+    title: "Hair Spa",
+    description: "Deep conditioning spa treatments to restore shine and health",
+    image: "https://images.unsplash.com/photo-1519735777090-ec97162dc266?auto=format&fit=crop&w=600&h=450"
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Heart, { className: "w-10 h-10 text-gold" }),
-    title: "Luxury Facial",
-    duration: "60 min",
-    desc: "Advanced facial treatments using premium skincare formulations. From deep cleansing to gold-infused brightening facials, we target your skin's unique concerns.",
-    benefits: ["Glowing Skin", "Anti-Aging", "Deep Hydration"],
-    image: "/assets/generated/gallery-3.dim_600x400.jpg"
+    title: "Hair Coloring",
+    description: "Premium highlights, balayage, and full color services",
+    image: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&h=450"
   },
   {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Leaf, { className: "w-10 h-10 text-gold" }),
-    title: "Body Scrub & Wrap",
-    duration: "90 min",
-    desc: "Exfoliate and renew with our luxurious body treatments. Natural scrubs remove dead skin, while nourishing wraps lock in deep moisture for silky smooth results.",
-    benefits: ["Exfoliation", "Deep Moisturizing", "Skin Renewal"],
-    image: "/assets/generated/gallery-5.dim_600x400.jpg"
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Star, { className: "w-10 h-10 text-gold" }),
-    title: "Bridal Packages",
-    duration: "Custom",
-    desc: "Comprehensive bridal beauty journeys beginning weeks before the wedding. Hair, makeup, skincare, mehndi, and more — curated for your most radiant day.",
-    benefits: ["Complete Bridal Prep", "Custom Packages", "Pre-Bridal Care"],
-    image: "/assets/generated/gallery-2.dim_600x400.jpg"
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Scissors, { className: "w-10 h-10 text-gold" }),
-    title: "Hair Care",
-    duration: "45–120 min",
-    desc: "From rejuvenating hair spa treatments to expert styling, coloring, and cutting — our hair specialists create tailored solutions for every hair type and concern.",
-    benefits: ["Hair Repair", "Styling & Color", "Scalp Treatment"],
-    image: "/assets/generated/gallery-6.dim_600x400.jpg"
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Hand, { className: "w-10 h-10 text-gold" }),
-    title: "Nail Art & Manicure",
-    duration: "45–90 min",
-    desc: "Precision nail care and creative nail art by our specialist technicians. Classic manicures, gel polish, intricate designs — your nails deserve the royal treatment.",
-    benefits: ["Nail Shaping", "Gel Polish", "Custom Nail Art"],
-    image: "/assets/generated/gallery-7.dim_600x400.jpg"
-  },
-  {
-    icon: /* @__PURE__ */ jsxRuntimeExports.jsx(Brush, { className: "w-10 h-10 text-gold" }),
-    title: "Waxing & Threading",
-    duration: "20–60 min",
-    desc: "Smooth, clean, and precise hair removal services using the finest waxes and expert threading techniques for flawless results with minimal discomfort.",
-    benefits: ["Smooth Skin", "Precise Shaping", "Long-Lasting"],
-    image: "/assets/generated/gallery-8.dim_600x400.jpg"
+    title: "Bridal Hair Design",
+    description: "Stunning bridal hairstyles for your most special day",
+    image: "https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?auto=format&fit=crop&w=600&h=450"
   }
 ];
+const beautyServices = [
+  {
+    title: "Facial Treatment",
+    description: "Advanced skin treatments for glowing, youthful skin",
+    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Bridal Makeup",
+    description: "Complete bridal packages with flawless, long-lasting makeup",
+    image: "https://images.unsplash.com/photo-1457972729786-0411a3b2b626?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Skin Care Therapy",
+    description: "Personalized skincare routines using premium products",
+    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Manicure",
+    description: "Luxury nail care with premium polishes and treatments",
+    image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Pedicure",
+    description: "Relaxing foot care with exfoliation and moisturizing",
+    image: "https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?auto=format&fit=crop&w=600&h=450"
+  }
+];
+const spaServices = [
+  {
+    title: "Swedish Massage",
+    description: "Gentle, relaxing full-body massage to ease tension",
+    image: "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Deep Tissue Massage",
+    description: "Targeted deep pressure for chronic muscle relief",
+    image: "https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Thai Massage",
+    description: "Traditional stretching and pressure point techniques",
+    image: "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Aromatherapy",
+    description: "Healing essential oil massage for mind and body",
+    image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Hot Stone Therapy",
+    description: "Volcanic stones to melt away deep muscle tension",
+    image: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Foot Reflexology",
+    description: "Pressure point therapy for full-body relaxation",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Couples Massage",
+    description: "Shared luxury massage experience for two",
+    image: "https://images.unsplash.com/photo-1631124816032-7b8e5d5b0e75?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Body Spa Treatment",
+    description: "Full body scrub, wrap, and hydration therapy",
+    image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?auto=format&fit=crop&w=600&h=450"
+  },
+  {
+    title: "Head Massage",
+    description: "Scalp and neck massage to relieve stress headaches",
+    image: "https://images.unsplash.com/photo-1535572290543-960a8046f5af?auto=format&fit=crop&w=600&h=450"
+  }
+];
+function ServiceGrid({
+  services,
+  ocidPrefix
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6", children: services.map((service, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+    "div",
+    {
+      "data-ocid": `${ocidPrefix}.card.${idx + 1}`,
+      className: "group relative rounded-2xl overflow-hidden transition-all duration-500 hover:-translate-y-2",
+      style: {
+        background: "rgba(255,255,255,0.05)",
+        backdropFilter: "blur(12px)",
+        WebkitBackdropFilter: "blur(12px)",
+        border: "1px solid rgba(183,110,121,0.25)",
+        boxShadow: "0 4px 24px rgba(0,0,0,0.3)"
+      },
+      children: [
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-[4/3] overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "img",
+          {
+            src: service.image,
+            alt: service.title,
+            className: "w-full h-full object-cover transition-transform duration-700 group-hover:scale-110",
+            loading: "lazy"
+          }
+        ) }),
+        /* @__PURE__ */ jsxRuntimeExports.jsx(
+          "div",
+          {
+            className: "absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none",
+            style: {
+              boxShadow: "0 0 0 1.5px #b76e79, 0 8px 32px rgba(183,110,121,0.35)"
+            }
+          }
+        ),
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-5", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h3",
+            {
+              className: "text-xl font-semibold mb-2 leading-tight",
+              style: {
+                fontFamily: "'Cormorant Garamond', serif",
+                color: "#d6b36a",
+                letterSpacing: "0.02em"
+              },
+              children: service.title
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-sm leading-relaxed mb-4",
+              style: { color: "rgba(255,255,255,0.72)" },
+              children: service.description
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "a",
+            {
+              href: "https://wa.me/917081078910",
+              target: "_blank",
+              rel: "noopener noreferrer",
+              "data-ocid": `${ocidPrefix}.book_button.${idx + 1}`,
+              className: "block w-full text-center text-sm font-bold py-2.5 px-4 rounded-xl transition-all duration-300 hover:scale-105 hover:shadow-lg",
+              style: {
+                background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                color: "#111111",
+                letterSpacing: "0.05em",
+                textDecoration: "none"
+              },
+              children: "Book Now"
+            }
+          )
+        ] })
+      ]
+    },
+    service.title
+  )) });
+}
+function SectionTitle({
+  title,
+  underlineColor,
+  ocid
+}) {
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { "data-ocid": ocid, className: "text-center mb-12", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "h2",
+      {
+        className: "text-4xl md:text-5xl font-light mb-4",
+        style: {
+          fontFamily: "'Cormorant Garamond', serif",
+          background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          backgroundClip: "text"
+        },
+        children: title
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "div",
+      {
+        className: "mx-auto h-0.5 w-24 rounded-full",
+        style: { background: underlineColor }
+      }
+    )
+  ] });
+}
 function Services() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsxs(jsxRuntimeExports.Fragment, { children: [
+  return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { style: { background: "#111111", minHeight: "100vh" }, children: [
     /* @__PURE__ */ jsxRuntimeExports.jsxs(
       "section",
       {
-        "data-ocid": "services.header_section",
-        className: "relative py-24 flex items-center justify-center overflow-hidden",
-        style: {
-          backgroundImage: "url('/assets/generated/gallery-4.dim_600x400.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center"
-        },
+        "data-ocid": "services.hero_section",
+        className: "relative h-80 flex items-center justify-center overflow-hidden",
         children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "absolute inset-0 bg-[#1a3a2a]/75" }),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "img",
+            {
+              src: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1400&h=500",
+              alt: "Magic Moon Beauty care & Spa Services",
+              className: "absolute inset-0 w-full h-full object-cover"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "div",
+            {
+              className: "absolute inset-0",
+              style: {
+                background: "linear-gradient(135deg, rgba(17,17,17,0.88) 0%, rgba(183,110,121,0.4) 100%)"
+              }
+            }
+          ),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "relative z-10 text-center px-4", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.3em] text-gold mb-3", children: "Our Offerings" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-display text-5xl md:text-6xl font-light text-[#faf7f0]", children: "Our Services" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mt-5" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-center gap-2 mt-5 text-sm text-[#c8d8cc]", children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(Link, { to: "/", className: "hover:text-gold transition-smooth", children: "Home" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4 text-[#6a9a7a]" }),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: "text-gold", children: "Services" })
-            ] })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "h1",
+              {
+                className: "text-5xl md:text-6xl lg:text-7xl font-light mb-5",
+                style: {
+                  fontFamily: "'Cormorant Garamond', serif",
+                  background: "linear-gradient(135deg, #b76e79 0%, #d6b36a 100%)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text"
+                },
+                children: "Our Services"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              "nav",
+              {
+                className: "flex items-center justify-center gap-2 text-sm",
+                "aria-label": "Breadcrumb",
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    Link,
+                    {
+                      to: "/",
+                      "data-ocid": "services.breadcrumb_home",
+                      className: "transition-colors duration-200",
+                      style: { color: "rgba(255,255,255,0.7)" },
+                      children: "Home"
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    ChevronRight,
+                    {
+                      className: "w-4 h-4",
+                      style: { color: "rgba(255,255,255,0.4)" }
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { style: { color: "#d6b36a" }, children: "Services" })
+                ]
+              }
+            )
           ] })
         ]
       }
@@ -26140,115 +28112,126 @@ function Services() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(
       "section",
       {
-        "data-ocid": "services.grid_section",
-        className: "py-20 bg-background",
-        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4", children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-center text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Premium Offerings" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "section-title", children: "Our 9 Expert Services" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-4" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "section-subtitle text-sm", children: "Every service is delivered by certified professionals using premium products in our serene, luxury spa environment." }),
-          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto", children: services.map((service, idx) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
-            "div",
+        "data-ocid": "services.salon_section",
+        className: "py-20 px-4",
+        style: { background: "#111111" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            SectionTitle,
             {
-              "data-ocid": `services.card.${idx + 1}`,
-              className: "bg-card border border-border rounded-xl overflow-hidden transition-smooth hover:-translate-y-1 group",
-              style: { boxShadow: "0 2px 8px rgba(26,58,42,0.06)" },
-              onMouseEnter: (e) => {
-                e.currentTarget.style.boxShadow = "0 10px 40px rgba(26,58,42,0.18), 0 2px 8px rgba(212,175,55,0.12)";
-              },
-              onMouseLeave: (e) => {
-                e.currentTarget.style.boxShadow = "0 2px 8px rgba(26,58,42,0.06)";
-              },
-              children: [
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "aspect-[16/9] overflow-hidden", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                  "img",
-                  {
-                    src: service.image,
-                    alt: service.title,
-                    className: "w-full h-full object-cover transition-smooth group-hover:scale-105"
-                  }
-                ) }),
-                /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "h-1 w-full bg-[#1a3a2a]" }),
-                /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "p-6", children: [
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex items-center justify-between mb-4", children: [
-                    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "w-14 h-14 rounded-full border border-[#1a3a2a]/20 flex items-center justify-center bg-[#e8f0eb]", children: service.icon }),
-                    /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                      "div",
-                      {
-                        className: "flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 rounded-full",
-                        style: { backgroundColor: "#1a3a2a", color: "#faf7f0" },
-                        children: [
-                          /* @__PURE__ */ jsxRuntimeExports.jsx(Clock, { className: "w-3.5 h-3.5 text-gold" }),
-                          service.duration
-                        ]
-                      }
-                    )
-                  ] }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("h3", { className: "font-display text-2xl font-light mb-2", children: service.title }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground leading-relaxed mb-4", children: service.desc }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap gap-2 mb-5", children: service.benefits.map((b) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-                    "span",
-                    {
-                      className: "text-xs px-2.5 py-1 rounded-full border text-darkgreen",
-                      style: {
-                        backgroundColor: "#e8f0eb",
-                        borderColor: "rgba(26,58,42,0.2)"
-                      },
-                      children: b
-                    },
-                    b
-                  )) }),
-                  /* @__PURE__ */ jsxRuntimeExports.jsxs(
-                    Link,
-                    {
-                      to: "/contact",
-                      "data-ocid": `services.book_button.${idx + 1}`,
-                      className: "inline-flex items-center gap-2 text-gold border border-gold/50 hover:bg-gold hover:text-[#1a3a2a] px-4 py-2 rounded text-sm font-medium transition-smooth",
-                      children: [
-                        "Book This Service ",
-                        /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-3.5 h-3.5" })
-                      ]
-                    }
-                  )
-                ] })
-              ]
-            },
-            service.title
-          )) })
+              title: "Salon Services",
+              underlineColor: "linear-gradient(90deg, #b76e79, #d6b36a)",
+              ocid: "services.salon_title"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ServiceGrid, { services: salonServices, ocidPrefix: "salon" })
         ] })
       }
     ),
-    /* @__PURE__ */ jsxRuntimeExports.jsx("section", { "data-ocid": "services.cta_section", className: "py-20 section-alt", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "container mx-auto px-4 text-center", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-xs uppercase tracking-[0.25em] text-gold mb-3", children: "Ready to Indulge?" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("h2", { className: "font-display text-4xl font-light mb-5", children: "Book Your Perfect Treatment Today" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "gold-divider w-24 mx-auto mb-6" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-muted-foreground max-w-lg mx-auto mb-8", children: "Contact us via phone or WhatsApp to book your preferred service. Walk-ins welcome based on availability." }),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          Link,
-          {
-            to: "/contact",
-            "data-ocid": "services.cta_book_button",
-            className: "inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-dark text-[#1a3a2a] font-semibold px-8 py-3.5 rounded transition-smooth shadow-gold text-sm",
-            children: [
-              "Book Now ",
-              /* @__PURE__ */ jsxRuntimeExports.jsx(ChevronRight, { className: "w-4 h-4" })
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          "a",
-          {
-            href: "https://wa.me/917200245009",
-            target: "_blank",
-            rel: "noopener noreferrer",
-            "data-ocid": "services.cta_whatsapp_button",
-            className: "inline-flex items-center justify-center gap-2 border border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-[#fff] font-medium px-8 py-3.5 rounded transition-smooth text-sm",
-            children: "WhatsApp Us"
-          }
-        )
-      ] })
-    ] }) })
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "services.beauty_section",
+        className: "py-20 px-4",
+        style: { background: "#161616" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            SectionTitle,
+            {
+              title: "Beauty Services",
+              underlineColor: "linear-gradient(90deg, #d6b36a, #b76e79)",
+              ocid: "services.beauty_title"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ServiceGrid, { services: beautyServices, ocidPrefix: "beauty" })
+        ] })
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "section",
+      {
+        "data-ocid": "services.spa_section",
+        className: "py-20 px-4",
+        style: { background: "#111111" },
+        children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-7xl mx-auto", children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            SectionTitle,
+            {
+              title: "Spa Services",
+              underlineColor: "linear-gradient(90deg, #b76e79, #d6b36a)",
+              ocid: "services.spa_title"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(ServiceGrid, { services: spaServices, ocidPrefix: "spa" })
+        ] })
+      }
+    ),
+    /* @__PURE__ */ jsxRuntimeExports.jsxs(
+      "section",
+      {
+        "data-ocid": "services.cta_section",
+        className: "py-24 px-4 text-center",
+        style: {
+          background: "linear-gradient(135deg, #b76e79 0%, #c8858e 30%, #d6b36a 100%)"
+        },
+        children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "h2",
+            {
+              className: "text-4xl md:text-5xl font-light mb-4",
+              style: {
+                fontFamily: "'Cormorant Garamond', serif",
+                color: "#111111"
+              },
+              children: "Ready for Your Beauty & Spa Experience?"
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsx(
+            "p",
+            {
+              className: "text-lg mb-10 max-w-xl mx-auto",
+              style: { color: "rgba(17,17,17,0.75)" },
+              children: "Treat yourself to the luxury you deserve at Magic Moon Beauty care & Spa in Pondicherry."
+            }
+          ),
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col sm:flex-row gap-4 justify-center", children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "tel:07081078910",
+                "data-ocid": "services.cta_call_button",
+                className: "inline-block px-10 py-4 rounded-full text-base font-bold transition-all duration-300 hover:scale-105 hover:shadow-xl",
+                style: {
+                  background: "#111111",
+                  color: "#d6b36a",
+                  letterSpacing: "0.06em",
+                  textDecoration: "none"
+                },
+                children: "Book Appointment"
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              "a",
+              {
+                href: "https://wa.me/917081078910",
+                target: "_blank",
+                rel: "noopener noreferrer",
+                "data-ocid": "services.cta_whatsapp_button",
+                className: "inline-block px-10 py-4 rounded-full text-base font-bold border-2 transition-all duration-300 hover:scale-105 hover:shadow-xl",
+                style: {
+                  borderColor: "#111111",
+                  color: "#111111",
+                  background: "transparent",
+                  letterSpacing: "0.06em",
+                  textDecoration: "none"
+                },
+                children: "WhatsApp Us"
+              }
+            )
+          ] })
+        ]
+      }
+    )
   ] });
 }
 const rootRoute = createRootRoute({
